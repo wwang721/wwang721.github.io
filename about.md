@@ -1,6 +1,6 @@
 ---
 layout: page
-title: 123
+title: about
 tagline: A few more words about this theme
 permalink: /about.html
 ---
