@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: Create a contact form and you are good to go
+tagline: How to contact me.
 ---
 
 E-mail: 
@@ -14,6 +14,6 @@ E-mail:
 
 * <a href="mailto:13155590878@163.com">13155590878@163.com</A>
 
-Phone:  +86 -13155590878
+Phone:&ensp;&ensp;&ensp;(+86) -13155590878
 
 [Go to the Home Page]({{ site.url }}{{ site.baseurl }})
