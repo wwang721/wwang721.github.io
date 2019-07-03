@@ -1,44 +1,34 @@
-# Welcome to Jekyll!
-#
-# This config file is meant for settings that affect your whole blog, values
-# which you are expected to set up once and rarely edit after that. If you find
-# yourself editing this file very often, consider using Jekyll's data files
-# feature for the data you need to update frequently.
-#
-# For technical reasons, this file is *NOT* reloaded automatically when you use
-# 'bundle exec jekyll serve'. If you change this file, please restart the server process.
+title: Wei Wang's Blog
+description: 
+  Created by WW on 2019.7.3. 
 
-# Site settings
-# These are used to personalize your new site. If you look in the HTML files,
-# you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
-# You can create any custom variable you would like, and they will be accessible
-# in the templates via {{ site.myvariable }}.
-title: WWang
+  Copyright © WW. All rights reserved.
+show_downloads: true
+
+baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
+url: "https://nono721.github.io" # change this to the base hostname & protocol for your site
+
+google_analytics:
+# cayman-blog date format
+# refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
+cayman-blog:
+  date_format: "%b %-d, %Y"
+
+theme: # leave it empty
+
+# social
+author: "NoNo721"
+image: /thumbnail-jumbo.png
+
+github_username: NoNo721
+
 email: ww000721@gmail.com
-description: >- # this means to ignore newlines until "baseurl:"
-  Created by Wei Wang in Jul. 2019.
 
-  Copyright ©️  Wei Wang. All rights reserved.
-baseurl: "/NoNo721" # the subpath of your site, e.g. /blog
-url: "https://github.com" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: WWang37154612
-github_username:  NoNo721
 
-# Build settings
-markdown: kramdown
-theme: jekyll-theme-cayman
-#theme: minima
 plugins:
+  - jekyll-target-blank
   - jekyll-feed
 
-# Exclude from processing.
-# The following items will not be processed, by default. Create a custom list
-# to override the default setting.
-# exclude:
-#   - Gemfile
-#   - Gemfile.lock
-#   - node_modules
-#   - vendor/bundle/
-#   - vendor/cache/
-#   - vendor/gems/
-#   - vendor/ruby/
+target-blank:
+    rel: nofollow
