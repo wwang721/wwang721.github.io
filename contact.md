@@ -1,7 +1,7 @@
 ---
 layout: page
 title: Contact
-tagline: How to contact me.
+tagline: How to contact me...
 ---
 
 E-mail: 

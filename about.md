@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: A few more words about website.
+tagline: A few more words about this website...
 permalink: /About.html
 ---
 
