@@ -22,6 +22,9 @@ github_username: NoNo721
 
 email: ww000721@gmail.com
 
+# MathJax LaTex Support, use $$
+markdown: kramdown
+
 twitter_username: WWang37154612
 
 plugins:
