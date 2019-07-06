@@ -47,7 +47,7 @@ tagline: "My Xcode Notes."
 
 7. 创建**目标py文件**(eg: test.py)，后续可以添加其他py文件，只要全部import到**目标py文件**里就行了，不用重新配置`Scheme`。
 
-
+[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
 
 
 
