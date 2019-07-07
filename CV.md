@@ -21,16 +21,16 @@ permalink: /cv.html
 ## **EDUCATION**
 <hr style="height:5px;" />
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**School of Physics Science and Engineering**, **Tongji University**, Shanghai, P. R. China.
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**School of Physics Science and Engineering, Tongji University,** Shanghai, P. R. China.
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor** of Science in **Physics** ( Expected in 06/30/2020)
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** ( Expected in 06/30/2020 )
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: XX/5.0 &ensp;&ensp;&ensp;&ensp;**Major**: XX/4.0 &ensp;&ensp;&ensp;&ensp;**Ranking**: ??/XX
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**Standardized Tests**:
 
- + **TOEFL**: 105/120 ( Reading: 30, Listening: 29, Speaking: 22, Writing: 24)
- + **GRE General**: &ensp;314/340 + 3.0/6.0 ( Verbal:146, Quantitative:168, Analytical Writing: 3.0) 
+ + **TOEFL**: 105/120 ( Reading: 30, Listening: 29, Speaking: 22, Writing: 24 )
+ + **GRE General**: &ensp;314/340 + 3.0/6.0 ( Verbal:146, Quantitative:168, Analytical Writing: 3.0 ) 
  + **GRE Physics**: &ensp;XX/990
 
 ## **RESEARCH EXPERIENCE**
