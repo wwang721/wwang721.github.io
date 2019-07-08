@@ -7,6 +7,6 @@
 #
 layout: home
 ---
-![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-All rights reserved-ff69b4.svg)
+![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 For my personal blog...
