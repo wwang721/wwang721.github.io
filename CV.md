@@ -68,7 +68,7 @@ permalink: /cv.html
 #### **Club/Activities**:
 
 #### **Hobbies**: 
-Table tennis, Badmintion, Drawing;
+&emsp;&emsp;Table tennis, Badmintion, Drawing;
 
 &ensp;
 
