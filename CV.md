@@ -4,6 +4,8 @@ title: Curriculum Vitae
 tagline: Help you know more about me...
 permalink: /cv.html
 ---
+![build](https://img.shields.io/badge/build-succedded-brightgreen.svg) &emsp;![Jekyll](https://img.shields.io/badge/Jekyll-3.8+-blue.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-All rights reserved-ff69b4.svg)
+
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right; width:300px;height:100 px'/>
 
 # **Wei, Wang**
@@ -25,7 +27,7 @@ permalink: /cv.html
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** ( Expected in 06/30/2020 )
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: XX/5.0 &ensp;&ensp;&ensp;&ensp;**Major**: XX/4.0 &ensp;&ensp;&ensp;&ensp;**Ranking**: ??/XX
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: XX/4.0 &ensp;&ensp;&ensp;&ensp;**Major**: XX/4.0 &ensp;&ensp;&ensp;&ensp;**Ranking**: ??/XX
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:left; width:30px;height:10 px'/>&ensp;**Standardized Tests**:
 
