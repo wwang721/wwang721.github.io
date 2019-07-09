@@ -3,18 +3,21 @@ layout: page
 title: Contact
 tagline: How to contact me...
 ---
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right'/>
 
-E-mail: 
+## **E-mail:** 
 
-* <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</A>
+1. <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</A>
 
-* <a href="mailto:w_w19980721@foxmail.com">w_w19980721@foxmail.com</A>
+2. <a href="mailto:w_w19980721@foxmail.com">w_w19980721@foxmail.com</A>
 
-* <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A>
+3. <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A>
 
-* <a href="mailto:13155590878@163.com">13155590878@163.com</A>
+4. <a href="mailto:13155590878@163.com">13155590878@163.com</A>
 
-Phone:&ensp;&ensp;&ensp;(+86) -13155590878
+## **Phone:**
+
+* (+86) -13155590878
 
 &ensp;
 
