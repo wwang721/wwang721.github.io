@@ -8,7 +8,7 @@ tagline: "期末考试前整理的量子力学复习笔记。"
 ---
 期末考试前整理的量子力学复习笔记：
 
-![build](https://img.shields.io/badge/build-succedded-brightgreen.svg) &emsp;![tex](https://img.shields.io/badge/TeX-XeLaTeX-blue.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-yellow.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-red.svg)
+![build](https://img.shields.io/badge/build-succeeded-brightgreen.svg) &emsp;![tex](https://img.shields.io/badge/TeX-XeLaTeX-blue.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-yellow.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-red.svg)
 ### Preview
 **Note**: If your browser can't preview the file, please [clik here to see the download link](#download "Download").
 <hr style="height:5px;" />
