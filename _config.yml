@@ -30,6 +30,7 @@ twitter_username: WWang37154612
 plugins:
   - jekyll-target-blank
   - jekyll-feed
-
+  - jekyll-seo-tag
+  
 target-blank:
     rel: nofollow

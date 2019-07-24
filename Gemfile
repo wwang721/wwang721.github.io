@@ -6,3 +6,5 @@ gem 'jekyll', '~> 3.8.6' # this is the Jekyll version we are working with
 gem 'jekyll-target-blank'
 
 gem 'jekyll-feed'
+
+gem 'jekyll-seo-tag'
