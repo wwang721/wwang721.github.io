@@ -6,7 +6,7 @@ tagline: "My C++ Notes..."
 #author: ""
 #meta: ""
 ---
-整理的C++笔记(含CUDA C++编程)：
+整理的 C++ 笔记 ( 含 CUDA & MPI C++ 编程 ):
 
 ![build](https://img.shields.io/badge/build-succeeded-brightgreen.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-yellow.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-red.svg)
 ### Preview
