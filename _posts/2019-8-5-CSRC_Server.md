@@ -17,24 +17,24 @@ tagline: "大三暑假在北京计算科学研究中心..."
 
 服务器共有64个节点，每个节点配置相同都是24核CPU，物理内存64G，服务器共有1536核。使用 `pbsnodes` 命令查看节点配置：
 
-![csrc1](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/csrc2.png "CSRC Server")
+![csrc2](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/csrc2.png "CSRC Server")
 ▲ CSRC服务器每个节点详细配置
 
 ## **Tongji Physics**
 
 对比一下我们同济物理学院的服务器，同样使用 `showq` 命令：
 
-![csrc1](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji.png "CSRC Server")<br>
+![tongji1](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji.png "Tongji Server")<br>
 ▲ 同济物理学院服务器节点数
 
 可以看到我们的服务器一共只有12个节点104核，新旧节点的CPU核数以及性能都不相同。使用 `shownodes` 命令查看服务节点的运行情况：
 
-![csrc1](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji3.png "CSRC Server")
+![tongji3](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji3.png "Tongji Server")
 ▲ 同济物理学院服务器节点运行情况
 
 可以看到有一些已经没用的节点（ 红背景色 ），以及10个8核CPU和2个12核CPU节点。12核CPU较新，配置较好，有24G物理内存；而8核节点比较旧，物理内存只有16G。通过 `ljrsnodes` ( 我们学院服务器的任务管理系统使用的是联想公司搞的**LJRS**，类似于**PBS** ) 查看节点详细配置：
 
-![csrc1](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji2.png "CSRC Server")
+![tongji2](https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tongji2.png "Tongji Server")
 ▲ 同济物理学院服务器12核CPU节点详细配置
 
 ## **CSRC *VS* &ensp;Tongji Physics**
