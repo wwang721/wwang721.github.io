@@ -3,7 +3,7 @@ layout: page
 title: Contact
 tagline: How to contact me...
 ---
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right'/>
+[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}cv.html)
 
 ## **E-mail:** 
 
