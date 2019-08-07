@@ -4,14 +4,15 @@ title: About
 tagline: A few more words about this website...
 permalink: /About.html
 ---
+
+[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}cv.html)
+
 For my personal blog...
 
 ### **Build Status**
 <hr>
 
 [![website](https://img.shields.io/badge/version-0.1+-green.svg)](https://nono721.github.io)
-
-[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}cv.html)
 
 Project|Build Status
 ---|---
