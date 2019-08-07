@@ -11,6 +11,8 @@ For my personal blog...
 
 [![website](https://img.shields.io/badge/version-0.1+-green.svg)](https://nono721.github.io)
 
+[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}cv.html)
+
 Project|Build Status
 ---|---
 Blog|[![Blog](https://img.shields.io/badge/build-0.1+-lightgrey.svg)](https://nono721.github.io) &emsp;![Blog](https://img.shields.io/badge/Markdown-unknown-red.svg) 
