@@ -7,8 +7,8 @@
 #
 layout: home
 ---
-![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
-
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}cv.html)
+
+![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 For my personal Blog...
