@@ -10,7 +10,7 @@ tagline: "大三暑假在北京计算科学研究中心..."
 
 ## **工作开始** 
 
-来到中心的第一天，徐老师跟我简单聊了聊组里的工作，展示了一些工作成果，给了我一个开放性的研究题目（ 他的一个博士后正在做 ），还有一本 Steven H. Strogatz 的《 [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](http://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering, "Steven H. Strogatz") 》，让我自己先看一看。我的工作主要涉及到了这本书里的 fixed point 和 bifurcation 等概念:
+来到中心的第一天，徐老师跟我简单聊了聊组里的工作，展示了一些工作成果，给了我一个开放性的研究题目（ 他的一个博士后正在做 ），还有一本 Steven H. Strogatz 的《 [*Nonlinear Dynamics and Chaos: With Applications to Physics, Biology, Chemistry, and Engineering*](https://www.stevenstrogatz.com/books/nonlinear-dynamics-and-chaos-with-applications-to-physics-biology-chemistry-and-engineering "Steven H. Strogatz") 》，让我自己先看一看。我的工作主要涉及到了这本书里的 fixed point 和 bifurcation 等概念:
 
 * In an $$n$$-dimensional phase space with coordiantes $$(x_1, \dots,x_n)$$, we introduced the general system:
 
