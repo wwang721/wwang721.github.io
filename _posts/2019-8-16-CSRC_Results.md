@@ -59,19 +59,27 @@ $$\dot{x}_n=f_n(x_1,\dots,x_n)$$
 
 $$A_c=\frac{128\bar{h}^5}{9\alpha^2(2-\it{\Gamma})}.$$
 
-通过数值计算模拟 swimmer 在流体中的 trajectories, 确实可以得到绕球和不绕球两种运动轨迹：
+通过数值计算模拟 swimmer 在流体中的 trajectories, 确实可以得到绕球和不绕球两种运动轨迹 ( GIF 文件较大，且国内网络 GitHub 加载较慢，请耐心等候)：
 
 <center class="half">
     <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/Rtra15.gif" width="380"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/Rtra20.gif" width="400"/>
 </center> &ensp;&ensp;&ensp;▲ $$A=15, \gamma=1, \alpha=0.8$$ 时的运动轨迹 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;▲ $$A=20, \gamma=1, \alpha=0.8$$ 时的运动轨迹
 
-再利用CSRC的高性能服务器我们可以进行大量数据的计算，在这里展示部分计算结果：
+## **工作结果**
+
+利用CSRC的高性能服务器我们可以进行大量数据的计算，在这里展示部分计算结果：
 
 <center class="half">
     <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/contour2.png" width="400"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/dh_dt.png" width="400"/>
 </center> &ensp;▲ 不同 $$A$$ 和入射纵坐标 $$b$$ 对出射角 $$\theta$$ 的影响 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ▲ 径向速度 $$\mathrm{d}h/\mathrm{d}t$$ 理论和实际值的差别
 
+最后画出 microswimmer 整个运动过程中 $$h-\theta$$ 随时间的变化:
+
+可以看到 swimmer 会出现绕球运动是因为绿色的 fixed point 的存在，并不是因为解得的红色不稳定 fixed point ，由此可以看出这篇文章其实写得有些问题。。。
+
+
 ## **附录**
+
 因为一开始博士后师兄给了我他的 Matlab 代码作为参考，未经他允许公开他的代码不太好，所以仅在这附上我自己写的 C++ 代码。
 
 ``` cpp
