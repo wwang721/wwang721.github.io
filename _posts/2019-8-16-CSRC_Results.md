@@ -31,7 +31,9 @@ $$\dot{x}_n=f_n(x_1,\dots,x_n)$$
 
 ## **工作背景**
 
-我在北京的工作围绕着一篇文献展开 [Geometric capture and escape of a microswimmer colliding with an obstacle](https://pubs.rsc.org/en/content/articlelanding/2015/SM/C4SM02785J#!divAbstract "The Royal Society of Chemistry, Soft Matter, 2015")，这篇文献主要模拟了当 microswimmer 在流体中和一个固定的球形 obstacle 碰撞会产生的 geometric capture 和 escape 现象。在实验中已经观察到这个现象，Takagi *et al* 实验给出图中就可以看到一个 self-propelled body 在 colloid-filled bath 中运动时，有时会一直绕着球体circling，有时又会随机逃逸出绕球运动的轨道。
+我在北京的工作围绕着一篇文献展开 [Geometric capture and escape of a microswimmer colliding with an obstacle](https://pubs.rsc.org/en/content/articlelanding/2015/SM/C4SM02785J#!divAbstract "The Royal Society of Chemistry, Soft Matter, 2015")，这篇文献主要模拟了当 microswimmer 在流体中和一个固定的球形 obstacle 碰撞会产生的 geometric capture 和 escape 现象。在实验中已经观察到这个现象，Takagi *et al* 实验给出图中就可以看到一个 self-propelled body 在 colloid-filled bath 中运动时，有时会一直绕着球体circling，有时又会随机逃逸出绕球运动的轨道。对于这个固定球体来说，即存在一个临界半径，当半径大于这个 critical 半径 $$A_c$$ 时，swimmer就会一直绕着球体运动。
+
+为了分析这个现象，我们要考虑 microswimmer 在流体中的运动方程，它的速度由两部分组成，一个是 swimmer 自身的驱动速度 $$\hat{e}$$ , 另一部分即流场的速度$$\tilde{u}$$ , 故 microswimmer 的速度可以写成 $$\frac{\mathrm{d}\mathbf{x}_0}{\mathrm{d}t}=\hat{e}+\tilde{u}$$ ，其中 $$\hat{e}$$ 的方向由 Faxén's Law 确定: $$\frac{\mathrm{d}\hat{e}}{\mathrm{d}t}=\tilde{\Omega}\times\hat{e}$$ .
 
 &ensp;
 
