@@ -55,7 +55,7 @@ $$\dot{x}_n=f_n(x_1,\dots,x_n)$$
     <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/theta_h-1_large.png" width="400"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/theta_h-1.png" width="400"/>
 </center> &ensp;&ensp;&ensp;▲ $$A=16, \gamma=1, \alpha=0.8$$ 时的 $$h-\theta$$ 相图 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;▲ 放大后 $$h=1$$ 附近的 $$h-\theta$$ 相图
 
-从图中可以看到红色点是解出来的 fixed point 所在，但不幸的是,它并不是一个稳定的 fixed point ，只要有一点微扰，他就会偏向其他 $$h$$ 和 $$\theta$$, 但是如果我们取 swimmer 的半径为1，仅考虑 $$h\geqslant1$$ 时的情况，就可以发现在绿点所在位置存在一个 fixed point。如果仅保留一阶小量可以退出存在临界半径 
+从图中可以看到红色点是解出来的 fixed point 所在，但不幸的是,它并不是一个稳定的 fixed point ，只要有一点微扰，他就会偏向其他 $$h$$ 和 $$\theta$$, 但是如果我们取 swimmer 的半径为1，仅考虑 $$h\geqslant1$$ 时的情况，就可以发现在绿点所在位置存在一个 fixed point。如果仅保留一阶小量可以推出存在临界半径 
 
 $$A_c=\frac{128\bar{h}^5}{9\alpha^2(2-\it{\Gamma})}.$$
 
