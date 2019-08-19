@@ -73,9 +73,20 @@ $$A_c=\frac{128\bar{h}^5}{9\alpha^2(2-\it{\Gamma})}.$$
     <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/contour2.png" width="400"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/dh_dt.png" width="400"/>
 </center> &ensp;▲ 不同 $$A$$ 和入射纵坐标 $$b$$ 对出射角 $$\theta$$ 的影响 &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ▲ 径向速度 $$\mathrm{d}h/\mathrm{d}t$$ 理论和实际值的差别
 
-最后画出 microswimmer 整个运动过程中 $$h-\theta$$ 随时间的变化:
+最后画出 microswimmer 整个运动过程中 $$h-\theta$$ 随时间的变化 ( GIF 文件较大，且国内网络 GitHub 加载较慢，请耐心等候):
 
-可以看到 swimmer 会出现绕球运动是因为绿色的 fixed point 的存在，并不是因为解得的红色不稳定 fixed point ，由此可以看出这篇文章其实写得有些问题。。。
+<center class="half">
+    <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/b%3D0.1.gif" width="400"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/b%3D12.gif" width="400"/>
+</center> &ensp;▲ $$b=0.1$$ 时运动轨迹和 $$h-\theta$$ 随时间的变化情况&ensp; ▲ $$b=12$$ 时运动轨迹和 $$h-\theta$$ 随时间的变化情况
+<br><br>
+为了更清楚的显示趋势，上图中的 vector 在 $$\theta$$ 方向的分量被放大了，所以 $$h-\theta$$ 曲线的切线方向和 vector 的方向没有重合。下面给出没有 scale 前的图，并用红色箭头标出切线方向，可以看到曲线的切线方向和 vector 方向的确是重合的：
+
+<center class="half">
+    <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/scale1.png" width="400"/><img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/scale2.png" width="400"/>
+</center>
+&ensp;&ensp;&ensp;&ensp;&ensp;▲ $$t=11$$ 时运动轨迹和 $$h-\theta$$ 的变化情况&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ▲ $$t=24.8$$ 时运动轨迹和 $$h-\theta$$ 的变化情况
+<br><br>
+综上分析可知 swimmer 会出现绕球运动是因为绿色的 fixed point 的存在，并不是因为求解得到的那个红色的不稳定 fixed point ，由此可以看出这篇文章其实写得有些问题。。。
 
 
 ## **附录**
@@ -283,10 +294,10 @@ int main(int argc, char **argv)
 				r2[1] = r1[2];
 				r2[2] = -r1[1];
 
-			    th = atan2(r2[2], r2[1]);
+			    	th = atan2(r2[2], r2[1]);
 
-			    ep[1] = cos(th)*e[1] + sin(th)*e[2];
-			    ep[2] = -sin(th)*e[1] + cos(th)*e[2];
+			    	ep[1] = cos(th)*e[1] + sin(th)*e[2];
+			    	ep[2] = -sin(th)*e[1] + cos(th)*e[2];
 			    
 				theta = atan2(ep[2], ep[1]);
 
@@ -380,7 +391,7 @@ int main(int argc, char **argv)
 				    fprintf(file, "ITEM: ATOMS id type x y z Radius\n");
 				      
 					fprintf(file, "1 1 %f %f 0 %f\n", 0.0, 0.0, Rtra);   
-				    fprintf(file, "2 2 %f %f 0 %f\n", Rx, Ry, Rhead);   
+				    	fprintf(file, "2 2 %f %f 0 %f\n", Rx, Ry, Rhead);   
 			    }   
 			
 			    procBar(t*100/NSTEP);
