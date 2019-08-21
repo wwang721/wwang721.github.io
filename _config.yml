@@ -6,7 +6,7 @@ show_downloads: true
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
 url: "https://nono721.github.io" # change this to the base hostname & protocol for your site
 
-google_analytics:
+google_analytics: UA-146148719-1
 # cayman-blog date format
 # refer to http://shopify.github.io/liquid/filters/date/ if you want to customize this
 cayman-blog:
