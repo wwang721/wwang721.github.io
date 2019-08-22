@@ -134,5 +134,16 @@
         ga('send', 'pageview');
       </script>
     {% endif %}
+    {% if site.baidu_analytics %}
+	    <script type="text/javascript">
+			var _hmt = _hmt || [];
+			(function() {
+		  	var hm = document.createElement("script");
+		  	hm.src = "https://hm.baidu.com/hm.js?9665045376cad0f640a137a7d3e45d45";
+		  	var s = document.getElementsByTagName("script")[0]; 
+		  	s.parentNode.insertBefore(hm, s);
+			})();
+		</script>
+	{% endif %}
   </body>
 </html>
