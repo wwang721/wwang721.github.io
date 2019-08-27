@@ -10,6 +10,7 @@ permalink: /About.html
 For my personal blog...
 
 ### **Build Status**
+
 <hr>
 
 [![website](https://img.shields.io/badge/version-0.1+-green.svg)](https://nono721.github.io)
