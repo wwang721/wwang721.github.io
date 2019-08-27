@@ -12,3 +12,7 @@ layout: home
 ![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 **Welcome to Wei Wang's Studio !**
+
+Click the **cat** in the right to know more about me ! $$\Rightarrow$$
+
+[Click here]({{ site.url }}/contact.html) to get more contact information, or yon can find me through the 4 small icons at the bottom of the page.

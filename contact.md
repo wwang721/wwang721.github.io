@@ -2,6 +2,7 @@
 layout: page
 title: Contact
 tagline: How to contact me...
+permalink: /contact.html
 ---
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}/cv.html)
 
