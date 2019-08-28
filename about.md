@@ -7,7 +7,9 @@ permalink: /About.html
 
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}/cv.html)
 
-For my personal blog...
+Click the **cat** in the right to know more about me ! $$\Rightarrow$$
+
+[Click here]({{ site.url }}/contact.html) to get more contact information, or yon can find me through the 4 small icons at the bottom of the page.
 
 ### **Build Status**
 
