@@ -54,9 +54,15 @@ Vim 的劲敌来自 Emacs 的不同变体。1999 年 Emacs 被选为 Linuxworld 
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
-* MacOS 和 Linux 系统都自带了 GCC 和 Python 等编译器，配置起来很方便。
+* MacOS 和 Linux 系统配置起来比较容易，简单几步就可以完成：<br><br>
+	* 两者系统一般都自带了 Python 2.X , 如果想用更新的版本，如 3.6 或者 3.7 ，可以去官网 [***<u>https://www.python.org</u>***](https://www.python.org) 下载，或者安装 [**Anaconda**](https://www.anaconda.com) 进行配置;
+	
+	* 至于 C/C++ , 不同版本的 Linux 系统使用它们自带的**安装包管理工具**，如 [**apt**](https://launchpad.net/ubuntu/+source/apt/) ( Advanced Packaging Tool )、[**rpm**](https://rpm.org) ( Red-Hat Package Manager )、 [**yum**](http://yum.baseurl.org) ( Yellow dog Updater, Modified ) 直接 install gcc、gdb 等组件就好了。<br><br>Mac 系统则可以使用自带安装包管理工具 [**Homebrew**](https://brew.sh) 来 install ，或者直接在 [**App Store**](https://www.apple.com/ios/app-store/) 里下载 Xcode ，安装完就自动配置好 C/C++ 的环境了。值得一提的是，有的系统版本的 Mac 可能无法正常运行 gdb ，所以<font color="#26975b"><b><u>推荐直接下载 Xcode</u></b> </font>，就算用不到 IDE ，但是 Xcode 配置好的 [**Clang**](http://clang.llvm.org) 和 [**lldb**](http://lldb.llvm.org) 可以取代 gcc 和 gdb 在 Mac 下很好的工作。安装 Xcode 后的 Mac 在终端使用 gcc/g++ 其实就是在使用 Clang 的别名。<br><br>
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="arrow" title="right arrow" style='float:left; width:30px;height:10 px'/>这里简单介绍下 [**LLVM**](https://llvm.org) 构架编译器 ( **compiler** ) 框架系统，它的命名最早源自于<font color="#26975b"><b>底层虚拟机</b></font>（ Low Level Virtual Machine ）的缩写，由于命名带来的混乱，目前 LLVM 就是该项目的全称。LLVM 计划启动于 2000 年，最初由美国 [**UIUC**](https://illinois.edu) ( University of Illinois at Urbana-Champaign , 伊利诺伊大学厄巴纳-香槟分校 ) 的 **Chris Lattner** 博士主持开展，以 C++ 编写而成，用于优化以任意程序语言编写的程序的<u>编译时间、链接时间、运行时间以及空闲时间</u>，对开发者保持开放，并兼容已有脚本。2006 年 Chris Lattner 加盟 **Apple** ***Inc.*** 并致力于 LLVM 在 Apple 开发体系中的应用。Apple 也是 LLVM 计划的主要资助者。项目中的 Clang 和 lldb 等软件也兼容 GNU 规范，已经广泛被用于 [**苹果 IOS 开发工具**](https://developer.apple.com)、[**Facebook**](https://www.facebook.com)、[**Google**](http://www.google.com) 等各大公司。
 
-* Windows 系统稍微麻烦一些，而且注意 Windows 路径使用的是<font color="#26975b"><b>反斜杠</b></font> `\` 分隔:
+<br>
+
+* Windows 系统稍微麻烦一些，而且注意 Windows 路径使用的是<font color="#26975b"><b>反斜杠</b></font> `\` 分隔:<br><br>
 	* 如果之前下载过 [**Dev-C++**](https://bloodshed-dev-c.en.softonic.com) 或者 [**Code::Blocks**](http://www.codeblocks.org) 等 IDE ，可以使用它们自带的编译器，只要配置好路径就行了。
 	
 	* 没有用过 IDE 的同学可以下载 [**MinGW**](http://www.mingw.org) ( Minimalist GNU for Windows ), 通过它下载配置 GCC 和 GDB 等 GNU 组件，记得下载完将 MinGW 安装目录下的 **bin** 文件夹添加到系统环境变量 PATH 里（ `桌面-计算机-右键-属性` ) ; 
