@@ -6,6 +6,8 @@ permalink: /contact.html
 ---
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}/cv.html)
 
+Click the **cat** in the right to know more about me ! $$\Rightarrow$$
+
 ## **E-mail:** 
 
 1. <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</A>
@@ -18,7 +20,7 @@ permalink: /contact.html
 
 ## **Phone:**
 
-* (+86) -13155590878
+* (+86)-13155590878
 
 &ensp;
 
