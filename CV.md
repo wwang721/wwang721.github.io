@@ -6,7 +6,7 @@ permalink: /cv.html
 ---
 ![build](https://img.shields.io/badge/build-succeeded-brightgreen.svg) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-3.8+-blue.svg)](https://jekyllrb.com) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right; width:300px;height:100 px'/>
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/photo.jpg' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right; width:300px;height:100 px'/>
 
 # **Wei, Wang**
 
