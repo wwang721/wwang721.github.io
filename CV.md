@@ -33,15 +33,15 @@ permalink: /cv.html
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** (Expected in 06 / 30 / 2020)
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: 3.64 / 4.0 &ensp;&ensp;&ensp;&ensp;**Major**: 3.89 / 4.0 
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: 3.64 / 4.00 &ensp;&ensp;&ensp;&ensp;**Major**: 3.89 / 4.00 
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Ranking**: &ensp;&ensp;5 / 82 (Overall GPA)
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Standardized English Tests**:
 
- + **TOEFL**: 105 / 120 ( **Reading: 30**, **Listening: 29**, Speaking: 22, Writing: 24 )
+ + **TOEFL**: 105 / 120 ( **Reading: 30**; **Listening: 29**; Speaking: 22; Writing: 24 )
  
- + **GRE General**: &ensp; 327 / 340 + 3.5 / 6.0 <br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ( Verbal: 157 - 76%, **Quantitative: 170 - 96%**, Analytical Writing: 3.5 - 39% ) 
+ + **GRE General**: &ensp; 327 / 340 + 3.5 / 6.0 <br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ( Verbal: 157 - 76%; **Quantitative: 170 - 96%**; Analytical Writing: 3.5 - 39% ) 
  
  + **GRE Physics**: &ensp; XXX / 990 ( Test Date on Oct 26, 2019 )
 
@@ -49,7 +49,7 @@ permalink: /cv.html
 
 <hr style="height:5px;" />
 
-* <font color="#1c6eb4"><i><b>2016.10 - present:</b></i></font>
+* <font color="#1c6eb4"><i><b>2017.10 - present:</b></i></font>
 
 &ensp;&ensp;&ensp;&ensp;**Research Assistant** in **Shanghai Key Laboratory of Special Artificial Microstructure, <br>&ensp;&ensp;&ensp;&ensp;School of Physics Science and Engineering**, Tongji University.
 
@@ -77,7 +77,19 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Explored the effect of anisotropy on the transport process in YIG material.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Took part in the APS March Meeting 2019, Boston, Massachusetts and Completed [an<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; abstract and a poster](#MarchMeeting "Click to see more in  # PUBLICATION") as the first writer to showcase in the meeting.
+<hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
+
+* <font color="#1c6eb4"><i><b>2019.3</b></i></font>
+
+&ensp;&ensp;&ensp;&ensp;**Poster Presenter** in the **APS March Meeting 2019**, Boston, MA, USA.
+
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity.
+
+&ensp;&ensp;&ensp;&ensp;**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**
+
+&ensp;&ensp;&ensp;&ensp; ⚙ Completed [an abstract and a poster](#MarchMeeting "Click to see more in  # PUBLICATION") as the first writer to showcase in the meeting.
+
+&ensp;&ensp;&ensp;&ensp; ⚙ Took part in several lectures and seminars during the meeting.
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
@@ -95,10 +107,7 @@ permalink: /cv.html
 $$h-\theta$$
 phase diagram to study the properties of the fixed points.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Calculated the conditions whether the micrcoswimmer is captured by the obstacle or<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;successfully escapes.
-
-<hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
-
+&ensp;&ensp;&ensp;&ensp; ⚙ Delved the conditions when the micrcoswimmer would be captured by the obstacle and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; when it could successfully escape.
 
 ## **PUBLICATION**
 
@@ -109,12 +118,20 @@ phase diagram to study the properties of the fixed points.
 
 2. <u><b>Wei Wang *</b></u>, Tao Liu, YuHeng Li, and Jianwei Zhang, “*The H field dependence of magnon diffusion length basing on Boltzmann transport methods* ”, [Poster](https://raw.githubusercontent.com/NoNo721/Memo/master/poster.pdf "Download the Poster"), [APS March Meeting 2019, Mar. 2019](http://meetings.aps.org/Meeting/MAR19/Session/G70.144 "click").
 
+3. Tao Liu, <u><b>Wei Wang *</b></u> and Jianwei Zhang, *Magnon Transport Equation under the Action of Magnetic Field and Anisotropy Field*, The 10th
+National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
+
+4. Tao Liu, <u><b>Wei Wang *</b></u> and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
+ Journal of Magnetism and Magnetic Materials).
+
 ## **AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2017</b></font>
 
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2018</b></font>
+
+* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font>
 
 * Second Prize of the 34th National University Student Physics Competition (East China) <font color="#1c6eb4"><b>12/2017</b></font>
 
