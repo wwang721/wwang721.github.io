@@ -45,7 +45,7 @@ permalink: /cv.html
  
  + **GRE Physics**: &ensp; XXX / 990 ( Test Date on Oct 26, 2019 )
 
-## **RESEARCH EXPERIENCE**
+## **RESEARCH EXPERIENCES**
 
 <hr style="height:5px;" />
 
@@ -109,7 +109,7 @@ phase diagram to study the properties of the fixed points.
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Delved the conditions when the micrcoswimmer would be captured by the obstacle and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; when it could successfully escape.
 
-## **PUBLICATION**
+## **PUBLICATIONS**
 
 <hr style="height:5px;" />
 
