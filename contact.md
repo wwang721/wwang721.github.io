@@ -14,7 +14,7 @@ Click the **cat** in the right to know more about me ! $$\Rightarrow$$
 
 2. <a href="mailto:w_w19980721@foxmail.com">w_w19980721@foxmail.com</A>
 
-3. <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A>
+3. <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A> (school)
 
 4. <a href="mailto:13155590878@163.com">13155590878@163.com</A>
 

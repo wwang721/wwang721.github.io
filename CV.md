@@ -17,7 +17,7 @@ permalink: /cv.html
 
 * **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, Siping Road, Shanghai, 200092, P. R. China.
 
-* **Hometown**: &ensp;**Huangshan** City, Anhui Province, 245400, P. R. China.
+* **Hometown**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
 * **Phone**: &ensp; (+86)-13155590878
 
@@ -51,9 +51,9 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2017.10 - present:</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Research Assistant** in **Shanghai Key Laboratory of Special Artificial Microstructure, <br>&ensp;&ensp;&ensp;&ensp;School of Physics Science and Engineering**, Tongji University.
+&ensp;&ensp;&ensp;&ensp;**Research Assistant** in **Shanghai Key Laboratory of Special Artificial Microstructure, <br>&ensp;&ensp;&ensp;&ensp;School of Physics Science and Engineering**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity.
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;**Spinning and Spin Transport in Ferromagnetic Metal-Ferromagnetic Insulator Multilayer <br>&ensp;&ensp;&ensp;&ensp;Film Materials**
 
@@ -67,9 +67,9 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2018.9 - present:</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Traning Program**, Tongji University.
+&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Traning Program**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity.
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;**New Type Magnon-Spintronics Storage Device**
 
@@ -81,9 +81,9 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2019.3</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Poster Presenter** in the **APS March Meeting 2019**, Boston, MA, USA.
+&ensp;&ensp;&ensp;&ensp;**Poster Presenter** in the **APS March Meeting 2019**, Boston, MA, USA
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity.
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**
 
@@ -95,9 +95,9 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2019.7 - present:</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Summer research** in **Complex Systems Division, Beijing Computational Science Research<br>&ensp;&ensp;&ensp;&ensp;Center (CSRC)**.
+&ensp;&ensp;&ensp;&ensp;**Summer research** in **Complex Systems Division, Beijing Computational Science Research<br>&ensp;&ensp;&ensp;&ensp;Center (CSRC)**
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Xinliang Xu**](http://www.csrc.ac.cn/~xlxu/home.html "Research Homepage of Prof. Xinliang Xu"), Assistant Professor in Beijing Computational Science Research Center <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;and Adjunct Professor in Department of Physics, Beijing Normal University.
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Xinliang Xu**](http://www.csrc.ac.cn/~xlxu/home.html "Research Homepage of Prof. Xinliang Xu"), Assistant Professor in Beijing Computational Science Research Center <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;and Adjunct Professor in Department of Physics, Beijing Normal University
 
 &ensp;&ensp;&ensp;&ensp;[**Geometric Capture and Escape of a Microswimmer Colliding with an Obstacle**]({{ site.url }}/2019/08/16/CSRC_Results.html "Click to see more about this...")
 
