@@ -85,7 +85,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
 
-&ensp;&ensp;&ensp;&ensp;**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**
+&ensp;&ensp;&ensp;&ensp;[**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**](http://adsabs.harvard.edu/abs/2019APS..MARG70144W)
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Completed [an abstract and a poster](#MarchMeeting "Click to see more in  # PUBLICATION") as the first writer to showcase in the meeting.
 
@@ -116,7 +116,7 @@ phase diagram to study the properties of the fixed points.
 1. Tao Liu, <u><b>Wei Wang *</b></u>, Jianwei Zhang, “*Collective induced antidiffusion effect and general magnon Boltzmann transport theory* ”, [Phys.Rev.B 99, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407 "click").
 <span id="MarchMeeting"></span>
 
-2. <u><b>Wei Wang *</b></u>, Tao Liu, YuHeng Li, and Jianwei Zhang, “*The H field dependence of magnon diffusion length basing on Boltzmann transport methods* ”, [Poster](https://raw.githubusercontent.com/NoNo721/Memo/master/poster.pdf "Download the Poster"), [APS March Meeting 2019, Mar. 2019](http://meetings.aps.org/Meeting/MAR19/Session/G70.144 "click").
+2. <u><b>Wei Wang *</b></u>, Tao Liu, YuHeng Li, and Jianwei Zhang, “[*The H field dependence of magnon diffusion length basing on Boltzmann transport methods*](http://adsabs.harvard.edu/abs/2019APS..MARG70144W) ”, [Poster](https://raw.githubusercontent.com/NoNo721/Memo/master/poster.pdf "Download the Poster"), [APS March Meeting 2019, Mar. 2019](http://meetings.aps.org/Meeting/MAR19/Session/G70.144 "click").
 
 3. Tao Liu, <u><b>Wei Wang *</b></u> and Jianwei Zhang, *Magnon Transport Equation under the Action of Magnetic Field and Anisotropy Field*, The 10th
 National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
