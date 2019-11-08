@@ -12,7 +12,7 @@ tagline: "简单介绍 2 种 LaTeX 作图方法..."
 
 <hr>
 
-在导言区添上 `\usepackage{tikz}` 后就可以使用 [**TikZ** ](ttp://www.texample.net/tikz/) 宏包了。
+在导言区添上 `\usepackage{tikz}` 后就可以使用 [**TikZ** ](http://www.texample.net/tikz/) 宏包了。
 
 画图的代码也很简单，我给出 2 个简单的例子，大家对照代码注释和生成的图看一看就可以了。
 
