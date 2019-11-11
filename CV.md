@@ -67,7 +67,7 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2018.9 - present:</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Traning Program**, Tongji University
+&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Training Program**, Tongji University
 
 &ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
 
@@ -131,7 +131,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2018</b></font>
 
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font>
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University (Ranking: 5/82) (Ranking: **5/82**)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font>
 
 * Second Prize of the 34th National University Student Physics Competition (East China) <font color="#1c6eb4"><b>12/2017</b></font>
 
