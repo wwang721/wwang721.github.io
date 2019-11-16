@@ -15,11 +15,11 @@ permalink: /cv.html
 
 **Applied Physics**
 
-* **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, Siping Road, Shanghai, 200092, P. R. China.
+* **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, No.1239, Siping Road, Shanghai, 200092, P. R. China.
 
 * **Hometown**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
-* **Phone**: &ensp; (+86)-13155590878
+* **Phone**: &ensp; (+86)-0559-13155590878
 
 * **E-mail**: &ensp;[1653563@tongji.edu.cn](mailto:1653563@tongji.edu.cn)&ensp;
 
@@ -31,19 +31,19 @@ permalink: /cv.html
 
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Wei Wang's Photo" title="Tongji University" style='float:right; width:180px;'/>](http://www.tongji.edu.cn)
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** (Expected in 06 / 30 / 2020)
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** (Expected in Jul. 2020)
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: 3.64 / 4.00 &ensp;&ensp;&ensp;&ensp;**Major**: 3.89 / 4.00 
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: 4.63 / 5.00 (91.27/100)&ensp;&ensp;&ensp;&ensp;**Major**: 4.89 / 5.00 
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Ranking**: &ensp;&ensp;5 / 82 (Overall GPA)
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Standardized English Tests**:
 
- + **TOEFL**: 105 / 120 ( **Reading: 30**; **Listening: 29**; Speaking: 22; Writing: 24 )
+ + **TOEFL**: 105 / 120 ( Reading: 30; Listening: 29; Speaking: 22; Writing: 24 )
  
  + **GRE General**: &ensp; 327 / 340 + 3.5 / 6.0 <br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ( Verbal: 157 - 76%; **Quantitative: 170 - 96%**; Analytical Writing: 3.5 - 39% ) 
  
- + **GRE Physics**: &ensp; XXX / 990 ( Test Date on Oct 26, 2019 )
+ + **GRE Physics**: &ensp; XXX / 990 ( Test Date on Oct. 26, 2019, Scores Not Available Now )
 
 ## **RESEARCH EXPERIENCES**
 
@@ -53,15 +53,15 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Research Assistant** in **Shanghai Key Laboratory of Special Artificial Microstructure, <br>&ensp;&ensp;&ensp;&ensp;School of Physics Science and Engineering**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;**Spinning and Spin Transport in Ferromagnetic Metal-Ferromagnetic Insulator Multilayer <br>&ensp;&ensp;&ensp;&ensp;Film Materials**
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Built a model to simulate the transport in yttrium iron garnet(YIG) material.
+&ensp;&ensp;&ensp;&ensp; ⚙ Deduced the general magnon Boltzmann transport theory from the Hamiltonian of the<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; nondissipative magnetic system.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Provided a way and successfully got the numerical solutions to Boltzmann Equation.
+&ensp;&ensp;&ensp;&ensp; ⚙ Built a numerical magnon gas model to simulate the magnon transport process in yttrium<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; iron garnet (YIG) materials.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Explored the effect of magnetic field on the diffusion length of magnon transport.
+&ensp;&ensp;&ensp;&ensp; ⚙ Explored the effects of external magnetic field on the magnon transport behavior and the<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; magnon diffusion length.
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
@@ -69,13 +69,15 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Training Program**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;**New Type Magnon-Spintronics Storage Device**
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Investigated and explored the working principle of magnetic storage device.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Explored the effect of anisotropy on the transport process in YIG material.
+&ensp;&ensp;&ensp;&ensp; ⚙ Explored the effects of anisotropy on the magnon transport behavior and the magnon<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; diffusion length.
+
+&ensp;&ensp;&ensp;&ensp; ⚙ Studied the hydrodynamic properties of magnons transporting in YIG at extremely low<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; temperature.
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
@@ -83,7 +85,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Poster Presenter** in the **APS March Meeting 2019**, Boston, MA, USA
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor in Theoretical Physics, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
 
 &ensp;&ensp;&ensp;&ensp;[**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**](https://ui.adsabs.harvard.edu/abs/2019APS..MARG70144W/abstract)
 
@@ -101,28 +103,29 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;[**Geometric Capture and Escape of a Microswimmer Colliding with an Obstacle**]({{ site.url }}/2019/08/16/CSRC_Results.html "Click to see more about this...")
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Built a model to simulate the motion of a self-propelling microswimmer in viscous fluids.
+&ensp;&ensp;&ensp;&ensp; ⚙ Simulated the motion of a self-propelling microswimmer in viscous fluids through<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  numerical method.
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Analysed the 
 $$h-\theta$$
-phase diagram to study the properties of the fixed points.
+phase diagram to study the properties of the fixed points and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;  compared the results with experiments.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Delved the conditions when the micrcoswimmer would be captured by the obstacle and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; when it could successfully escape.
+&ensp;&ensp;&ensp;&ensp; ⚙ Delved the conditions when the micrcoswimmer would be captured by the obstacle 
+and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; when it could successfully escape.
 
 ## **PUBLICATIONS**
 
 <hr style="height:5px;" />
 
-1. Tao Liu, <u><b>Wei Wang *</b></u>, Jianwei Zhang, “*Collective induced antidiffusion effect and general magnon Boltzmann transport theory* ”, [Phys.Rev.B 99, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407 "click").
+1. Tao Liu, <u><b>Wei Wang *</b></u>, Jianwei Zhang, “*Collective induced antidiffusion effect and general magnon Boltzmann transport theory* ”, [**Phys. Rev. B** 99, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407 "click").
 <span id="MarchMeeting"></span>
 
-2. <u><b>Wei Wang *</b></u>, Tao Liu, YuHeng Li, and Jianwei Zhang, “[*The H field dependence of magnon diffusion length basing on Boltzmann transport methods*](https://ui.adsabs.harvard.edu/abs/2019APS..MARG70144W/abstract) ”, [Poster](https://raw.githubusercontent.com/NoNo721/Memo/master/poster.pdf "Download the Poster"), [APS March Meeting 2019, Mar. 2019](http://meetings.aps.org/Meeting/MAR19/Session/G70.144 "click").
+2. <u><b>Wei Wang *</b></u>, Tao Liu, YuHeng Li, and Jianwei Zhang, “[*The H field dependence of magnon diffusion length basing on Boltzmann transport methods*](https://ui.adsabs.harvard.edu/abs/2019APS..MARG70144W/abstract) ”, [Poster](https://raw.githubusercontent.com/NoNo721/Memo/master/poster.pdf "Download the Poster"), [**APS March Meeting 2019**, Mar. 2019](http://meetings.aps.org/Meeting/MAR19/Session/G70.144 "click").
 
-3. Tao Liu, <u><b>Wei Wang *</b></u> and Jianwei Zhang, *Magnon Transport Equation under the Action of Magnetic Field and Anisotropy Field*, The 10th
+3. Tao Liu, <u><b>Wei Wang*</b></u>, and Jianwei Zhang, *Magnon Transport Equation under the Action of Magnetic Field and Anisotropy Field*, The 10th
 National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
-4. Tao Liu, <u><b>Wei Wang *</b></u> and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
- Journal of Magnetism and Magnetic Materials).
+4. <u><b>Wei Wang *</b></u>, Tao Liu, and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
+ **Journal of Magnetism and Magnetic Materials**).
 
 ## **AWARDS/HONORS/SCHOLARSHIPS**
 
@@ -131,11 +134,11 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2018</b></font>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University (Ranking: 5/82) (Ranking: **5/82**)&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font>
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on their scientific research**)
 
 * Second Prize of the 34th National University Student Physics Competition (East China) <font color="#1c6eb4"><b>12/2017</b></font>
 
-* Outstanding Students, School of Physics Science and Engineering, Tongji University (**about 12 selected from 250+ students in Physics Department**) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font>
+* Outstanding Students, School of Physics Science and Engineering, Tongji University &ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font><br>(**about 12 selected from 250+ students in Physics Department**) 
 
 &ensp;&ensp;&ensp;&ensp; ...
 
@@ -151,7 +154,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Frequent user of **Python**, **Matlab**, [**LaTeX**]({{ site.url }}/2019/07/06/QM_Review-notes.html "Click to see my notes compiled by LaTeX");
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Occasional user of **R**, **Mathematica** and **Adobe Illustrator(AI)**;
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Occasional user of **R**, **Mathematica**, **COMSOL** and **Adobe Illustrator(AI)**;
 
 &ensp;&ensp;&ensp;&ensp; More in my **GitHub** profile: <https://github.com/NoNo721> ...
 
