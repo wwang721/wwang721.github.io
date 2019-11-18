@@ -67,7 +67,7 @@ permalink: /cv.html
 
 * <font color="#1c6eb4"><i><b>2018.9 - present:</b></i></font>
 
-&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National Students’ Platform for Innovation and Entrepreneurship<br>&ensp;&ensp;&ensp;&ensp;Training Program**, Tongji University
+&ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National College Students’ Platform for Innovation and <br>&ensp;&ensp;&ensp;&ensp;Entrepreneurship Training Program**, Tongji University
 
 &ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
 
@@ -127,7 +127,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 4. <u><b>Wei Wang *</b></u>, Tao Liu, and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
  **Journal of Magnetism and Magnetic Materials**).
 
-## **AWARDS/HONORS/SCHOLARSHIPS**
+## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2017</b></font>
@@ -136,9 +136,11 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 * "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on their scientific research**)
 
-* Second Prize of the 34th National University Student Physics Competition (East China) <font color="#1c6eb4"><b>12/2017</b></font>
+* Second Prize (**top 5%**) of the 34th National University Student Physics Competition (East China) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font>
 
-* Outstanding Students, School of Physics Science and Engineering, Tongji University &ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font><br>(**about 12 selected from 250+ students in Physics Department**) 
+* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font><br>(**12 selected from 250+ students in Physics Department**) 
+
+* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**13 selected from 250+ students in Physics Department**) 
 
 &ensp;&ensp;&ensp;&ensp; ...
 
@@ -154,7 +156,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Frequent user of **Python**, **Matlab**, [**LaTeX**]({{ site.url }}/2019/07/06/QM_Review-notes.html "Click to see my notes compiled by LaTeX");
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Occasional user of **R**, **Mathematica**, **COMSOL** and **Adobe Illustrator(AI)**;
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Occasional user of **R**, **Mathematica**, **COMSOL**, **Arduino** and **Adobe Illustrator(AI)**;
 
 &ensp;&ensp;&ensp;&ensp; More in my **GitHub** profile: <https://github.com/NoNo721> ...
 
