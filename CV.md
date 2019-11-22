@@ -43,7 +43,7 @@ permalink: /cv.html
  
  + **GRE General**: &ensp; 327 / 340 + 3.5 / 6.0 <br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ( Verbal: 157 - 76%; **Quantitative: 170 - 96%**; Analytical Writing: 3.5 - 39% ) 
  
- + **GRE Physics**: &ensp; XXX / 990 ( Test Date on Oct. 26, 2019, Scores Not Available Now )
+ + **GRE Physics**: &ensp; **990 / 990 (95%)**
 
 ## **RESEARCH EXPERIENCES**
 
