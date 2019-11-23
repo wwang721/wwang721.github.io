@@ -130,13 +130,13 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 ## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;&ensp;<font color="#1c6eb4"><b>11/2017</b></font>
+* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;<font color="#1c6eb4"><b>11/2017</b></font>
 
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font>
+* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;<font color="#1c6eb4"><b>11/2018</b></font>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on their scientific research**)
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on <br>their scientific research**)
 
-* Second Prize (**top 5%**) of the 34th National University Student Physics Competition (East China) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font>
+* Second Prize of the 34th National University Student Physics Competition&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font><br>(**top 5%**, East China Division) 
 
 * Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019</b></font><br>(**12 selected from 250+ students in Physics Department**) 
 
