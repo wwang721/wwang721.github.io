@@ -71,7 +71,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
 
-&ensp;&ensp;&ensp;&ensp;**New Type Magnon-Spintronics Storage Device**
+&ensp;&ensp;&ensp;&ensp;**Novel Magnon Spintronics Storage Device**
 
 &ensp;&ensp;&ensp;&ensp; ⚙ Investigated and explored the working principle of magnetic storage device.
 
