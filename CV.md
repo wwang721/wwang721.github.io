@@ -130,17 +130,17 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 ## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2017</b></font>
+* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;&ensp;<font color="#1c6eb4"><b>11/2017</b></font>
 
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>09/2018</b></font>
+* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>09/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on their scientific research**)
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on their scientific research**)
 
 * Second Prize (**top 5%**) of the 34th National University Student Physics Competition (East China) &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font>
 
-* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2018</b></font><br>(**12 selected from 250+ students in Physics Department**) 
+* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019</b></font><br>(**12 selected from 250+ students in Physics Department**) 
 
-* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**13 selected from 250+ students in Physics Department**) 
+* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2020</b></font><br>(**13 selected from 250+ students in Physics Department**) 
 
 &ensp;&ensp;&ensp;&ensp; ...
 
