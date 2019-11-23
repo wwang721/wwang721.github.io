@@ -11,6 +11,8 @@ layout: home
 
 ![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
+**人不知而不愠，不亦君子乎？**
+
 **Welcome to Wei Wang's Studio !**
 
 Click the **cat** in the right to know more about me ! $$\Rightarrow$$
