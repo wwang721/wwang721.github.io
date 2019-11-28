@@ -160,11 +160,14 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 &ensp;&ensp;&ensp;&ensp; More in my **GitHub** profile: <https://github.com/NoNo721> ...
 
-#### **Experiment Skills**:
+#### **Experimental Skills**:
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Experiments of **Mechanics** and **Thermodynamics**;
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; **Electromagnetics** Experiments and **Optical** Experiments;
+
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; 
+Experiments of **Modern Physics**;
 
 #### **Club/Activities**:
 
