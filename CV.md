@@ -15,7 +15,7 @@ permalink: /cv.html
 
 **Applied Physics**
 
-* **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, No.1239, Siping Road, Shanghai, 200092, P. R. China.
+* **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, No.1239 Siping Road, Shanghai, 200092, P. R. China.
 
 * **Hometown**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
