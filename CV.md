@@ -53,7 +53,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Research Assistant** in **Shanghai Key Laboratory of Special Artificial Microstructure, <br>&ensp;&ensp;&ensp;&ensp;School of Physics Science and Engineering**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/Web/FacultyDetail/83 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Vice Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji University
 
 &ensp;&ensp;&ensp;&ensp;**Spinning and Spin Transport in Ferromagnetic Metal-Ferromagnetic Insulator Multilayer <br>&ensp;&ensp;&ensp;&ensp;Film Materials**
 
@@ -69,7 +69,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Program Leader** in the **National College Students’ Platform for Innovation and <br>&ensp;&ensp;&ensp;&ensp;Entrepreneurship Training Program**, Tongji University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/Web/FacultyDetail/83 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji University
 
 &ensp;&ensp;&ensp;&ensp;**Novel Magnon Spintronics Storage Device**
 
@@ -85,7 +85,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Poster Presenter** in the **APS March Meeting 2019**, Boston, MA, USA
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/wlx.action?method=jzgInfo&jzg.id=77&sideNav=1853 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Assistant Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji Unviversity
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Jianwei Zhang**](https://physics.tongji.edu.cn/Web/FacultyDetail/83 "Personal Homepage of Prof. Jianwei Zhang"), Professor of Physics, Vice Dean, School of Physics Science and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; Engineering, Tongji University
 
 &ensp;&ensp;&ensp;&ensp;[**The** ***H*** **Field Dependence of Magnon Diffusion Length Basing on Boltzmann Methods**](https://ui.adsabs.harvard.edu/abs/2019APS..MARG70144W/abstract)
 
