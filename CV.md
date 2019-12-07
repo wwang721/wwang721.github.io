@@ -180,7 +180,7 @@ Loong Dancing at the opening ceremony of the School Sports Meeting of <br>&ensp;
 
 #### **Hobbies**: 
 
-* **Traditional Chinese Calligraphy**, Badmintion;
+* **Traditional Chinese Calligraphy**, Badminton;
 * Table tennis (Pingpong), **Drawing**;
 * **Coding & Debugging** 😜 (More in my **GitHub** profile: <https://github.com/NoNo721>);
 
