@@ -134,7 +134,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 * Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;<font color="#1c6eb4"><b>11/2018</b></font>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;<font color="#1c6eb4"><b>11/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on <br>their scientific research**)
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;<font color="#1c6eb4"><b>10/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on <br>their scientific research**)
 
 * Second Prize of the 34th National University Student Physics Competition&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font><br>(**top 5%**, East China Division) 
 
