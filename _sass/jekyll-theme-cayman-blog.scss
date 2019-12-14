@@ -90,10 +90,11 @@ a {
 .page-header {
   color: $header-heading-color;
   text-align: center;
-  background-color: $header-heading-color;
+  background-color: gray;
   background-image: url(/bg.png);
   background-position:center;
-  
+  background-repeat:no-repeat;
+
 
   @include large {
     padding: 5rem 6rem;
