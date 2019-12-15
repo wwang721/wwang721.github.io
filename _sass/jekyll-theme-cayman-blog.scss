@@ -96,10 +96,9 @@ a {
 
   color: rgb(215,215,215);
   text-align: center;
-  background-image: url(/bg.png);
-  background-position:center;
-  background-repeat:no-repeat;
-
+  background-image: url("https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/bg.png"),url(/bg.png);
+  background-position:center,center;
+  background-repeat:no-repeat,no-repeat;
 
   @include large {
     padding: 5rem 6rem;
