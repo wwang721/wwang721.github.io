@@ -165,4 +165,16 @@ tagline: "简单介绍 2 种 LaTeX 作图方法..."
 
 &ensp;
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+[<b><u>Go to the Home Page</u></b>]({{ site.url }}{{ site.baseurl }})
+
+&ensp;
+
+<center class="half">
+<font color="#26975b"><b>Sponsor the author </b></font><font color="#08a2e4"><b>if you like the contents!</b></font><br/><br/>
+</center>
+
+<center class="half">
+    <img src="/images/WechatPay.png" width="251"/> &ensp; <img src="/images/AliPay.png" width="250"/>
+</center>
+
+&ensp;

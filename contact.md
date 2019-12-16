@@ -4,9 +4,11 @@ title: Contact
 tagline: How to contact me...
 permalink: /contact.html
 ---
-[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/IMG_4222.JPG' alt="Copyright © Wei Wang" title="Wei Wang" style='float:right;'/>]({{ site.url }}/cv.html)
+[<img src='/images/WechatMe.png' alt="Wechat" title="Wei Wang" width="170" style='float:right;'/>]({{ site.url }}/cv.html)
 
-Click the **cat** in the right to know more about me ! $$\Rightarrow$$
+Scan the **QR code** in the right to contact me through **Wechat** ! $$\Rightarrow$$
+
+
 
 ## **E-mail:** 
 
@@ -20,8 +22,20 @@ Click the **cat** in the right to know more about me ! $$\Rightarrow$$
 
 ## **Phone:**
 
-* (+86)-0559-13155590878
+* (+86)-13155590878
 
 &ensp;
 
-[Go to the Home Page]({{ site.url }}{{ site.baseurl }})
+[<b><u>Go to the Home Page</u></b>]({{ site.url }}{{ site.baseurl }})
+
+&ensp;
+
+<center class="half">
+<font color="#26975b"><b>Sponsor the author </b></font><font color="#08a2e4"><b>if you like the contents!</b></font><br/><br/>
+</center>
+
+<center class="half">
+    <img src="/images/WechatPay.png" width="251"/> &ensp; <img src="/images/AliPay.png" width="250"/>
+</center>
+
+&ensp;

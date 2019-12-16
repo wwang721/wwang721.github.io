@@ -188,7 +188,4 @@ Loong Dancing at the opening ceremony of the School Sports Meeting of <br>&ensp;
 
 #### **More**:
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; [Go to the Home Page!]({{ site.url }}{{ site.baseurl }}) &emsp;🎉 🎉 🎉 
-
-&ensp;
-
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; [<b><u>Go to the Home Page</u></b>]({{ site.url }}{{ site.baseurl }}) &emsp;🎉 🎉 🎉 
