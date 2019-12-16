@@ -4,10 +4,9 @@ title: Contact
 tagline: How to contact me...
 permalink: /contact.html
 ---
-[<img src='/images/WechatMe.png' alt="Wechat" title="Wei Wang" width="170" style='float:right;'/>]({{ site.url }}/cv.html)
+[<img src='https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/WechatMe.png' alt="Wechat" title="Wei Wang" width="170" style='float:right;'/>]({{ site.url }}/cv.html)
 
-Scan the **QR code** in the right to contact me through **Wechat** ! $$\Rightarrow$$
-
+Scan the **QR code** in the right to contact me through **Wechat** ! 
 
 
 ## **E-mail:** 
@@ -35,7 +34,7 @@ Scan the **QR code** in the right to contact me through **Wechat** ! $$\Rightarr
 </center>
 
 <center class="half">
-    <img src="/images/WechatPay.png" width="251"/> &ensp; <img src="/images/AliPay.png" width="250"/>
+    <img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/WechatPay.png" width="251"/> &ensp; <img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/AliPay.png" width="250"/>
 </center>
 
 &ensp;
