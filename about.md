@@ -40,7 +40,7 @@ Jekyll|[![Jekyll](https://img.shields.io/badge/Jekyll-3.8+-brightgreen.svg)](htt
 </center>
 
 <center class="half">
-    <img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/WechatPay.png" width="251"/> &ensp; <img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/AliPay.png" width="250"/>
+    <img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/WechatPay.png" width="251" style="margin-right:20px"/><img src="https://nono721-1300921342.cos.ap-shanghai.myqcloud.com/AliPay.png" width="250" style="margin-right:20px"/>
 </center>
 
 &ensp;
