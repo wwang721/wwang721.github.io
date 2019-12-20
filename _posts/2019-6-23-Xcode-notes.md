@@ -51,6 +51,10 @@ tagline: "My Xcode Notes."
 
 7. 创建**目标py文件**(eg: test.py)，后续可以添加其他py文件，只要全部import到**目标py文件**里就行了，不用重新配置`Scheme`。
 
+## 小知识
+
+* 当 Xcode 全屏时，编辑器的右侧会出现一大片**灰色**的区域，但是并不影响写程序，代码可以进入灰色区域而没有任何变化。其实这条分界线是提醒你代码最好写到这儿就换行了，这样在不同分辨率下都可以较完整的浏览这一行的代码。其设置在 Xcode 的 `Preferences`-->`Texting Editing`-->`Page guide at column:`, 可以取消勾选，或者自定义设置分界线位置。
+
 &ensp;
 
 [<b><u>Go to the Home Page</u></b>]({{ site.url }}{{ site.baseurl }})
