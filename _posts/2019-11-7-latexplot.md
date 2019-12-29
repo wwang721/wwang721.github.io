@@ -139,7 +139,7 @@ tagline: "简单介绍 2 种 LaTeX 作图方法..."
     		<img src="/images/tikz1.png" alt="TikZ" width="400"/>
 	</center>
 
-	如果想在正文或者公式中添加注释，需要先在导言区定义一个新命令 `\tikzmark` 用于 mark 被标注的文字或者被标注的公式字母：
+	如果想在正文或者公式中添加标注，需要先在导言区定义一个新命令 `\tikzmark` 用于 mark 被标注的文字或者被标注的公式字母：
 
 	``` latex
 	\newcommand{\tikzmark}[3][]			% 在正文或者公式中标记位置
