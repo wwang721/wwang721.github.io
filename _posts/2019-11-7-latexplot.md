@@ -14,7 +14,7 @@ tagline: "简单介绍 2 种 LaTeX 作图方法..."
 
 在导言区添上 `\usepackage{tikz}` 后就可以使用 [**TikZ** ](http://www.texample.net/tikz/) 宏包了。
 
-画图的代码也很简单，我给出 2 个简单的例子，大家对照代码注释和生成的图看一看就可以了。
+画图的代码也很简单，我给出 3 个简单的例子，大家对照代码注释和生成的图看一看就可以了。
 
 1. 坐标系：
 
@@ -113,6 +113,75 @@ tagline: "简单介绍 2 种 LaTeX 作图方法..."
 	将其编译后生成的图像和教科书上几乎一模一样：
 	<center class="half">
     <img src="https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/tikz2.png" alt="TikZ" width="400"/>
+
+3. 对正文或者公式进行标注：
+
+	在导言区添加 [**TikZ** ](http://www.texample.net/tikz/) 的位置库和一些设置：
+
+	``` latex
+	\usepackage{tikz}
+	
+	\usetikzlibrary{positioning}	% 可以使用 node 之间的相对位置
+	%\tikzset{>=stealth}	% 将 -> 箭头设置为 -stealth
+	```
+	在正文区使用 `tikzpicture` 环境：
+
+	``` latex
+	% 曲线连接
+	\begin{tikzpicture}[node distance = 1.5cm]
+	    \node (A) {I'm a soldier!};
+	    \node (B) [above right = of A] {Yes, you are!};
+	    \draw[-stealth, thick] (B) to [in = 60, out = -120] (A);
+	\end{tikzpicture}
+	```
+	编译后效果如下：
+	<center class="half">
+    		<img src="/images/tikz1.png" alt="TikZ" width="400"/>
+	</center>
+
+	如果想在正文或者公式中添加注释，需要先在导言区定义一个新命令 `\tikzmark` 用于 mark 被标注的文字或者被标注的公式字母：
+
+	``` latex
+	\newcommand{\tikzmark}[3][]			% 在正文或者公式中标记位置
+	  {\tikz[remember picture, baseline]
+	    \node [anchor=base,#1](#2) {#3};}
+	```
+
+	导入 `\usepackage{mwe}` 宏包后，正文区可以用 `\blindtext` 随机生成一段文字，中间用 `\tikzmark` mark 需要标注的文字，在段落结束后紧跟一个 `tikzpicture` 环境，用 `overlay` 来使之重叠：
+
+	``` latex
+	% 正文标注
+	\blindtext	% 随机生成一段文字
+	\tikzmark{A}{I'm a soldier!}
+	\blindtext
+	\begin{tikzpicture}[overlay, remember picture, node distance = 1.5cm]
+	    \node (B) [above right = of A, xshift = 2.1cm] {Yes, you are!};
+	    \draw[->,thick] (B) to [in = 60, out = -120] (A);	
+	\end{tikzpicture}
+	```
+	效果如下图所示：
+	<center class="half">
+    		<img src="/images/tikz2.png" alt="TikZ" />
+	</center>
+	如果想对一个公式进行标注，也是类似的：
+
+	``` latex
+	\begin{equation*}
+		\tikzmark{node1}{$E$} = \tikzmark[red]{node2}{$m$} \tikzmark[blue]{node3}{$c^2$}
+	\end{equation*}
+	\begin{tikzpicture}[overlay, remember picture, node distance = 1.5cm]
+	    \node (node4) [below left=of node1 ]{Energy};
+	    \draw[->,thick] (node4) to [in=-90,out=90] (node1);
+	    \node [red] (node5) [below =of node2 ]{mass};
+	    \draw[red, ->,thick] (node5) to [in=-90,out=90] (node2);
+	    \node [blue] (node6) [below right =of node3 ]{light velocity};
+	    \draw[blue, ->,thick] (node6) to [in=-90,out=90] (node3);
+	\end{tikzpicture}
+	```
+	效果如下图所示：
+	<center class="half">
+    		<img src="/images/tikz3.png" alt="TikZ" width="500"/>
+	</center>
 
 ### **Inkscape 作图**
 
