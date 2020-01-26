@@ -6,7 +6,9 @@ tagline: "My C/C++ Notes..."
 #author: ""
 #meta: ""
 ---
-整理的 C/C++ 笔记 (含 NVIDIA CUDA & MPI C/C++ 编程).
+整理的 **C/C++** 笔记 (含 **NVIDIA CUDA & MPI C/C++** 以及**面向对象**编程).
+
+注：**MPI (Message Passing Interface)** 信息传递接口，是一个跨语言的通讯协议，用于编写**并行计算**。MPI的目标是高性能，大规模性，和可移植性，在今天仍为高性能计算的主要模型。
 
 ![build](https://img.shields.io/badge/build-succeeded-brightgreen.svg) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-yellow.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-red.svg)
 
