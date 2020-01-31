@@ -68,7 +68,7 @@ Vim 的劲敌来自 Emacs 的不同变体。1999 年 Emacs 被选为 Linuxworld 
 ### **Sublime Text 编译系统**
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
-打开 Sublime Text，选择 `工具-编译系统` 可以看到自带的多种编译系统，其中可能有的能够正常使用，而有的不能，对应的配置文件在安装目录下找到 **Packages** 文件夹，里面有很多 XXX.sublime-package ( XXX 是对应语言，如 C++、Python 等 ) 文件，这些其实就是 **zip** 压缩文件，复制一个出来将后缀名改为 .zip 就可以解压看到里面的 XXX.sulime-build 文件。
+打开 Sublime Text，选择 `工具-编译系统` 可以看到自带的多种编译系统，其中可能有的能够正常使用，而有的不能，对应的配置文件在安装目录下找到 **Packages** 文件夹 (或者利用 **PackageResourceViewer** 插件来查看)，里面有很多 XXX.sublime-package ( XXX 是对应语言，如 C++、Python 等 ) 文件，这些其实就是 **zip** 压缩文件，复制一个出来将后缀名改为 .zip 就可以解压看到里面的 XXX.sulime-build 文件。
 
 一般<font color="#26975b"><b>不推荐直接修改自带的编译系统</b></font>，但是如果想把自己改过的 .sublime-build 文件放入 .build-package 中，可以使用 `zip` 命令:
 
@@ -104,9 +104,9 @@ Vim 的劲敌来自 Emacs 的不同变体。1999 年 Emacs 被选为 Linuxworld 
 
 <br>
 
-后面的 “**variants**” 标签部分其实就是 Sublime Text 的`工具` 选项里**编译** ( Compile ) 和**运行** ( Run ) 的区别，标签外就是 `编译` 执行的部分, 而 "variant" 内就是 `Run` 执行的部分 （ 当然，对于 Python 这种**解释型**语言没有什么区别 )。进入 `偏好设置/首选项-浏览程序包` ，打开 **User** 文件夹就可以找到<u><b>自定义的编译系统</b></u>。
+后面的 “**variants**” 标签部分其实就是 Sublime Text 里的**编译** ( Compile ) 和**运行** ( Run ) 的区别，标签外就是 `编译` 执行的部分, 而 "variant" 内就是 `Run` 执行的部分 （ 当然，对于 Python 这种**解释型**语言没有什么区别 )。进入 `偏好设置-首选项-浏览程序包` ，打开 **User** 文件夹就可以找到<u><b>自定义的编译系统</b></u>。
 
-配置完成后打开想要编译执行的代码，按 `Command/Ctrl+B` 就可以编译，或者按 `Shift+Command/Ctrl+B` 快捷键就可以直接运行了。
+配置完成后用 Sublime Text 打开想要编译执行的代码，首先按 `Shift+Command/Ctrl+B` 快捷键 (`工具-用...编译`) 选择不同的**编译系统**，或者选择**仅编译**文件还是**编译 + 执行**，Sublime Text 会自动记住你的选择。下次对于同种文件，只需按 `Command/Ctrl+B` 快捷键 (`工具-编译`) 就会重复这次的选择。
 
 
 ## **Visual Studio Code 配置**
