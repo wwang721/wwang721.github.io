@@ -15,9 +15,11 @@ Scan the **QR code** in the right to contact me through **Wechat** !
 
 2. <a href="mailto:w_w19980721@foxmail.com">w_w19980721@foxmail.com</A>
 
-3. <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A> (school)
+3. <a href="mailto:wei.wang@jhu.edu">wei.wang@jhu.edu</A> (school)
 
-4. <a href="mailto:13155590878@163.com">13155590878@163.com</A>
+4. <a href="mailto:1653563@tongji.edu.cn">1653563@tongji.edu.cn</A>
+
+5. <a href="mailto:13155590878@163.com">13155590878@163.com</A>
 
 ## **Phone:**
 
