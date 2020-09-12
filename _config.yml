@@ -4,7 +4,7 @@ description:
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.
-url: "https://www.nono721.codes" # change this to the base hostname & protocol for your site
+url: "https://nono721.github.io" # change this to the base hostname & protocol for your site
 
 google_analytics: UA-146148719-1
 
