@@ -8,20 +8,20 @@ permalink: /cv.html
 
 
 # **Wei, Wang**
-
+<!-- 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/photo.jpg' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right; width:250px;height:100 px'/>
+-->
+**Department of Physcis and Astronomy, Johns Hopkins University**, MD, USA.
 
-**Tongji University**
+**Ph.D. Student (Online due to COVID-19 currently), Physics**.
 
-**Applied Physics**
-
-* **Address**: &ensp;Room 422, Northwest 3rd Building, Tongji University, No.1239 Siping Road, Shanghai, 200092, P. R. China.
+* **Address**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
 * **Hometown**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
 * **Phone**: &ensp; (+86)-0559-13155590878
 
-* **E-mail**: &ensp;[1653563@tongji.edu.cn](mailto:1653563@tongji.edu.cn)&ensp;
+* **E-mail**: &ensp;[wei.wang@jhu.edu](mailto:wei.wang@jhu.edu)&ensp;
 
 ## **EDUCATION**
 
@@ -31,7 +31,7 @@ permalink: /cv.html
 
 [<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Wei Wang's Photo" title="Tongji University" style='float:right; width:180px;'/>](http://www.tongji.edu.cn)
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics** (Expected in Jul. 2020)
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics**, Jul. 2020.
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**GPA**: &ensp;&ensp;&ensp;**Overall**: 4.63 / 5.00 (91.27/100)&ensp;&ensp;&ensp;&ensp;**Major**: 4.89 / 5.00 
 
@@ -124,9 +124,10 @@ and<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; when it could successfully esc
 3. Tao Liu, <u><b>Wei Wang*</b></u>, and Jianwei Zhang, *Magnon Transport Equation under the Action of Magnetic Field and Anisotropy Field*, The 10th
 National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
+<!--
 4. <u><b>Wei Wang *</b></u>, Tao Liu, and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
  **Journal of Magnetism and Magnetic Materials**).
-
+-->
 ## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
@@ -141,6 +142,8 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 * Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019</b></font><br>(**12 selected from 250+ students in Physics Department**) 
 
 * Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2020</b></font><br>(**13 selected from 250+ students in Physics Department**) 
+
+* Outstanding Graduates of Shanghai City, Shanghai Education Commission &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>06/2020</b></font><br>(**4 selected from all graduates of Physics Department this year**) 
 
 &ensp;&ensp;&ensp;&ensp; ...
 
