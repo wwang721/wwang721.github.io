@@ -11,7 +11,7 @@ permalink: /cv.html
 <!-- 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/Jekyll/photo.jpg' alt="Wei Wang's Photo" title="Wei Wang's Photo" style='float:right; width:250px;height:100 px'/>
 -->
-**Department of Physcis and Astronomy, Johns Hopkins University**, MD, USA.
+**Department of Physics and Astronomy, Johns Hopkins University**, MD, USA.
 
 **Ph.D. Student (Online due to COVID-19 currently), Physics**.
 
