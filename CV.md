@@ -15,6 +15,8 @@ permalink: /cv.html
 
 **Ph.D. Student (Online due to COVID-19 currently), Physics**.
 
+* **Advisor**: [**Oleg Tchernyshyov**](https://sites.google.com/site/olegtjhu/people)
+
 * **Address**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
 * **Hometown**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
