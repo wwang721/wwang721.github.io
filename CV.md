@@ -13,9 +13,9 @@ permalink: /cv.html
 -->
 **Department of Physics and Astronomy, Johns Hopkins University**, MD, USA.
 
-**Ph.D. Student (Online due to COVID-19 currently), Physics**.
+**Ph.D. Student (1st year, online due to COVID-19 currently), Physics**.
 
-* **Advisor**: [**Oleg Tchernyshyov**](https://sites.google.com/site/olegtjhu/people)
+**First-year Research Advisor**: [**Oleg Tchernyshyov**](https://sites.google.com/site/olegtjhu/people)
 
 * **Address**: &ensp;**Huangshan City**, Anhui Province, 245400, P. R. China.
 
