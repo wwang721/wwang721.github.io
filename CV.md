@@ -17,7 +17,7 @@ permalink: /cv.html
 
 **Ph.D. Student (1st year, online due to COVID-19 currently)**.
 
-**First-year Research Advisor**: [**Oleg Tchernyshyov**](https://sites.google.com/site/olegtjhu/people)
+**First-year Research Advisor**: [**Oleg Tchernyshyov**](https://sites.krieger.jhu.edu/tchernyshyov-group/people/)
 
 * **Address**: &ensp;Huangshan City, Anhui Province, 245400, P. R. China.
 
