@@ -17,6 +17,4 @@ Click the **cat** in the right to know more about me ! $$\Rightarrow$$
 
 [Click here]({{ site.url }}/contact.html) to get more contact information, or yon can find me through the 4 small icons at the bottom of the page.
 
-**人不知而不愠，不亦君子乎？** 
-
 Visit the **testing service** for fun [<b><u>Vue.js</u></b>]({{ site.url }}/dist/index) !

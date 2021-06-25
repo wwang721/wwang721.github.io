@@ -9,7 +9,7 @@ permalink: /cv.html
 
 # **Wei, Wang**&ensp;<b><font face="kai">（汪 巍）</font></b>
 [<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:240px;'/>](https://www.jhu.edu)
-<font color="#1c6eb4"><i><b>2020.9 - present:</b></i></font>
+<font color="#1c6eb4"><i><b>2020.8 - present:</b></i></font>
 
 **Department of Physics and Astronomy**,
 
@@ -17,7 +17,7 @@ permalink: /cv.html
 
 **Ph.D. Student (1st year, online due to COVID-19 currently)**.
 
-**First-year Research Advisor**: [**Oleg Tchernyshyov**](https://sites.krieger.jhu.edu/tchernyshyov-group/people/)
+**Rotation Advisor**: [**Prof. Oleg Tchernyshyov**](https://sites.krieger.jhu.edu/tchernyshyov-group/people/), [**Prof. Brian A. Camley**](https://bcamley.github.io)
 
 * **Address**: &ensp;Huangshan City, Anhui Province, 245400, P. R. China.
 
@@ -37,19 +37,34 @@ permalink: /cv.html
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Bachelor of Science in Physics**, Jul. 2020.
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Outstanding Graduates of Shanghai City**, Jun. 2020.
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Outstanding Graduate of Shanghai City**  (*summa cum laude*).
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Standardized English Tests**:
 
  + **TOEFL**: 105 / 120 ( Reading: 30; Listening: 29; Speaking: 22; Writing: 24 )
- 
+
  + **GRE General**: &ensp; 327 / 340 + 3.5 / 6.0 <br> &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; ( Verbal: 157 - 76%; Quantitative: 170 - 96%; Analytical Writing: 3.5 - 39% ) 
- 
- + **GRE Physics**: &ensp; **990 / 990 (95%)**
+
+ + **GRE Physics**: &ensp; 990 / 990 (95%)
 
 ## **RESEARCH EXPERIENCES**
 
 <hr style="height:5px;" />
+
+* <font color="#1c6eb4"><i><b>2021.2 - present:</b></i></font>
+
+&ensp;&ensp;&ensp;&ensp;**Rotation student** in Department of Physics & Astronomy, Johns Hopkins University
+
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Brian A. Camley**](https://bcamley.github.io), Assitant Professor, Department of Physics & Astronomy 
+<br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; and Department of Biophysics, Johns Hopkins University
+
+&ensp;&ensp;&ensp;&ensp;**Collective migrating of active particles under geometric confinement**
+
+&ensp;&ensp;&ensp;&ensp; ⚙ Studied the collective migrating theory, statistics and field theory.
+
+&ensp;&ensp;&ensp;&ensp; ⚙ Built a numerical model based on the theory to study the collective migrating.
+
+<hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
 * <font color="#1c6eb4"><i><b>2019.7 - 2019.12:</b></i></font>
 
@@ -128,23 +143,19 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 <!--
 4. <u><b>Wei Wang *</b></u>, Tao Liu, and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
  **Journal of Magnetism and Magnetic Materials**).
--->
+ -->
 ## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **4/90**) &ensp;<font color="#1c6eb4"><b>11/2017</b></font>
+* Scholarship for Outstanding Students,Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2017, and 11/2018</b></font>
 
-* Second Prize Scholarship for Outstanding Students,Tongji University (Ranking: **5/82**) &ensp;<font color="#1c6eb4"><b>11/2018</b></font>
+* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019, and 01/2020</b></font><br>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;<font color="#1c6eb4"><b>10/2019</b></font><br>(**8 students selected from all undergraduates in Physics Department based on <br>their scientific research**)
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;<font color="#1c6eb4"><b>10/2019</b></font><br>
 
 * Second Prize of the 34th National University Student Physics Competition&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font><br>
 
-* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019</b></font><br>
-
-* Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2020</b></font><br>
-
-* Outstanding Graduates of Shanghai City, Shanghai Education Commission &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>06/2020</b></font><br>(**4 selected from all graduates of Physics Department this year**) 
+* Outstanding Graduate of Shanghai City, Shanghai Education Commission &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>06/2020</b></font><br>
 
 &ensp;&ensp;&ensp;&ensp; ...
 
@@ -153,12 +164,9 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 <hr style="height:5px;" />
 
 #### **Computer Skills**:
-
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Frequent user of **Linux** System (Ubuntu & CentOS), [**Remote Server**]({{ site.url }}/2019/09/17/server.html "Click to see more about this..."), **CUDA** (NVIDIA GPU<br>&ensp;&ensp;&ensp;&ensp; Programming) and **MPI** Programming;
-
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Adept in [**C/C++**]({{ site.url }}/2017/12/07/cppnotes.html "Click to see more about this..."), **Python**, [**LaTeX**]({{ site.url }}/2019/07/06/QM_Review-notes.html "Click to see my notes compiled by LaTeX"), **Microsoft Office**, **Origin Pro**;
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Frequent user of **Matlab**, **Mathematica**;
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Frequent user of **Matlab**, **Mathematica**, **Linux** System, [**Remote Server**]({{ site.url }}/2019/09/17/server.html "Click to see more about this..."), **CUDA** (NVIDIA GPU<br>&ensp;&ensp;&ensp;&ensp; Programming) and **MPI** Programming;
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Occasional user of **R**, **COMSOL**, **Arduino** and **Adobe** softwares;
 

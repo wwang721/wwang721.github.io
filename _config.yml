@@ -21,12 +21,12 @@ image: /thumbnail-jumbo.png
 
 github_username: NoNo721
 
-email: ww000721@gmail.com
+email: wei.wang@jhu.edu
 
 # MathJax LaTex Support, use $$
 markdown: kramdown
 
-twitter_username: WWang37154612
+twitter_username: Not_available
 
 plugins:
   - jekyll-target-blank
