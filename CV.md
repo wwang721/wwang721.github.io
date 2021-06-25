@@ -55,7 +55,7 @@ permalink: /cv.html
 
 &ensp;&ensp;&ensp;&ensp;**Rotation student** in Department of Physics & Astronomy, Johns Hopkins University
 
-&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Brian A. Camley**](https://bcamley.github.io), Assitant Professor, Department of Physics & Astronomy 
+&ensp;&ensp;&ensp;&ensp;**Advisor**: [**Brian A. Camley**](https://bcamley.github.io), Assistant Professor, Department of Physics & Astronomy 
 <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; and Department of Biophysics, Johns Hopkins University
 
 &ensp;&ensp;&ensp;&ensp;**Collective migrating of active particles under geometric confinement**
@@ -143,7 +143,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 <!--
 4. <u><b>Wei Wang *</b></u>, Tao Liu, and Jianwei Zhang, Magnon hydrodynamic Boltzmann transport theory at extremely low temperatures (Submitted to
  **Journal of Magnetism and Magnetic Materials**).
- -->
+  -->
 ## **SELECTED AWARDS/HONORS/SCHOLARSHIPS**
 
 <hr style="height:5px;" />
