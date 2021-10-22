@@ -9,21 +9,21 @@ permalink: /cv.html
 
 # **Wei, Wang**&ensp;<b><font face="kai">（汪 巍）</font></b>
 [<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:240px;'/>](https://www.jhu.edu)
-<font color="#1c6eb4"><i><b>2020.8 - present:</b></i></font>
+<font color="#1c6eb4"><i><b>2020.9 - present:</b></i></font>
 
 **Department of Physics and Astronomy**,
 
-**Johns Hopkins University**, Baltimore, MD, USA.
+**Johns Hopkins University**, Baltimore, MD 21218, USA.
 
-**Ph.D. Student (1st year, online due to COVID-19 currently)**.
+**Ph.D. Student (2nd year, online for the 1st year due to COVID-19)**.
 
-**Rotation Advisor**: [**Prof. Oleg Tchernyshyov**](https://sites.krieger.jhu.edu/tchernyshyov-group/people/), [**Prof. Brian A. Camley**](https://bcamley.github.io)
+**Rotation Advisor**: [**Prof. Brian A. Camley**](https://bcamley.github.io), [**Prof. Oleg Tchernyshyov**](https://sites.krieger.jhu.edu/tchernyshyov-group/people/)
 
-* **Address**: &ensp;Huangshan City, Anhui Province, 245400, P. R. China.
+* **Address**: &ensp;4010 Linkwood Rd Apt F, Baltimore, MD 21210, USA.
 
 * **Hometown**: &ensp;Huangshan City, Anhui Province, 245400, P. R. China.
 
-* **Phone**: &ensp; (+86)-0559-13155590878
+* **Phone**: &ensp; (+1)-667-900-3371 / (+86)-13155590878
 
 * **E-mail**: &ensp;[wei.wang@jhu.edu](mailto:wei.wang@jhu.edu)&ensp;
 
@@ -58,11 +58,11 @@ permalink: /cv.html
 &ensp;&ensp;&ensp;&ensp;**Advisor**: [**Brian A. Camley**](https://bcamley.github.io), Assistant Professor, Department of Physics & Astronomy 
 <br>&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp; and Department of Biophysics, Johns Hopkins University
 
-&ensp;&ensp;&ensp;&ensp;**Collective migrating of active particles under geometric confinement**
+&ensp;&ensp;&ensp;&ensp;**Dissociation of active particles in collective invasion**
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Studied the collective migrating theory, statistics and field theory.
+&ensp;&ensp;&ensp;&ensp; ⚙ Studied the collective migrating theory, statistics, and phase field theory.
 
-&ensp;&ensp;&ensp;&ensp; ⚙ Built a numerical model based on the theory to study the collective migrating.
+&ensp;&ensp;&ensp;&ensp; ⚙ Built a numerical model based on these theories to study the collective migrating.
 
 <hr style="height:1px;border:none;border-top:1px dashed #1c6eb4" />
 
@@ -177,7 +177,7 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="Wei Wang's Photo" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp; Member of the **Traditional Loong Dancing Club** of Tongji University (Our team had <br>&ensp;&ensp;&ensp;&ensp; performed the
 Loong Dancing at the opening ceremony of the School Sports Meeting of <br>&ensp;&ensp;&ensp;&ensp; Tongji University);
 
-#### **Hobbies**: 
+#### **Hobbies**:
 
 * **Traditional Chinese Calligraphy**, Badminton;
 * Table tennis (Pingpong), **Drawing**, Video Games;
