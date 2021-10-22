@@ -151,11 +151,11 @@ National Conference (China) on Magnetic Thin Films and Nano-Magnetism (2018).
 
 * Outstanding Students, Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>01/2019, and 01/2020</b></font><br>
 
-* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;<font color="#1c6eb4"><b>10/2019</b></font><br>
+* "Chuancheng · Ganen" Science and Technology Youth Scholarship, Tongji University  &ensp;&ensp;&ensp;<font color="#1c6eb4"><b>10/2019</b></font><br>
 
 * Scholarship for Outstanding Students,Tongji University &ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>11/2017, and 11/2018</b></font>
 
-* Second Prize of the 34th National University Student Physics Competition&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font><br>
+* Second Prize of the 34th National University Student Physics Competition&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;&ensp;<font color="#1c6eb4"><b>12/2017</b></font><br>
 
 &ensp;&ensp;&ensp;&ensp; ...
 
