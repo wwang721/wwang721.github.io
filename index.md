@@ -13,7 +13,3 @@ layout: home
 
 **Welcome to Wei Wang's homepage!**
 
-<!-- Click the **cat** in the right to know more about me ! $$\Rightarrow$$-->
-
-[Click here]({{ site.url }}/about.html) to contact me. <!-- or yon can find me through the 4 small icons at the bottom of the page.-->
-**Testing** for [<b><u>Vue.js</u></b>]({{ site.url }}/dist/index) !

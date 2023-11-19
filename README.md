@@ -9,7 +9,7 @@ Blog|[![Blog](https://img.shields.io/badge/build-0.1+-lightgrey.svg)](https://no
 Jekyll|[![Jekyll](https://img.shields.io/badge/Jekyll-3.8+-brightgreen.svg)](https://jekyllrb.com) &emsp;![Blog](https://img.shields.io/badge/HTML-unknown-ff69b4.svg) 
 
 
-For my personal blog...
+For my homepage...
 
 
 >	Created by WW on 2017-07-03.
