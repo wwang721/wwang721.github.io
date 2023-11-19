@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: ...
+tagline:
 permalink: /about.html
 ---
 

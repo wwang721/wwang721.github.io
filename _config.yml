@@ -18,7 +18,7 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wei Wang's Homepage
+title: Wei Wang
 description: 
   Copyright © WW. All rights reserved.
 show_downloads: true
