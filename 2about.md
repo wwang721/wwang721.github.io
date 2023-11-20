@@ -131,7 +131,7 @@ viewBox="0 0 32 32"
 <div style='margin: 35px 0px 0px 0px;'>
 <img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:350px;'/>
 <p id="text" style="margin:-3px 0px 0px 48px"><font size="3"> Camley Group APS March Meeting</font></p>
-<p style="margin:-7px 0px 0px 108px"><font size="2">Las Vegas, NV(2023)</font></p> 
+<p style="margin:-7px 0px 0px 108px"><font size="2">Las Vegas, NV (2023)</font></p> 
 </div>
 
 
