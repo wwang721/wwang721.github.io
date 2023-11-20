@@ -70,6 +70,8 @@ viewBox="0 0 32 32"
 
 <p style="margin: 8px 0px 25px 290px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io">Brian A. Camley</a></p>
 
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px -30px 0px 0px; opacity:0.3'/>
+
 * **Address**: &ensp;3701 San Martin Drive, Bloomberg 357\
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Baltimore, MD 21218
 
@@ -88,8 +90,6 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
-
-
 - Ph.D. candidate, Physics &ensp; · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2023-present**
 
     * Advisor: Brian A. Camley\
@@ -99,18 +99,29 @@ viewBox="0 0 32 32"
 
 <p style="margin:0px 0px 35px 0px"></p>
 
-[<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px 140px 0px 0px; opacity:0.4'/>](https://www.jhu.edu)
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px 140px 0px 0px; opacity:0.1'/>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
 - B.S., Physics <!--(*summa cum laude*)--> &ensp;· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2016-2020**
 
 
-[<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.4'/>](http://www.tongji.edu.cn)
-
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.1'/>
 &emsp;
 
 &emsp;
+
+## **APPOINTMENTS**
+<hr style="height:5px;" />
+
+* **Department of Physics & Astronomy, Johns Hopkins University**
+    - Graduate research assistant (RA) supported by Brian A. Camley &ensp;· · · · · · · · · · &ensp; **2021-present**
+    - Teaching assistant (TA) &ensp;· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp; **2020-2021**
+
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-80px 140px 0px 0px; opacity:0.1'/>
+
+&emsp;
+
 
 ## **GALLERY**
 
