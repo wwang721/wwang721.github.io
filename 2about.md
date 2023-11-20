@@ -4,7 +4,7 @@ title: About
 tagline:
 permalink: /about.html
 ---
-<div style='float:left; margin: -110px 50px 70px 0px;'>
+<div style='float:left; margin: -110px 80px 150px 0px;'>
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-8px 0px 0px 36px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
 <p style="margin:-10px 0px 0px 48px"><font size="1.8">Austin, TX (2023)</font></p> 
@@ -62,13 +62,13 @@ viewBox="0 0 32 32"
 
 <i><b>2020.9 - present:</b></i>
 
-<p style="margin:-10px 0px 0px 270px"><a href="https://physics-astronomy.jhu.edu">Department of Physics & Astronomy</a></p>
+<p style="margin:-10px 0px 0px 310px"><a href="https://physics-astronomy.jhu.edu">Department of Physics & Astronomy</a></p>
 
-<p style="margin:0px 0px 0px 270px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
+<p style="margin:0px 0px 0px 310px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
 
-<p style="margin: 10px 0px 0px 250px">&cir;&ensp;<b>Ph.D. candidate</b></p>
+<p style="margin: 10px 0px 0px 290px">&cir;&ensp;<b>Ph.D. candidate</b></p>
 
-<p style="margin: 8px 0px 25px 250px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io">Brian A. Camley</a></p>
+<p style="margin: 8px 0px 25px 290px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io">Brian A. Camley</a></p>
 
 * **Address**: &ensp;3701 San Martin Drive, Bloomberg 357\
 &ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Baltimore, MD 21218
