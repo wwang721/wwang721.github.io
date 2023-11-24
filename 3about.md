@@ -139,8 +139,8 @@ viewBox="0 0 32 32"
 
 &ensp;
 
-![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com) &emsp;[![Copyright](https://img.shields.io/badge/Copyright-©Wei Wang-green.svg)]({{site.baseurl}}/publications.html) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
+[![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/NoNo721/NoNo721.github.io) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com) &emsp;![Copyright](https://img.shields.io/badge/Copyright-©Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
-<p style="margin:0px 0px -25px 0px">&ensp;</p>
+<p style="margin:0px 0px -120px 0px">&ensp;</p>
 
-[<b><u>Back to the Home page</u></b>]({{ site.url }}{{ site.baseurl }})
+

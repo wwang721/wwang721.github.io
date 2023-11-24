@@ -4,9 +4,8 @@ title: Publications
 tagline:
 permalink: /publications.html
 ---
-Still working on a Google Scholar profile...
 
-JavaScript [**`myarticles`** widget](https://info.arxiv.org/help/myarticles.html) dynamically lists your publications on arXiv.
+I am using the JavaScript [**`myarticles`** widget](https://info.arxiv.org/help/myarticles.html) which can dynamically lists your publications on arXiv.
 
 <hr/>
 
@@ -40,12 +39,4 @@ div.arxivfeed {
 Tao Liu, **Wei Wang**, and Jianwei Zhang\
 [Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407)
 
-
-&ensp;
-
-&ensp;
-
-[<b><u>Back to the Home page</u></b>]({{ site.url }}{{ site.baseurl }})
-
-&ensp;
 
