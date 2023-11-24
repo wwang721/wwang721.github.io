@@ -104,27 +104,21 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
-<ul>
-<li style="border: 0px solid red;"> 
-<div class="row" style="border: 0px solid green; overflow:hidden;">
-    <div style="float:left; border: 0px solid black;">Ph.D. candidate, Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:60%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:58%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
-</li>
-</ul>
 
-<p style="margin: 10px 0px 20px 65px">&cir;&ensp;Advisor: &ensp;Brian A. Camley</p>
 
-<ul>
-<li>
-<div class="row" style="border: 0px solid green; overflow:hidden;">
-    <div style="float:left; border: 0px solid black;">M.A., Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:75%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+<p style="margin: 15px 0px 20px 65px">&cir;&ensp;Advisor: &ensp;Brian A. Camley</p>
+
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:73%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
 </div>
-</li>
-</ul>
 
 <p style="margin:0px 0px 35px 0px"></p>
 
@@ -132,15 +126,13 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
-<ul>
-<li>
-<div class="row" style="border: 0px solid green; overflow:hidden;">
-    <div style="float:left; border: 0px solid black;">B.S., Physics <!--(*summa cum laude*)--> </div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:76%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:74%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
 </div>
-</li>
-</ul>
+
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.1'/>
 &emsp;
