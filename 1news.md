@@ -14,7 +14,7 @@ permalink: /news.html
     <ul class="post-list">
         {% for post in site.posts %}
             <li style="height:220px; border: 0px solid black;">
-                
+            
                 <div style="float: left; width: 250px; height: 210px; border: 0px solid red;">
                 <div style="width:225px; height: 172px; border: 0px solid green; overflow:hidden; margin:10px auto auto 0px; display: flex; align-items: center;justify-content: center;">
                 <a href="{{ post.url | relative_url }}" title="{{post.title}}">

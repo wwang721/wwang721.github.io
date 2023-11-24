@@ -1,9 +1,10 @@
 ---
 layout: page
-title: About
+title: Test-title
 tagline:
-permalink: /about.html
+permalink: /aboutt1.html
 ---
+
 <div style='float:left; margin: -110px 80px 150px 0px;'>
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-8px 0px 0px 36px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
@@ -91,7 +92,7 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
-- Ph.D. candidate, Physics &ensp; · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2023-present**
+- Ph.D. candidate, Physics &ensp;<hr/>&ensp; **2023-present**
 
     * Advisor: Brian A. Camley\
     &ensp;
