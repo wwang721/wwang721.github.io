@@ -4,7 +4,10 @@ title: About
 tagline:
 permalink: /about.html
 ---
-<div style='float:left; margin: -110px 80px 150px 0px;'>
+
+<div class="row" style="border: 0px solid green; overflow: hidden; margin: -100px -30px 0px 0px">
+    
+<div style='float:left; border: 0px solid black;'>
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-8px 0px 0px 36px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
 <p style="margin:-10px 0px 0px 48px"><font size="1.8">Austin, TX (2023)</font></p> 
@@ -34,7 +37,7 @@ permalink: /about.html
 </svg>
 <a href="https://orcid.org/0000-0002-0053-1069" target="_blank"> <font color="gray" size="3"><u>ORCID</u></font></a>
 </p>
-<p style="margin: 10px 0px 0px 0px">
+<p style="margin: 10px 0px 36px 0px">
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="23px" height="23px" version="1.1" style="float:left; margin:3px 12px 0px 10px; shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 32 32"
  xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -54,36 +57,46 @@ viewBox="0 0 32 32"
 </svg>
 <a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
 </p>
+</div>
+<p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
+<div style="float:left;margin:0px 50px 0px 0px; border: 0px solid red;">&ensp;</div>
+<div style='float:left; border: 0px solid red;'>
+<h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi" size="6">（汪巍）</font></b></font></h1>
+
+<p><i><b>2020.9 - present:</b></i></p>
+
+<p style="margin: -10px 0px 0px 40px"><a href="https://physics-astronomy.jhu.edu" target="_blank">Department of Physics & Astronomy</a></p>
+
+<p style="margin: 0px 0px 0px 40px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
+
+<p style="margin: 15px 0px 0px 20px">&cir;&ensp;<b>Ph.D. candidate</b></p>
+
+<p style="margin: 10px 0px 0px 20px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
+
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-160px -50px 0px 0px; opacity:0.3'/>
+
+<ul style="margin: 20px 0px 0px -20px">
+<li> <p><b>Address: &ensp;</b>3701 San Martin Drive, Bloomberg 357<br/>&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Baltimore, MD 21218</p> 
+</li>
+
+<li>
+ <p><b>Phone: &ensp;</b>+1 (667) 900-3371 / +86 131 5559 0878 </p>
+</li>
+
+<li>
+ <p><b>E-mail: &ensp;</b> <a href="mailto:wei.wang@jhu.edu">wei.wang@jhu.edu</a> (work) / <svg style="margin:0px 3px -2px 5px" xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66" width="23"><path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"/><path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"/><path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"/><path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92"/><path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"/></svg>
+ <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</a>
+ </p>
+</li>
+</ul>
 
 </div>
-
-<p style='margin: -35px 0px 0px 0px;'></p>
-# <font color="#71797E"><b>Wei Wang<font face="KaiTi" size="6">（汪巍）</font></b></font>
-
-<i><b>2020.9 - present:</b></i>
-
-<p style="margin:-10px 0px 0px 310px"><a href="https://physics-astronomy.jhu.edu" target="_blank">Department of Physics & Astronomy</a></p>
-
-<p style="margin:0px 0px 0px 310px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
-
-<p style="margin: 10px 0px 0px 290px">&cir;&ensp;<b>Ph.D. candidate</b></p>
-
-<p style="margin: 8px 0px 25px 290px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
-
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px -30px 0px 0px; opacity:0.3'/>
-
-* **Address**: &ensp;3701 San Martin Drive, Bloomberg 357\
-&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Baltimore, MD 21218
-
-<!-- * **Hometown**: &ensp;Huangshan City, Anhui Province, 245400, P. R. China. -->
-
-* **Phone**: &ensp;+1 (667) 900-3371 / +86 131 5559 0878
-
-* **E-mail**: &ensp;[wei.wang@jhu.edu](mailto:wei.wang@jhu.edu) (work) / <svg style="margin:0px 3px -2px 5px" xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66" width="23"><path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6"/><path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15"/><path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2"/><path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92"/><path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2"/></svg>
-[ww000721@gmail.com](mailto:ww000721@gmail.com)
+</div>
 
 
-<p style="margin:0px 0px -10px 0px">&ensp;</p>
+
+<p style="margin:0px 0px -20px 0px">&ensp;</p>
+
 
 ## **EDUCATION**
 
@@ -91,12 +104,27 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
-- Ph.D. candidate, Physics &ensp; · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2023-present**
+<ul>
+<li style="border: 0px solid red;"> 
+<div class="row" style="border: 0px solid green; overflow:hidden;">
+    <div style="float:left; border: 0px solid black;">Ph.D. candidate, Physics</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:60%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
+</div>
+</li>
+</ul>
 
-    * Advisor: Brian A. Camley\
-    &ensp;
+<p style="margin: 10px 0px 20px 65px">&cir;&ensp;Advisor: &ensp;Brian A. Camley</p>
 
-- M.A., Physics &ensp; · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2020-2023**
+<ul>
+<li>
+<div class="row" style="border: 0px solid green; overflow:hidden;">
+    <div style="float:left; border: 0px solid black;">M.A., Physics</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:75%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
+</div>
+</li>
+</ul>
 
 <p style="margin:0px 0px 35px 0px"></p>
 
@@ -104,8 +132,15 @@ viewBox="0 0 32 32"
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
-- B.S., Physics <!--(*summa cum laude*)--> &ensp;· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp;**2016-2020**
-
+<ul>
+<li>
+<div class="row" style="border: 0px solid green; overflow:hidden;">
+    <div style="float:left; border: 0px solid black;">B.S., Physics <!--(*summa cum laude*)--> </div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:76%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
+</div>
+</li>
+</ul>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.1'/>
 &emsp;
@@ -116,10 +151,19 @@ viewBox="0 0 32 32"
 <hr style="height:5px;" />
 
 * **Department of Physics & Astronomy, Johns Hopkins University**
-    - Graduate research assistant (RA) supported by Brian A. Camley &ensp;· · · · · · · · · · &ensp; **2021-present**
-    - Teaching assistant (TA) &ensp;· · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · · &ensp; **2020-2021**
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
+    <div style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:17%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
+</div>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-80px 140px 0px 0px; opacity:0.1'/>
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
+    <div style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:62%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
+</div>
+
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 140px 0px 0px; opacity:0.1'/>
 
 &emsp;
 

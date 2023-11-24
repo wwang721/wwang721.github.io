@@ -15,6 +15,6 @@ layout: home
 
 &ensp;$$\dfrac{\partial\rho}{\partial t}+\nabla\cdot \mathbf{j}=0$$
 
-I am [**STUPID**](https://www.grandprix247.com/2019/04/27/leclerc-i-am-stupid-i-am-stupid/)!
+&ensp;I am [**STUPID**](https://www.grandprix247.com/2019/04/27/leclerc-i-am-stupid-i-am-stupid/)!
 
 &ensp;

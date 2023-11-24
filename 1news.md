@@ -13,9 +13,9 @@ permalink: /news.html
 
     <ul class="post-list">
         {% for post in site.posts %}
-            <li style="height:220px; border: 0px solid black;">
+            <li style="border: 0px solid black; overflow: hidden">
             
-                <div style="float: left; width: 250px; height: 210px; border: 0px solid red;">
+                <div style="float: left; width: 250px; height: 193px; border: 0px solid red;">
                 <div style="width:225px; height: 172px; border: 0px solid green; overflow:hidden; margin:10px auto auto 0px; display: flex; align-items: center;justify-content: center;">
                 <a href="{{ post.url | relative_url }}" title="{{post.title}}">
                     {% assign date_format = "%Y-%m-%d" %}
@@ -25,15 +25,16 @@ permalink: /news.html
                 </div>
                 </div>
 
-                
+                <div style="float: left; width:68%; border: 0px solid green;">
+
                 {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
 
-                <h2>
+                <h2 style="margin:auto auto 8px auto">
                     <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title |
                         escape }}</a>
                 </h2>
 
                 <span>{{ post.excerpt | markdownify | truncatewords: 30 }}
-
+                
         {% endfor %}
