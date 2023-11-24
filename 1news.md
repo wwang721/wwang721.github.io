@@ -17,7 +17,7 @@ permalink: /news.html
                 
                 <div style="float: left; width: 250px; height: 210px; border: 0px solid red;">
                 <div style="width:225px; height: 172px; border: 0px solid green; overflow:hidden; margin:10px auto auto 0px; display: flex; align-items: center;justify-content: center;">
-                <a href="{{ post.url | relative_url }}" target="_blank" title="{{post.title}}">
+                <a href="{{ post.url | relative_url }}" title="{{post.title}}">
                     {% assign date_format = "%Y-%m-%d" %}
                     <img src="images/posts/{{post.date|date:date_format}}.jpg" alt="Not available" title="{{post.title}}"
                     style="width:225px;">
@@ -30,7 +30,7 @@ permalink: /news.html
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
 
                 <h2>
-                    <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}" target="_blank">{{ post.title |
+                    <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title |
                         escape }}</a>
                 </h2>
 
