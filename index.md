@@ -13,11 +13,8 @@ layout: home
 
 **Welcome to Wei Wang's homepage!**
 
-<p style="text-align:left; margin:25px 210px 0px 0px">
-    I am STUPID :(
-    <span style="float:right;">
-        - Charles Leclerc
-    </span>
-</p>
+&ensp;$$\dfrac{\partial\rho}{\partial t}+\nabla\cdot \mathbf{j}=0$$
+
+I am [**STUPID**](https://www.grandprix247.com/2019/04/27/leclerc-i-am-stupid-i-am-stupid/)!
 
 &ensp;

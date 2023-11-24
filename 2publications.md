@@ -5,10 +5,6 @@ tagline:
 permalink: /publications.html
 ---
 
-I am using the JavaScript [**`myarticles`** widget](https://info.arxiv.org/help/myarticles.html) which can dynamically lists your publications on arXiv.
-
-<hr/>
-
 <script type="text/javascript">
 <!--
 var arxiv_authorid = "0000-0002-0053-1069";
