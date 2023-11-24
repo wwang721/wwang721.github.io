@@ -75,10 +75,15 @@ viewBox="0 0 32 32"
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-160px -50px 0px 0px; opacity:0.3'/>
 
-<ul style="margin: 20px 0px 0px -20px">
-<li> <p><b>Address: &ensp;</b>3701 San Martin Drive, Bloomberg 357<br/>&ensp; &ensp; &ensp; &ensp; &ensp; &ensp; &ensp;Baltimore, MD 21218</p> 
-</li>
+<div class="row" style="border: 0px solid green; margin: 20px 0px 0px -20px; width: 100%">
+<ul style="float:left; border: 0px solid green;">
+<li> <p><b>Address: &ensp;</b></p> </li>
+</ul>
+<p style="float: none; margin: 0px 0px 0px 0px; border: 0px solid red;">3701 San Martin Drive, Bloomberg 357<br/>Baltimore, MD 21218</p> 
+</div>
 
+
+<ul style="margin: 20px 0px 0px -20px">
 <li>
  <p><b>Phone: &ensp;</b>+1 (667) 900-3371 / +86 131 5559 0878 </p>
 </li>
