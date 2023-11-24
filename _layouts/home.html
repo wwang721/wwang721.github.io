@@ -2,11 +2,50 @@
 layout: default
 ---
 
+<div>{{content}}</div>
+
+
+<!--
+<div>
+
+    <h2>Latest Posts</h2>
+
+    <div>&nbsp;</div>
+
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span style="float: left; width: 250px; height: 150px; border: 7px solid white">
+            <a href="{{ post.url | relative_url }}" title="{{post.title}}">
+                {% assign date_format = "%Y-%m-%d" %}
+                <img src="images/posts/{{post.date|date:date_format}}.jpg" alt="Not available" title="{{post.title}}"
+                style="border: 7px solid white; width:200px;"></img>
+            </a>
+            </span>
+
+            {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
+            <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+            <h2>
+                <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title |
+                    escape }}</a>
+            </h2>
+
+            <span>{{ post.excerpt | markdownify | truncatewords: 30 }}</span>
+
+        </li>
+        {% endfor %}
+    </ul>
+
+</div>
+-->
+
+<!--
 <div>
 
   {{ content }}
 
-  <h2>No latest posts</h2>
+  <h2>Latest Posts</h2>
 
   <div>&nbsp;</div>
 
@@ -28,3 +67,4 @@ layout: default
   </ul>
 
 </div>
+-->

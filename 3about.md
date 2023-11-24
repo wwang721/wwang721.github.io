@@ -10,7 +10,7 @@ permalink: /about.html
 <p style="margin:-10px 0px 0px 48px"><font size="1.8">Austin, TX (2023)</font></p> 
 <p style="margin: 15px 0px 0px 0px">
 <svg style="float:left; margin:3px 12px 0px 10px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path fill="#4285f4" d="M256 411.12L0 202.667 256 0z"/><path fill="#356ac3" d="M256 411.12l256-208.453L256 0z"/><circle fill="#a0c3ff" cx="256" cy="362.667" r="149.333"/><path fill="#76a7fa" d="M121.037 298.667c23.968-50.453 75.392-85.334 134.963-85.334s110.995 34.881 134.963 85.334H121.037z"/></svg>
-<a href="https://scholar.google.com/citations?user=zvd30L4AAAAJ&hl=en"> <font color="gray" size="3"><u>Google Scholar</u></font></a>
+<a href="https://scholar.google.com/citations?user=zvd30L4AAAAJ&hl=en" target="_blank"> <font color="gray" size="3"><u>Google Scholar</u></font></a>
 </p>
 <p style="margin: 10px 0px 0px 0px">
 <svg style="float:left; margin:3px 12px 0px 10px" width="22px" height="22px" viewBox="0 0 72 72" version="1.1"
@@ -32,7 +32,7 @@ permalink: /about.html
         </g>
     </g>
 </svg>
-<a href="https://orcid.org/0000-0002-0053-1069"> <font color="gray" size="3"><u>ORCID</u></font></a>
+<a href="https://orcid.org/0000-0002-0053-1069" target="_blank"> <font color="gray" size="3"><u>ORCID</u></font></a>
 </p>
 <p style="margin: 10px 0px 0px 0px">
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="23px" height="23px" version="1.1" style="float:left; margin:3px 12px 0px 10px; shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
@@ -52,7 +52,7 @@ viewBox="0 0 32 32"
   <path class="fil3" d="M17.25 22.97c-1.43,-0.28 -2.28,-1.11 -4.45,-4.33 -0.72,-1.08 -0.72,-1.08 -1.42,-1.13 -1.03,-0.07 -0.95,-0.25 -0.92,2.02 0.04,2.58 0.01,2.52 1.5,2.77 0.39,0.06 0.42,0.09 0.42,0.32 0,0.26 0,0.26 -2.62,0.28 -2.46,0.02 -2.62,0.01 -2.67,-0.14 -0.1,-0.29 0.05,-0.43 0.59,-0.53 0.61,-0.11 0.93,-0.36 1.01,-0.78 0.04,-0.16 0.05,-2.32 0.03,-4.8 -0.03,-5.21 0.03,-4.9 -0.93,-5.11 -0.6,-0.13 -0.79,-0.27 -0.71,-0.51 0.06,-0.16 0.19,-0.17 2.92,-0.22 4.06,-0.08 4.82,0.05 5.9,1.01 1.13,1.01 1.29,2.55 0.39,3.84 -0.4,0.58 -1.2,1.2 -1.82,1.43 -0.29,0.11 -0.53,0.23 -0.53,0.27 0,0.12 0.92,1.43 1.49,2.13 1.52,1.85 2.34,2.57 3.19,2.79 0.53,0.14 0.68,0.29 0.53,0.55 -0.16,0.27 -0.96,0.33 -1.9,0.14zm-3.83 -6.63c2,-0.82 2.15,-3.57 0.25,-4.38 -0.49,-0.21 -0.62,-0.22 -1.85,-0.22 -1.33,0 -1.33,0 -1.35,2.31 -0.02,1.27 -0.01,2.37 0.02,2.43 0.09,0.21 2.34,0.1 2.93,-0.14zm6.97 -2.85c-1.55,-0.29 -2.06,-1.24 -1.98,-3.68 0.04,-1.35 0.15,-1.72 0.67,-2.28 0.92,-0.99 3.2,-0.9 4.04,0.16 0.36,0.45 0.33,0.59 -0.17,0.74 -0.39,0.13 -0.39,0.13 -0.75,-0.23 -0.85,-0.82 -2.32,-0.52 -2.58,0.54 -0.13,0.47 -0.12,2.46 0.01,2.91 0.35,1.27 2.46,1.27 2.82,0 0.22,-0.81 0.17,-0.87 -0.8,-0.92 -0.47,-0.02 -0.47,-0.02 -0.47,-0.41 0,-0.38 0,-0.38 1.12,-0.41 1.45,-0.03 1.43,-0.05 1.36,1.01 -0.09,1.33 -0.45,1.97 -1.32,2.35 -0.57,0.24 -1.35,0.33 -1.95,0.22zm0 0z"/>
  </g>
 </svg>
-<a href="https://www.researchgate.net/profile/Wei-Wang-436"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
+<a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
 </p>
 
 </div>
@@ -62,13 +62,13 @@ viewBox="0 0 32 32"
 
 <i><b>2020.9 - present:</b></i>
 
-<p style="margin:-10px 0px 0px 310px"><a href="https://physics-astronomy.jhu.edu">Department of Physics & Astronomy</a></p>
+<p style="margin:-10px 0px 0px 310px"><a href="https://physics-astronomy.jhu.edu" target="_blank">Department of Physics & Astronomy</a></p>
 
 <p style="margin:0px 0px 0px 310px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
 
 <p style="margin: 10px 0px 0px 290px">&cir;&ensp;<b>Ph.D. candidate</b></p>
 
-<p style="margin: 8px 0px 25px 290px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io">Brian A. Camley</a></p>
+<p style="margin: 8px 0px 25px 290px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px -30px 0px 0px; opacity:0.3'/>
 
@@ -144,5 +144,3 @@ viewBox="0 0 32 32"
 <p style="margin:0px 0px -25px 0px">&ensp;</p>
 
 [<b><u>Back to the Home page</u></b>]({{ site.url }}{{ site.baseurl }})
-
-&ensp;

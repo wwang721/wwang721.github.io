@@ -18,9 +18,9 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-title: Wei Wang
+title: Wei Wang @ JHU
 description: 
-  Copyright © WW - All rights reserved
+  Ph.D. student, Physics
 show_downloads: true
 
 baseurl: "" # change this to the subpath of your site, e.g. /blog. Leave it empty if you don't need it.

@@ -13,3 +13,11 @@ layout: home
 
 **Welcome to Wei Wang's homepage!**
 
+<p style="text-align:left; margin:25px 210px 0px 0px">
+    I am STUPID :(
+    <span style="float:right;">
+        - Charles Leclerc
+    </span>
+</p>
+
+&ensp;
