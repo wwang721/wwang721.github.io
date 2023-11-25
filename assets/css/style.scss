@@ -3,7 +3,7 @@
 
 // to change width of the all pages @ WW 11/24/2023
 
-$navbar-width: 1440px;
+$navbar-width: 1280px;
 
 @import "jekyll-theme-cayman-blog";
 
@@ -25,12 +25,15 @@ $navbar-width: 1440px;
 }
 
 .main-content {
-    max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}));
-    max-width: calc(#{$navbar-width} - (#{$spacing-unit}));
+    max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}*2));
+    max-width: calc(#{$navbar-width} - (#{$spacing-unit})*2);
     margin-right: auto;
     margin-left: auto;
-    padding-right: $spacing-unit * 4;
-    padding-left: $spacing-unit * 4;
+    padding-right: $spacing-unit*2; 
+    padding-left: $spacing-unit*2;
+
+    // the multiplier should be the same for max-width and pading to ensure <hr> @ WW
+
     @extend %clearfix;
 
     @include media-query($on-laptop) {

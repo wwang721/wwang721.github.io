@@ -25,7 +25,7 @@ permalink: /news.html
                 </div>
                 </div>
 
-                <div style="float: left; width:65%; border: 0px solid green;">
+                <div style="float: left; width:69%; border: 0px solid green;">
 
                 {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
                 <span class="post-meta">{{ post.date | date: date_format }}</span>
