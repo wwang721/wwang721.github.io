@@ -5,7 +5,7 @@ tagline:
 permalink: /about.html
 ---
 
-<div class="row" style="border: 0px solid green; overflow: hidden; margin: -100px -30px 0px 0px">
+<div class="row" style="border: 0px solid green; overflow: hidden; margin: -100px -30px 0px 50px">
     
 <div style='float:left; border: 0px solid black;'>
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
@@ -59,7 +59,7 @@ viewBox="0 0 32 32"
 </p>
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
-<div style="float:left;margin:0px 50px 0px 0px; border: 0px solid red;">&ensp;</div>
+<div style="float:left;margin:0px 60px 0px 0px; border: 0px solid red;">&ensp;</div>
 <div style='float:left; border: 0px solid red;'>
 <h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi" size="6">（汪巍）</font></b></font></h1>
 
@@ -72,8 +72,6 @@ viewBox="0 0 32 32"
 <p style="margin: 15px 0px 0px 20px">&cir;&ensp;<b>Ph.D. candidate</b></p>
 
 <p style="margin: 10px 0px 0px 20px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
-
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-160px -50px 0px 0px; opacity:0.3'/>
 
 <div class="row" style="border: 0px solid green; margin: 20px 0px 0px -20px; width: 100%">
 <ul style="float:left; border: 0px solid green;">
@@ -98,7 +96,7 @@ viewBox="0 0 32 32"
 </div>
 </div>
 
-
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-360px 0px 0px 0px; opacity:0.1'/>
 
 <p style="margin:0px 0px -20px 0px">&ensp;</p>
 
@@ -112,7 +110,7 @@ viewBox="0 0 32 32"
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:58%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:70%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
 
@@ -121,7 +119,7 @@ viewBox="0 0 32 32"
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:73%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:81%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
 </div>
 
@@ -134,7 +132,7 @@ viewBox="0 0 32 32"
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:74%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:81%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
 </div>
 
@@ -144,19 +142,21 @@ viewBox="0 0 32 32"
 
 &emsp;
 
+<hr/>
+
 ## **APPOINTMENTS**
 <hr style="height:5px;" />
 
 * **Department of Physics & Astronomy, Johns Hopkins University**
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:17%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:42%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
 </div>
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:62%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:73%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
 </div>
 

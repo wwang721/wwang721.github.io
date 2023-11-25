@@ -1,4 +1,42 @@
 ---
 ---
 
-@import 'jekyll-theme-cayman-blog';
+// to change width of the all pages @ WW 11/24/2023
+
+$navbar-width: 1440px;
+
+@import "jekyll-theme-cayman-blog";
+
+.wrapper {
+    max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}));
+    max-width: calc(#{$navbar-width} - (#{$spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit*2;
+    padding-left: $spacing-unit*2;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}));
+        max-width: calc(#{$navbar-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
+
+.main-content {
+    max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}));
+    max-width: calc(#{$navbar-width} - (#{$spacing-unit}));
+    margin-right: auto;
+    margin-left: auto;
+    padding-right: $spacing-unit * 4;
+    padding-left: $spacing-unit * 4;
+    @extend %clearfix;
+
+    @include media-query($on-laptop) {
+        max-width: -webkit-calc(#{$navbar-width} - (#{$spacing-unit}));
+        max-width: calc(#{$navbar-width} - (#{$spacing-unit}));
+        padding-right: $spacing-unit / 2;
+        padding-left: $spacing-unit / 2;
+    }
+}
