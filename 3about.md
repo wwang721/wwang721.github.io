@@ -208,8 +208,8 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 <hr style="height:5px;" />
 
 
-<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 380px; overflow: hidden;'>
-<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:380px;border: 13px solid white'/>
+<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 350px; overflow: hidden;'>
+<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:350px;border: 13px solid white'/>
 <p id="text" style="margin:-12px 0px 0px 62px"><font size="3"> Camley Group APS March Meeting</font></p>
 <p style="margin:-2px 0px 8px 126px"><font size="2">Las Vegas, NV (2023)</font></p> 
 </div>

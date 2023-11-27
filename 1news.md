@@ -20,7 +20,6 @@ permalink: /news.html
                 <div id="{{post.date|date:date_format}}_left" style="float: left; width: 325px; height: 185px; border: 0px solid red;">
                 <div style="width:280px; height: 172px; border: 1px solid #E5E4E2; overflow:hidden; display: flex; align-items: center; justify-content: center; box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0px rgba(0, 0, 0, 0.19);">
                 <a href="{{ post.url | relative_url }}" title="{{post.title}}">
-                    {% assign date_format = "%Y-%m-%d" %}
                     <img src="images/posts/{{post.date|date:date_format}}.jpg" alt="Not available" title="{{post.title}}"
                     style="width:280px;">
                 </a>
@@ -43,11 +42,11 @@ permalink: /news.html
                 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
                 {% assign date_format = "%Y-%m-%d" %}
-                <script id="{{post.date|date:date_format}}">
-                    var scripts = document.getElementsByTagName("script");
-                    var thisScript = scripts[scripts.length - 1];
-                    var name = thisScript.id
-
+                <script>
+                    // var scripts = document.getElementsByTagName("script");
+                    // var thisScript = scripts[scripts.length - 1];
+                    // var name = thisScript.id
+                    var name = "{{post.date|date:date_format}}";
                     var r_w = $("#"+name+"_row").width();
                     var lc_w = $("#"+name+"_left").width();
                     $("#"+name+"_right").width(0.98*(r_w-lc_w));
