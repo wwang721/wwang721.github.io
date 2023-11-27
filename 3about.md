@@ -115,10 +115,9 @@ viewBox="0 0 32 32"
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
 
-<div style="width:90%; border: 2px solid red">
-<div class="row" style="border: 1px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+<div style="width:100%; border: 0px solid red">
+<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:62%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
 
@@ -127,48 +126,45 @@ viewBox="0 0 32 32"
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:75%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
 </div>
 </div>
 <p style="margin:0px 0px 35px 0px"></p>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px 140px 0px 0px; opacity:0.1'/>
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-150px 20px 0px 0px; opacity:0.1'/>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
-<div style="width:90%; border: 2px solid red">
+<div style="width:100%; border: 0px solid red">
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:76%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
 </div>
 </div>
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.1'/>
+<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
 &emsp;
 
 &emsp;
+
 
 ## **APPOINTMENTS**
 <hr style="height:5px;" />
 
 * **Department of Physics & Astronomy, Johns Hopkins University**
-<div style="width:90%; border: 2px solid red">
+<div style="width:100%; border: 0px solid red">
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:24%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
 </div>
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:66%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
 </div>
 </div>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 140px 0px 0px; opacity:0.1'/>
+<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 20px 0px 0px; opacity:0.1'/>
 
 &emsp;
 
