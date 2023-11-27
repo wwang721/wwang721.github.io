@@ -138,7 +138,7 @@ $("#intro").width(0.8*(w0-w1));
 
 <hr style="height:5px;" />
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
+<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
 
 <div style="width:100%; border: 0px solid red">
@@ -173,7 +173,7 @@ $("#c22").width(0.98*(r1_w-c1_w-c3_w));
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-150px 20px 0px 0px; opacity:0.1'/>
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
+<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
 <div style="width:100%; border: 0px solid red">
 <div id="r111" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
@@ -189,7 +189,7 @@ $("#c222").width(0.98*(r1_w-c1_w-c3_w));
 </script>
 </div>
 
-<img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
+<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
 &emsp;
 
 
@@ -244,7 +244,7 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 
 &ensp;
 
-[![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/NoNo721/NoNo721.github.io) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
+[![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/wwang721/wwang721.github.io) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 <p style="margin:0px 0px -120px 0px">&ensp;</p>
 
