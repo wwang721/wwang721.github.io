@@ -286,18 +286,35 @@ $("#addr").height(h1/1.5);
 </script>
 </div>
 
-
-<ul style="margin: 20px 0px 0px -20px">
+<div class="row" style="margin: 20px 0px 0px -20px;">
+<ul id="phone" style="float:left; border: 0px solid green;">
 <li>
- <p><b>Phone: &ensp;</b>+1 (667) 900-3371 / +86 131 5559 0878 </p>
-</li>
-
-<li>
- <p><b>E-mail: &ensp;</b> <a href="mailto:wei.wang@jhu.edu">wei.wang@jhu.edu</a> (work) / <svg style="margin:0px 3px -2px 5px" xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66" width="23"><path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6" /><path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15" /><path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2" /><path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92" /><path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2" /></svg>
- <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</a>
- </p>
+ <p><b>Phone: &ensp;</b></p>
 </li>
 </ul>
+<p id="myPhone" style="border: 0px solid green;">+1 (667) 900-3371 <span style="white-space: nowrap;">/ +86 131 5559 0878</span></p>
+</div>
+<script>
+var h1 = $("#myPhone").height();
+$("#phone").height(h1/1.5);
+</script>
+
+<div class="row" style="margin: 27px 0px 0px -20px;">
+<ul id="email" style="float:left; border: 0px solid green;">
+<li>
+ <p><b>E-mail: &ensp;</b></p>
+</li>
+</ul> 
+<p id="myEmail">
+<a href="mailto:wei.wang@jhu.edu">wei.wang@jhu.edu</a> (work) <span style="white-space: nowrap;">/ <svg style="margin:0px 3px -2px 5px" xmlns="http://www.w3.org/2000/svg" viewBox="52 42 88 66" width="23"><path fill="#4285f4" d="M58 108h14V74L52 59v43c0 3.32 2.69 6 6 6" /><path fill="#34a853" d="M120 108h14c3.32 0 6-2.69 6-6V59l-20 15" /><path fill="#fbbc04" d="M120 48v26l20-15v-8c0-7.42-8.47-11.65-14.4-7.2" /><path fill="#ea4335" d="M72 74V48l24 18 24-18v26L96 92" /><path fill="#c5221f" d="M52 51v8l20 15V48l-5.6-4.2c-5.94-4.45-14.4-.22-14.4 7.2" /></svg>
+ <a href="mailto:ww000721@gmail.com">ww000721@gmail.com</a></span>
+ </p>
+</div>
+<script>
+var h1 = $("#myEmail").height();
+$("#email").height(h1/1.5);
+</script>
+
 
 </div>
 </div>
