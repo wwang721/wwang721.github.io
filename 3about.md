@@ -116,18 +116,33 @@ viewBox="0 0 32 32"
 
 
 <div style="width:100%; border: 0px solid red">
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
-    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
-    <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
+<div id="r1" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div id="c1" style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
+    <div id="c2" style="float:left; border: 0px solid red; overflow:hidden;"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
+    <div id="c3" class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
-
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+<script>
+var r1_w = $("#r1").width();
+var c1_w = $("#c1").width();
+var c3_w = $("#c3").width();
+$("#c2").width(0.98*(r1_w-c1_w-c3_w));
+</script>
 
 <p style="margin: 15px 0px 20px 65px">&cir;&ensp;Advisor: &ensp;Brian A. Camley</p>
 
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
-    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
-    <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
+<div id="r11" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div id="c11" style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
+    <div id="c22" style="float:left; border: 0px solid red; overflow:hidden;"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
+    <div id="c33" class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
 </div>
+<script>
+var r1_w = $("#r11").width();
+var c1_w = $("#c11").width();
+var c3_w = $("#c33").width();
+$("#c22").width(0.98*(r1_w-c1_w-c3_w));
+</script>
+
 </div>
 <p style="margin:0px 0px 35px 0px"></p>
 
@@ -136,15 +151,20 @@ viewBox="0 0 32 32"
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
 <div style="width:100%; border: 0px solid red">
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
-    <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
-    <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
+<div id="r111" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+    <div id="c111" style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
+    <div id="c222" style="float:left; border: 0px solid red; overflow:hidden;"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
+    <div id="c333" class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
 </div>
+<script>
+var r1_w = $("#r111").width();
+var c1_w = $("#c111").width();
+var c3_w = $("#c333").width();
+$("#c222").width(0.98*(r1_w-c1_w-c3_w));
+</script>
 </div>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
-&emsp;
-
 &emsp;
 
 
@@ -153,15 +173,29 @@ viewBox="0 0 32 32"
 
 * **Department of Physics & Astronomy, Johns Hopkins University**
 <div style="width:100%; border: 0px solid red">
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
-    <div style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
-    <div class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
+<div id="r1111" class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
+    <div id="c1111" style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
+    <div id="c2222" style="float:left; border: 0px solid red; overflow:hidden;"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
+    <div id="c3333" class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
 </div>
+<script>
+var r1_w = $("#r1111").width();
+var c1_w = $("#c1111").width();
+var c3_w = $("#c3333").width();
+$("#c2222").width(0.98*(r1_w-c1_w-c3_w));
+</script>
 
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
-    <div style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
-    <div class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
+<div id="r11111" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
+    <div id="c11111" style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
+    <div id="c22222" style="float:left; border: 0px solid red; overflow:hidden;"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
+    <div id="c33333" class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
 </div>
+<script>
+var r1_w = $("#r11111").width();
+var c1_w = $("#c11111").width();
+var c3_w = $("#c33333").width();
+$("#c22222").width(0.98*(r1_w-c1_w-c3_w));
+</script>
 </div>
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 20px 0px 0px; opacity:0.1'/>
