@@ -7,7 +7,7 @@ permalink: /about.html
 
 <div class="row" style="border: 0px solid green; overflow: hidden; margin: -120px 0px 0px 0px">
 <div class="row" style="border: 0px solid red; margin: 20px 0px 0px 30px">
-<div style='float:left; border: 0px solid black;'>
+<div style='float:left; border: 0px solid black; margin: 0px 80px 0px 0px'>
 <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); overflow: hidden;">
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-10px 0px 0px 46px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
@@ -64,7 +64,6 @@ viewBox="0 0 32 32"
 </p>
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
-<div style="float:left;margin:0px 80px 0px 0px; border: 0px solid red;">&ensp;</div>
 <div style='float:left; border: 0px solid red;'>
 <h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi" size="6">（汪巍）</font></b></font></h1>
 
