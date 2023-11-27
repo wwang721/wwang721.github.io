@@ -10,8 +10,8 @@ permalink: /about.html
 <div style='float:left; border: 0px solid black;'>
 <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); overflow: hidden;">
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
-<p id="text" style="margin:-10px 0px 0px 45px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
-<p style="margin:-10px 0px 7px 59px"><font size="1.8">Austin, TX (2023)</font></p>
+<p id="text" style="margin:-10px 0px 0px 46px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
+<p style="margin:-10px 0px 7px 60px"><font size="1.8">Austin, TX (2023)</font></p>
 </div>
 <p style="margin: 28px 0px 0px 4px">
 <svg style="float:left; margin:3px 12px 0px 10px" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="20"><path fill="#4285f4" d="M256 411.12L0 202.667 256 0z"/><path fill="#356ac3" d="M256 411.12l256-208.453L256 0z"/><circle fill="#a0c3ff" cx="256" cy="362.667" r="149.333"/><path fill="#76a7fa" d="M121.037 298.667c23.968-50.453 75.392-85.334 134.963-85.334s110.995 34.881 134.963 85.334H121.037z"/></svg>
@@ -39,7 +39,7 @@ permalink: /about.html
 </svg>
 <a href="https://orcid.org/0000-0002-0053-1069" target="_blank"> <font color="gray" size="3"><u>ORCID</u></font></a>
 </p>
-<p style="margin: 10px 0px 36px 4px">
+<p style="margin: 10px 0px 0px 4px">
 <svg xmlns="http://www.w3.org/2000/svg" xml:space="preserve" width="23px" height="23px" version="1.1" style="float:left; margin:3px 12px 0px 10px; shape-rendering:geometricPrecision; text-rendering:geometricPrecision; image-rendering:optimizeQuality; fill-rule:evenodd; clip-rule:evenodd"
 viewBox="0 0 32 32"
  xmlns:xlink="http://www.w3.org/1999/xlink"
@@ -58,6 +58,9 @@ viewBox="0 0 32 32"
  </g>
 </svg>
 <a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
+</p>
+<p style="margin: 18px 0px 36px 25px">
+<a href="/docs/CV_WWang.pdf" target="_blank"><font color="gray" size="3"><u><b>Curriculum Vitae</b></u></font></a>
 </p>
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
@@ -95,6 +98,7 @@ viewBox="0 0 32 32"
 </li>
 </ul>
 
+
 </div>
 </div>
 </div>
@@ -111,9 +115,10 @@ viewBox="0 0 32 32"
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
 
-<div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
+<div style="width:90%; border: 2px solid red">
+<div class="row" style="border: 1px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:66%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:62%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
 
@@ -122,45 +127,45 @@ viewBox="0 0 32 32"
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;M.A., Physics</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:78%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:75%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2023</b></div>
 </div>
-
+</div>
 <p style="margin:0px 0px 35px 0px"></p>
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-170px 140px 0px 0px; opacity:0.1'/>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
-
+<div style="width:90%; border: 2px solid red">
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
     <div style="float:left; border: 0px solid black;">&#x25cf;&ensp;B.S., Physics <!--(*summa cum laude*)--> </div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:79%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:76%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2016-2020</b></div>
 </div>
-
+</div>
 
 <img src='https://raw.githubusercontent.com/NoNo721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 184px 0px 0px; opacity:0.1'/>
 &emsp;
 
 &emsp;
 
-<hr/>
-
 ## **APPOINTMENTS**
 <hr style="height:5px;" />
 
 * **Department of Physics & Astronomy, Johns Hopkins University**
+<div style="width:90%; border: 2px solid red">
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:33%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:24%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
 </div>
 
 <div class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 50px">
     <div style="float:left; border: 0px solid black;">&cir;&ensp;Teaching assistant (TA)</div>
-    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:69%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
+    <div class="column" style="float:left; border: 0px solid black; overflow:hidden; width:66%"><hr style="margin:12px 15px 0px 20px;border-top: dotted 3px; background-color: transparent;"/></div>
     <div class="column" style="float:right; border:0px solid black;"><b>2020-2021</b></div>
+</div>
 </div>
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 140px 0px 0px; opacity:0.1'/>
@@ -173,10 +178,10 @@ viewBox="0 0 32 32"
 <hr style="height:5px;" />
 
 
-<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 350px; overflow: hidden;'>
-<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:350px;border: 7px solid white'/>
-<p id="text" style="margin:-10px 0px 0px 48px"><font size="3"> Camley Group APS March Meeting</font></p>
-<p style="margin:-7px 0px 4px 110px"><font size="2">Las Vegas, NV (2023)</font></p> 
+<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 380px; overflow: hidden;'>
+<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:380px;border: 13px solid white'/>
+<p id="text" style="margin:-12px 0px 0px 62px"><font size="3"> Camley Group APS March Meeting</font></p>
+<p style="margin:-2px 0px 8px 126px"><font size="2">Las Vegas, NV (2023)</font></p> 
 </div>
 
 
