@@ -4,10 +4,11 @@ title: About
 tagline:
 permalink: /about.html
 ---
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
 <div class="row" style="border: 0px solid green; overflow: hidden; margin: -120px 0px 0px 0px">
-<div class="row" style="border: 0px solid red; margin: 20px 0px 0px 30px">
-<div style='float:left; border: 0px solid black; margin: 0px 80px 0px 0px'>
+<div id="total" class="row" style="border: 0px solid red; margin: 20px 0px 0px 30px">
+<div id="myPho" style='float:left; border: 0px solid black; padding: 0px 80px 0px 0px'>
 <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); overflow: hidden;">
 <img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-10px 0px 0px 46px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
@@ -64,7 +65,7 @@ viewBox="0 0 32 32"
 </p>
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
-<div style='float:left; border: 0px solid red;'>
+<div id="intro" style='float:left; border: 0px solid red; min-width:360px'>
 <h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi" size="6">（汪巍）</font></b></font></h1>
 
 <p><i><b>2020.9 - present:</b></i></p>
@@ -77,11 +78,15 @@ viewBox="0 0 32 32"
 
 <p style="margin: 10px 0px 0px 20px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
 
-<div class="row" style="border: 0px solid green; margin: 20px 0px 0px -20px; width: 100%">
-<ul style="float:left; border: 0px solid green;">
+<div class="row" style="border: 0px solid green; margin: 20px 0px 0px -20px;">
+<ul id="addr" style="float:left; border: 0px solid green;">
 <li> <p><b>Address: &ensp;</b></p> </li>
 </ul>
-<p style="float: none; margin: 0px 0px 0px 0px; border: 0px solid red;">3701 San Martin Drive, Bloomberg 357<br/>Baltimore, MD 21218</p> 
+<p id="myAddr" style="float: none; margin: 0px 0px 0px 0px; border: 0px solid red;">3701 San Martin Drive, Bloomberg 357<br/>Baltimore, MD 21218</p> 
+<script>
+var h1 = $("#myAddr").height();
+$("#addr").height(h1/1.5);
+</script>
 </div>
 
 
@@ -97,10 +102,15 @@ viewBox="0 0 32 32"
 </li>
 </ul>
 
+</div>
+</div>
+</div>
 
-</div>
-</div>
-</div>
+<script>
+var w0 = $("#total").width();
+var w1 = $("#myPho").width();
+$("#intro").width(0.8*(w0-w1));
+</script>
 
 <img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-360px 0px 0px 0px; opacity:0.1'/>
 
@@ -120,7 +130,6 @@ viewBox="0 0 32 32"
     <div id="c2" style="float:left; border: 0px solid red; overflow:hidden; min-width:15px"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0 0 15px"/></div>
     <div id="c3" class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
 </div>
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 <script>
 var r1_w = $("#r1").width();
 var c1_w = $("#c1").width();
@@ -207,10 +216,10 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 <hr style="height:5px;" />
 
 
-<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 350px; overflow: hidden;'>
-<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:350px;border: 13px solid white'/>
-<p id="text" style="margin:-12px 0px 0px 62px"><font size="3"> Camley Group APS March Meeting</font></p>
-<p style="margin:-2px 0px 8px 126px"><font size="2">Las Vegas, NV (2023)</font></p> 
+<div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 360px; overflow: hidden;'>
+<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:360px;border: 13px solid white'/>
+<p id="text" style="margin:-12px 0px 0px 55px"><font size="3"> Camley Group APS March Meeting</font></p>
+<p style="margin:-2px 0px 8px 112px"><font size="2">Las Vegas, NV (2023)</font></p> 
 </div>
 
 
