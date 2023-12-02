@@ -26,13 +26,14 @@ div.arxivfeed {
 
 <div id="arxivfeed"></div>
 
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
 <hr style="margin:50px 0px -10px 0px"/>
-### &emsp;Other publications
+### &ensp;&thinsp;&thinsp;Other publications
 
-&emsp;&ensp;<font color="#b31b11">Last updated: Nov 19, 2023</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: December 2, 2023</font>
 
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevB.99.214407" style="float:right"></div>
 - **Collective induced antidiffusion effect and general magnon Boltzmann transport theory**\
 Tao Liu, **Wei Wang**, and Jianwei Zhang\
 [Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407)
-
-
