@@ -35,5 +35,5 @@ div.arxivfeed {
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevB.99.214407" style="float:right"></div>
 - **Collective induced antidiffusion effect and general magnon Boltzmann transport theory**\
-Tao Liu, **Wei Wang**, and Jianwei Zhang\
+Tao Liu, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' width="13px" style="margin:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069), and Jianwei Zhang\
 [Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407)
