@@ -244,7 +244,7 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 
 &ensp;
 
-[![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/wwang721/wwang721.github.io) &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com) &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
+[![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/wwang721/wwang721.github.io){:target="_blank"} &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com){:target="_blank"} &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 <p style="margin:0px 0px -120px 0px">&ensp;</p>
 

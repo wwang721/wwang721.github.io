@@ -5,6 +5,8 @@ tagline:
 permalink: /publications.html
 ---
 
+<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+
 <script type="text/javascript">
 <!--
 var arxiv_authorid = "0000-0002-0053-1069";
@@ -26,7 +28,17 @@ div.arxivfeed {
 
 <div id="arxivfeed"></div>
 
-<script type="text/javascript" src="https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js"></script>
+<div style="float:left; margin:0 30px 0 15px; overflow:hidden">
+<p style="float:left;"><b>[1]</b></p>
+<div class="altmetric-embed altmetric-badge-popover-bottom" data-badge-type="1" data-arxiv-id="2311.00085" style="margin:4px 0px 0 30px"></div>
+</div>
+
+<div style="float:left; margin:0 30px 0 0; overflow:hidden">
+<p style="float:left;"><b>[2]</b></p>
+<div class="altmetric-embed altmetric-badge-popover-bottom" data-badge-type="1" data-arxiv-id="2310.00062" style="margin:4px 0px 0 30px"></div>
+</div>
+
+&ensp;
 
 <hr style="margin:50px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Other publications
@@ -35,5 +47,5 @@ div.arxivfeed {
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevB.99.214407" style="float:right"></div>
 - **Collective induced antidiffusion effect and general magnon Boltzmann transport theory**\
-Tao Liu, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' width="13px" style="margin:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069), and Jianwei Zhang\
-[Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407)
+Tao Liu, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Jianwei Zhang\
+[Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407){:target="_blank"}
