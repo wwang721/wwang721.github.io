@@ -3,7 +3,6 @@ layout: page
 title: News
 tagline:
 permalink: /news.html
-image: /images/arrow.png
 ---
 
 <div>

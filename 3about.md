@@ -1,8 +1,9 @@
 ---
 layout: page
 title: About
-tagline:
+tagline: I am a Ph.D. student of physics at Hopkins now.
 permalink: /about.html
+image: /images/2023usgp.png
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
