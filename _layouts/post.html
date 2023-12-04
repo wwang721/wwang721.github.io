@@ -15,6 +15,8 @@ layout: default
       {% endif %}</p>
   </header> -->
 
+
+
   <div itemprop="articleBody">
     {{ content }}
   </div>
@@ -22,7 +24,14 @@ layout: default
   {% if site.disqus.shortname %}
     {% include disqus_comments.html %}
   {% endif %}
-    <div style="margin: 100px 0px 0px 0px">
+
+<p style="margin: 100px 0 0 0;">
+<a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"
+    data-text="{{page.title}} via @{{site.twitter_username}}" data-size="large">Tweet</a>
+</p>
+<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+    <div style="margin: 40px 0px 0px 0px">
         <a href="/"><b><u>Back to the Home page</u></b></a>
     </div>
 </article>

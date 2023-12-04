@@ -11,6 +11,7 @@ permalink: /news.html
 
     <div>&nbsp;</div>
 
+    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
     <ul class="post-list">
         {% for post in site.posts %}
             {% assign date_format = "%Y-%m-%d" %}
@@ -18,7 +19,7 @@ permalink: /news.html
 
                 
                 <div id="{{post.date|date:date_format}}_left" style="float: left; width: 325px; height: 185px; border: 0px solid red;">
-                <div style="width:280px; height: 172px; border: 1px solid #E5E4E2; overflow:hidden; display: flex; align-items: center; justify-content: center; box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0px rgba(0, 0, 0, 0.19);">
+                <div style="width:280px; height: 172px; border: 0px solid #E5E4E2; overflow:hidden; display: flex; align-items: center; justify-content: center; box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0px rgba(0, 0, 0, 0.19);">
                 <a href="{{ post.url | relative_url }}" title="{{post.title}}">
                     <img src="{{ post.image }}" alt="Not available" title="{{post.title}}"
                     style="width:280px;">
@@ -31,7 +32,8 @@ permalink: /news.html
                 <div id="{{post.date|date:date_format}}_right" style="float: left; min-width:355px; border: 0px solid green;">
 
                 {% assign date_format = site.cayman-blog.date_format | default: "%b %-d, %Y" %}
-                <span class="post-meta">{{ post.date | date: date_format }}</span>
+                <span class="post-meta">{{ post.date | date: date_format }} 
+                </span>
 
                 <h2 style="margin:auto auto 8px auto">
                     <a class="post-link" href="{{ post.url | relative_url }}" title="{{ post.title }}">{{ post.title |
@@ -39,7 +41,11 @@ permalink: /news.html
                 </h2>
 
                 <span>{{ post.excerpt | markdownify | truncatewords: 30 }}
-                
+
+                <p style="margin:-5px 0 0 0px;">
+                <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false" data-text="{{post.title}} via @{{site.twitter_username}}" data-url="{{ post.url | absolute_url}}">Tweet</a>
+                </p>
+
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
                 {% assign date_format = "%Y-%m-%d" %}
                 <script>

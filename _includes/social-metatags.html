@@ -10,10 +10,10 @@
 
 {% if page.author.name %}
   {% assign page_author = page.author.name | default: nil | escape %}
-  {% assign twitter_creator = page.twitter.username | default: site.twitter.site | default: nil | escape %}
+  {% assign twitter_creator = page.twitter_username | default: site.twitter_username | default: nil | escape %}
 {% else %}
   {% assign page_author = site.author.name | default: nil | escape %}
-  {% assign twitter_creator = site.twitter.username | default: nil | escape %}
+  {% assign twitter_creator = site.twitter_username | default: nil | escape %}
 {% endif %}
 
 {% assign page_description = page.excerpt | default: page.tagline | default: site.description | strip_html | normalize_whitespace | truncate: 300 | escape %}
