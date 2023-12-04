@@ -10,7 +10,7 @@ permalink: /about.html
 <div id="total" class="row" style="border: 0px solid red; margin: 20px 0px 0px 30px">
 <div id="myPho" style='float:left; border: 0px solid black; padding: 0px 80px 0px 0px'>
 <div style="box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); overflow: hidden;">
-<img src='./images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
+<img src='/images/2023usgp.png' alt="Photo" title="Forza Ferrari! Tifosi at 2023 F1 USGP!" style='width:200px;   border: 7px solid white'/>
 <p id="text" style="margin:-10px 0px 0px 46px;"><font size="2"> <i>Tifosi</i> at F1 USGP</font></p>
 <p style="margin:-10px 0px 7px 60px"><font size="1.8">Austin, TX (2023)</font></p>
 </div>
@@ -129,7 +129,7 @@ var w1 = $("#myPho").width();
 $("#intro").width(0.8*(w0-w1));
 </script>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-360px 0px 0px 0px; opacity:0.1'/>
+<img src='/images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-360px 0px 0px 0px; opacity:0.1'/>
 
 <p style="margin:0px 0px -20px 0px">&ensp;</p>
 
@@ -138,7 +138,7 @@ $("#intro").width(0.8*(w0-w1));
 
 <hr style="height:5px;" />
 
-<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
+<img src='/images/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Johns Hopkins University**
 
 
 <div style="width:100%; border: 0px solid red">
@@ -171,9 +171,9 @@ $("#c22").width(0.98*(r1_w-c1_w-c3_w));
 </div>
 <p style="margin:0px 0px 35px 0px"></p>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-150px 20px 0px 0px; opacity:0.1'/>
+<img src='/images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-150px 20px 0px 0px; opacity:0.1'/>
 
-<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/arrow.png' alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
+<img src="/images/arrow.png" alt="-" title="right arrow" style='float:left; width:30px;height:10 px'/>&ensp;**Tongji University**
 
 <div style="width:100%; border: 0px solid red">
 <div id="r111" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
@@ -189,7 +189,7 @@ $("#c222").width(0.98*(r1_w-c1_w-c3_w));
 </script>
 </div>
 
-<img src='https://raw.githubusercontent.com/wwang721/Pictures/master/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
+<img src='/images/tongjilogo.jpeg' alt="Tongji University" title="Tongji University" style='float:right; width:130px;margin:-80px 40px 0px 0px; opacity:0.1'/>
 &emsp;
 
 
@@ -223,7 +223,7 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 </script>
 </div>
 
-<img src='./images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 20px 0px 0px; opacity:0.1'/>
+<img src='/images/jhu_logo.png' alt="Johns Hopkins University" title="Johns Hopkins University" style='float:right; width:220px; margin:-90px 20px 0px 0px; opacity:0.1'/>
 
 &emsp;
 
@@ -234,7 +234,7 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 
 
 <div style='margin: 35px 0px 0px 0px; box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19); width: 355px; overflow: hidden;'>
-<img src='./images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:355px;border: 13px solid white'/>
+<img src='/images/camleyGroup.jpg' alt="Camley Group" title="Camley Group 2023 March Meeting" style='width:355px;border: 13px solid white'/>
 <p id="text" style="margin:-12px 0px 0px 55px"><font size="3"> Camley Group APS March Meeting</font></p>
 <p style="margin:-2px 0px 8px 112px"><font size="2">Las Vegas, NV (2023)</font></p> 
 </div>

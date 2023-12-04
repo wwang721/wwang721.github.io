@@ -37,7 +37,7 @@ theme: # leave it empty
 
 # social
 author: "Wei Wang"
-image: /thumbnail-jumbo.png
+image: "/images/favicon_io/android-chrome-512x512.png"
 
 github_username: wwang721
 
@@ -48,6 +48,8 @@ markdown: kramdown
 
 twitter_username: Not_available
 
+
+environment: production # or development
 
 # Build settings
 theme: minima
