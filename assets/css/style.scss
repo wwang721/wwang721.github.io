@@ -12,8 +12,8 @@ $navbar-width: 1280px;
     max-width: calc(#{$navbar-width} - (#{$spacing-unit})*3);
     margin-right: auto;
     margin-left: auto;
-    padding-right: calc($spacing-unit*2);
-    padding-left: calc($spacing-unit*2);
+    padding-right: $spacing-unit*2;
+    padding-left: $spacing-unit*2;
     @extend %clearfix;
 
     @include media-query($on-laptop) {
@@ -29,8 +29,8 @@ $navbar-width: 1280px;
     max-width: calc(#{$navbar-width} - (#{$spacing-unit})*3);
     margin-right: auto;
     margin-left: auto;
-    padding-right: calc($spacing-unit*3); 
-    padding-left: calc($spacing-unit*3);
+    padding-right: $spacing-unit*3; 
+    padding-left: $spacing-unit*3;
 
     // the multiplier should be the same for max-width and pading to ensure <hr> @ WW
 
