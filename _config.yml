@@ -53,7 +53,7 @@ environment: production # or development
 
 defaults:
   - scope:
-      path: "doc/*"
+      path: "docs/*"
     values:
       sitemap: false
   - scope:
