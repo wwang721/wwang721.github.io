@@ -51,6 +51,20 @@ twitter_username: Not_available
 
 environment: production # or development
 
+defaults:
+  - scope:
+      path: "doc"
+    values:
+      sitemap: false
+  - scope:
+      path: "about.html"
+    values:
+      sitemap: false
+  - scope:
+      path: "home.html"
+    values:
+      sitemap: false
+
 # Build settings
 theme: minima
 plugins:
