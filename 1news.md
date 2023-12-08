@@ -48,7 +48,7 @@ permalink: /news.html
                 <div class="row" style="margin:-5px 0 0 0px; overflow:hidden">
                 <div class="column" style="float:left; width:75px;">
                 <p style="">
-                <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false" data-text="{{post.title}} via @{{site.twitter_username}}" data-url="{{ post.url | absolute_url}}" data-size="small">Tweet</a>
+                <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false" data-text="{{post.title}} via @{{site.twitter_username}}" data-url="{{ post.url | absolute_url}}" data-size="small"></a>
                 </p>
                 </div>
 
