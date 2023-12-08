@@ -12,6 +12,9 @@ permalink: /news.html
     <div>&nbsp;</div>
 
     <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <div id="fb-root"></div>
+    <script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+    nonce="bvIXSjwe"></script>
     <ul class="post-list">
         {% for post in site.posts %}
             {% assign date_format = "%Y-%m-%d" %}
@@ -42,9 +45,19 @@ permalink: /news.html
 
                 <span>{{ post.excerpt | markdownify | truncatewords: 30 }}
 
-                <p style="margin:-5px 0 0 0px;">
-                <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false" data-text="{{post.title}} via @{{site.twitter_username}}" data-url="{{ post.url | absolute_url}}">Tweet</a>
+                <div class="row" style="margin:-5px 0 0 0px; overflow:hidden">
+                <div class="column" style="float:left; width:75px;">
+                <p style="">
+                <a href="https://twitter.com/intent/tweet" class="twitter-share-button" data-show-count="false" data-text="{{post.title}} via @{{site.twitter_username}}" data-url="{{ post.url | absolute_url}}" data-size="small">Tweet</a>
                 </p>
+                </div>
+
+                <div class="column" style="float:left; width:75px">
+                <div class="fb-share-button" data-href="{{post.url | absolute_url}}" data-layout="button" data-size="small" style="display: flex;">
+                </div>
+                </div>
+
+                </div>
 
                 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
                 {% assign date_format = "%Y-%m-%d" %}

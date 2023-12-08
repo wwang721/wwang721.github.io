@@ -25,13 +25,27 @@ layout: default
     {% include disqus_comments.html %}
   {% endif %}
 
-<p style="margin: 100px 0 0 0;">
+<div class="row" style="margin:100px 0 0 5px; ">
+<div class="column" style="float:left; width:95px">
+<p style="margin: 0px 0 0 0;">
 <a href="https://twitter.com/share?ref_src=twsrc%5Etfw" class="twitter-share-button" data-show-count="false"
     data-text="{{page.title}} via @{{site.twitter_username}}" data-size="large">Tweet</a>
 </p>
 <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+</div>
 
-    <div style="margin: 40px 0px 0px 0px">
-        <a href="/"><b><u>Back to the Home page</u></b></a>
-    </div>
+<div class="column" style="float:left">
+<div id="fb-root"></div>
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js#xfbml=1&version=v18.0"
+    nonce="bvIXSjwe"></script>
+
+<div class="fb-share-button" data-href="{{page.url | absolute_url}}" data-layout="button" data-size="large">
+</div>
+</div>
+<p>&ensp;</p>
+</div>
+
+<div style="margin: 40px 0px 0px 0px">
+    <a href="/"><b><u>Back to the Home page</u></b></a>
+</div>
 </article>
