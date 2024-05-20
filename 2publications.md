@@ -43,9 +43,17 @@ div.arxivfeed {
 <hr style="margin:50px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Other publications
 
-&emsp;&ensp;<font color="#b31b11">Last updated: December 2, 2023</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: May 20, 2024</font>
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevE.109.054408" style="float:right"></div>
+- **Limits on the accuracy of contact inhibition of locomotion**\
+**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[Phys. Rev. E **109**, 054408 (2024)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.054408){:target="_blank"}
+&ensp;
+
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevB.99.214407" style="float:right"></div>
 - **Collective induced antidiffusion effect and general magnon Boltzmann transport theory**\
 Tao Liu, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Jianwei Zhang\
 [Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407){:target="_blank"}
+&ensp;
