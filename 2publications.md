@@ -45,6 +45,14 @@ div.arxivfeed {
 
 &emsp;&ensp;<font color="#b31b11">Last updated: May 20, 2024</font>
 
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1016/j.bpj.2024.03.025" style="float:right"></div>
+- **Trade-offs in concentration sensing in dynamic environments**\
+Aparajita Kashyap, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[Biophys. J. **123**, 1184 (2024)](https://www.cell.com/biophysj/abstract/S0006-3495(24)00205-4){:target="_blank"}
+&ensp;
+
+
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevE.109.054408" style="float:right"></div>
 - **Limits on the accuracy of contact inhibition of locomotion**\
 **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
