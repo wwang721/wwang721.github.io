@@ -28,6 +28,7 @@ div.arxivfeed {
 
 <div id="arxivfeed"></div>
 
+<!--
 <div style="float:left; margin:0 30px 0 15px; overflow:hidden">
 <p style="float:left;"><b>[1]</b></p>
 <div class="altmetric-embed altmetric-badge-popover-bottom" data-badge-type="1" data-arxiv-id="2311.00085" style="margin:4px 0px 0 30px"></div>
@@ -39,11 +40,12 @@ div.arxivfeed {
 </div>
 
 &ensp;
+-->
 
-<hr style="margin:50px 0px -10px 0px"/>
-### &ensp;&thinsp;&thinsp;Other publications
+<hr style="margin:40px 0px -10px 0px"/>
+### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: May 20, 2024</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: May 22, 2024</font>
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1016/j.bpj.2024.03.025" style="float:right"></div>
