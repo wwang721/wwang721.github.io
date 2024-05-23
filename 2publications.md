@@ -57,7 +57,7 @@ Aparajita Kashyap, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PhysRevE.109.054408" style="float:right"></div>
 - **Limits on the accuracy of contact inhibition of locomotion**\
-**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"} and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
 [Phys. Rev. E **109**, 054408 (2024)](https://journals.aps.org/pre/abstract/10.1103/PhysRevE.109.054408){:target="_blank"}
 &ensp;
 
