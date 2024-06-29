@@ -45,7 +45,15 @@ div.arxivfeed {
 <hr style="margin:40px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: May 22, 2024</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: June 29, 2024</font>
+
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1101/2024.06.28.601053" style="float:right"></div>
+- **Confinement, jamming, and adhesion in cancer cells dissociating from a collectively invading strand**\
+**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, Robert A. Law, Emiliano Perez Ipiña[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-1664-0411){:target="_blank"}, Konstantinos Konstantopoulos[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0003-2623-1459
+){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[bioRxiv (2024)](https://doi.org/10.1101/2024.06.28.601053){:target="_blank"}
+&ensp;
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1016/j.bpj.2024.03.025" style="float:right"></div>
