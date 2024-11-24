@@ -15,6 +15,6 @@ layout: home
 
 &ensp;$$\dfrac{\partial\rho}{\partial t}+\nabla\cdot \mathbf{j}=0$$
 
-<p>&ensp; I am <a href="https://www.grandprix247.com/2019/04/27/leclerc-i-am-stupid-i-am-stupid/" target="_blank"><b>STUPID</b></a>!</p>
+<p>This is a test of equation display.</p>
 
 &ensp;
