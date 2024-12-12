@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: I am a Ph.D. student of physics at Hopkins now.
+tagline: I am a Ph.D. student in physics at Hopkins now.
 permalink: /about.html
 image: /images/2023usgp.png
 ---

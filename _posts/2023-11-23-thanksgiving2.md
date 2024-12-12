@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 2023 Thanksgiving test 3
+title: 2023 Thanksgiving test 2
 tagline: Today is 11/23/2023 (Thanksgiving)
 #categories: ""
 author: "by W. Wang"
