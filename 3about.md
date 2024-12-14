@@ -61,6 +61,10 @@ viewBox="0 0 32 32"
 </svg>
 <a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
 </p>
+<p style="margin: 10px 0px 0px 4px">
+<img style="float:left; margin:3px 12px 0px 10px; width: 20px" src='/images/alphaXiv.ico' alt="α"/>
+<a href="https://wwang.alphaxiv.io/" target="_blank"> <font color="gray" size="3"><u>alphaXiv</u></font></a>
+</p>
 <p style="margin: 18px 0px 36px 25px">
 <a href="/docs/CV_WWang.pdf" target="_blank"><font color="gray" size="3"><u><b>Curriculum Vitae</b></u></font></a>
 </p>
@@ -248,5 +252,3 @@ $("#c22222").width(0.98*(r1_w-c1_w-c3_w));
 [![build](https://img.shields.io/badge/build-GitHub-brightgreen.svg)](https://github.com/wwang721/wwang721.github.io){:target="_blank"} &emsp;[![Jekyll](https://img.shields.io/badge/Jekyll-4.3.2-blue.svg)](https://jekyllrb.com){:target="_blank"} &emsp;![Copyright](https://img.shields.io/badge/Copyright-© Wei Wang-green.svg) &emsp;![](https://img.shields.io/badge/-All rights reserved-ff69b4.svg)
 
 <p style="margin:0px 0px -120px 0px">&ensp;</p>
-
-
