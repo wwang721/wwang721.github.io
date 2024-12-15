@@ -24,8 +24,7 @@ permalink: /news.html
                 <div id="{{post.date|date:date_format}}_left" style="float: left; width: 325px; height: 185px; border: 0px solid red;">
                 <div style="width:280px; height: 172px; border: 1px solid #E5E4E2; overflow:hidden; display: flex; align-items: center; justify-content: center; box-shadow: 0 0px 8px 0 rgba(0, 0, 0, 0.2), 0 0px 8px 0px rgba(0, 0, 0, 0.19);">
                 <a href="{{ post.url | relative_url }}" title="{{post.title}}">
-                    <img src="{{ post.image }}" alt="Not available" title="{{post.title}}"
-                    style="width:280px;">
+                    <img src="{{ post.image }}" alt="/images/Not_available.jpg" onerror="this.onerror=null;this.src=this.alt;" title="{{post.title}}" style="width:280px;">
                 </a>
                 </div>
                 </div>
