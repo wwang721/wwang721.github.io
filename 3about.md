@@ -7,6 +7,13 @@ image: /images/2023usgp.png
 ---
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
 
+<style>
+    @font-face {
+        font-family: "myKaiti";
+        src: url("fonts/simkai.ttf") format("truetype");
+    }
+</style>
+
 <div class="row" style="border: 0px solid green; overflow: hidden; margin: -120px 0px 0px 0px">
 <div id="total" class="row" style="border: 0px solid red; margin: 20px 0px 0px 30px">
 <div id="myPho" style='float:left; border: 0px solid black; padding: 0px 80px 0px 0px'>
@@ -71,7 +78,7 @@ viewBox="0 0 32 32"
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
 <div id="intro" style='float:left; border: 0px solid red; min-width:355px'>
-<h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi, STKaiti, 'KaiTi SC', 'Kaiti SC', 'Kaiti TC', 'Songti TC', 'Songti SC', STSong" size="6">（汪巍）</font></b></font></h1>
+<h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi, myKaiti, STKaiti, 'Kaiti SC', 'Heiti SC', serif" size="6">（汪巍）</font></b></font></h1>
 
 <p><i><b>2020.9 - present:</b></i></p>
 
