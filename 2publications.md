@@ -49,10 +49,10 @@ div.arxivfeed {
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1101/2024.06.28.601053" style="float:right"></div>
-- **Confinement, jamming, and adhesion in cancer cells dissociating from a collectively invading strand**\
+- **Confinement, Jamming, and Adhesion in Cancer Cells Dissociating from a Collectively Invading Strand**\
 **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, Robert A. Law, Emiliano Perez Ipiña[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-1664-0411){:target="_blank"}, Konstantinos Konstantopoulos[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0003-2623-1459
 ){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
-[bioRxiv 2024.06.28.601053 (2024)](https://doi.org/10.1101/2024.06.28.601053){:target="_blank"}
+[bioRxiv 2024.06.28.601053](https://doi.org/10.1101/2024.06.28.601053){:target="_blank"}, accepted by PRX Life (2025)
 &ensp;
 
 
