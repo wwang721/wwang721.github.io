@@ -13,7 +13,7 @@ var arxiv_authorid = "0000-0002-0053-1069";
 var arxiv_format = "arxiv"
 var arxiv_max_entries=0;       //show all articles
 var arxiv_includeSummary=0;    //not show abstracts (default is 0)
-var arxiv_includeComments=0;   //do not show comments (default is 1)
+var arxiv_includeComments=1;   //show comments (default is 1)
 var arxiv_includeDOI=1;
 var arxiv_includeJournalRef=1;
 //--></script>
