@@ -45,7 +45,7 @@ div.arxivfeed {
 <hr style="margin:40px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: June 29, 2024</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: March 14, 2025</font>
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PRXLife.3.013012" style="float:right"></div>
