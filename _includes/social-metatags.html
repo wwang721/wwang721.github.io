@@ -67,8 +67,8 @@
 
 <!-- Twitter summary card with large image must be at least 280x150px -->
 {%if page_image %}
-  <meta name="twitter:image:src" content="{{ page.twitter_card_image | default: page.image }}" />
-  <meta name="twitter:image" content="{{ page.twitter_card_image | default: page.image }}" />
+  <meta name="twitter:image:src" content="{{ page.image }}" />
+  <meta name="twitter:image" content="{{ page.image }}" />
 {%endif %}
 <meta name="twitter:url" content="{{ canonical_url }}" />
 
