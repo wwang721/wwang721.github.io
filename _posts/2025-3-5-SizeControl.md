@@ -6,7 +6,6 @@ tagline: Controlling tissue size by active fracture
 author: "by W. Wang"
 #meta: ""
 image: /images/posts/2025-3-5.png
-twitter_card_image: /images/posts/2023-11-23.jpg
 ---
 My third project paper is now publicly available on [**arXiv**](https://arxiv.org/abs/2503.03126){:target="_blank"}!
 
