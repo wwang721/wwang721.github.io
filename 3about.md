@@ -68,10 +68,6 @@ viewBox="0 0 32 32"
 </svg>
 <a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
 </p>
-<p style="margin: 10px 0px 0px 4px">
-<img style="float:left; margin:3px 12px 0px 10px; width: 20px" src='/images/alphaXiv.ico' alt="α"/>
-<a href="https://wwang.alphaxiv.io/" target="_blank"> <font color="gray" size="3"><u>alphaXiv</u></font></a>
-</p>
 <p style="margin: 18px 0px 36px 25px">
 <a href="/docs/CV_WWang.pdf" target="_blank"><font color="gray" size="3"><u><b>Curriculum Vitae</b></u></font></a>
 </p>
