@@ -1,0 +1,635 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>PyAFV · Active-Finite-Voronoi Model</title>
+    <meta name="description"
+        content="PyAFV implements the active-finite-Voronoi (AFV) model for 2D tissue mechanics and cell motility." />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&family=Source+Code+Pro:wght@400;600&display=swap"
+        rel="stylesheet" />
+    <style>
+        :root {
+            color-scheme: dark;
+            --bg: #04080f;
+            --bg-soft: #0b1424;
+            --accent: #68d8ff;
+            --accent-2: #ff7bd1;
+            --accent-3: #ffe66d;
+            --text: #e6f4ff;
+            --muted: #9ab0c7;
+            --glass: rgba(13, 28, 48, 0.55);
+            --border: rgba(104, 216, 255, 0.22);
+            --shadow: 0 28px 80px rgba(0, 0, 0, 0.45);
+        }
+
+        * {
+            box-sizing: border-box;
+        }
+
+        body {
+            margin: 0;
+            font-family: "Space Grotesk", system-ui, -apple-system, sans-serif;
+            color: var(--text);
+            background: radial-gradient(circle at 20% 10%, rgba(104, 216, 255, 0.2), transparent 50%),
+                radial-gradient(circle at 80% 0%, rgba(255, 123, 209, 0.18), transparent 45%),
+                radial-gradient(circle at 50% 80%, rgba(255, 230, 109, 0.2), transparent 50%),
+                var(--bg);
+            min-height: 100vh;
+        }
+
+        h1,
+        h2,
+        h3,
+        h4,
+        p {
+            overflow-wrap: anywhere;
+        }
+
+        a {
+            color: inherit;
+            text-decoration: none;
+        }
+
+        header {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 28px 7vw;
+        }
+
+        .logo {
+            font-weight: 700;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+            font-size: 0.95rem;
+        }
+
+        .nav-links {
+            display: flex;
+            gap: 18px;
+            font-size: 0.95rem;
+            color: var(--muted);
+        }
+
+        .nav-links a {
+            padding: 10px 16px;
+            border-radius: 999px;
+            border: 1px solid transparent;
+            transition: 0.2s ease;
+        }
+
+        .nav-links a:hover {
+            border-color: var(--border);
+            color: var(--text);
+        }
+
+        .hero {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 40px;
+            padding: 30px 7vw 90px;
+            align-items: center;
+            position: relative;
+        }
+
+        .hero::before,
+        .hero::after {
+            content: "";
+            position: absolute;
+            inset: auto;
+            border-radius: 50%;
+            filter: blur(10px);
+            opacity: 0.35;
+            z-index: 0;
+        }
+
+        .hero::before {
+            width: 260px;
+            height: 260px;
+            background: conic-gradient(from 90deg, var(--accent), var(--accent-2), var(--accent-3));
+            top: -60px;
+            right: 5vw;
+        }
+
+        .hero::after {
+            width: 200px;
+            height: 200px;
+            background: conic-gradient(from 180deg, var(--accent-2), var(--accent));
+            bottom: 30px;
+            left: 10vw;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 1;
+        }
+
+        .hero h1 {
+            font-size: clamp(2.4rem, 5vw, 4.2rem);
+            margin: 0 0 18px;
+            line-height: 1.05;
+        }
+
+        .hero p {
+            color: var(--muted);
+            font-size: 1.05rem;
+            margin-bottom: 24px;
+        }
+
+        .hero-actions {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 14px;
+        }
+
+        .btn {
+            padding: 12px 22px;
+            border-radius: 999px;
+            border: 1px solid var(--border);
+            background: rgba(15, 30, 54, 0.7);
+            color: var(--text);
+            font-weight: 600;
+            transition: 0.2s ease;
+            box-shadow: inset 0 0 0 transparent;
+        }
+
+        .btn.primary {
+            background: linear-gradient(120deg, rgba(104, 216, 255, 0.4), rgba(255, 123, 209, 0.35));
+            border-color: transparent;
+            box-shadow: 0 10px 30px rgba(104, 216, 255, 0.2);
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+        }
+
+        .hero-card {
+            position: relative;
+            z-index: 1;
+            background: var(--glass);
+            border: 1px solid var(--border);
+            border-radius: 24px;
+            padding: 26px;
+            box-shadow: var(--shadow);
+            overflow: hidden;
+        }
+
+        .hero-card img {
+            width: 100%;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            margin-bottom: 18px;
+        }
+
+        .hero-card h3 {
+            margin: 0 0 8px;
+        }
+
+        .hero-card p {
+            color: var(--muted);
+            margin: 0;
+            font-size: 0.95rem;
+        }
+
+        .section {
+            padding: 70px 7vw;
+        }
+
+        .section-title {
+            display: flex;
+            justify-content: space-between;
+            align-items: baseline;
+            margin-bottom: 32px;
+        }
+
+        .section-title h2 {
+            margin: 0;
+            font-size: clamp(1.8rem, 3vw, 2.6rem);
+        }
+
+        .pill {
+            font-size: 0.85rem;
+            color: var(--accent);
+            border: 1px solid var(--border);
+            padding: 6px 14px;
+            border-radius: 999px;
+            letter-spacing: 0.08em;
+            text-transform: uppercase;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+            gap: 22px;
+        }
+
+        .card {
+            background: rgba(10, 20, 36, 0.7);
+            border: 1px solid rgba(104, 216, 255, 0.18);
+            border-radius: 20px;
+            padding: 24px;
+            box-shadow: var(--shadow);
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card h4 {
+            margin: 0 0 10px;
+        }
+
+        .card p {
+            margin: 0;
+            color: var(--muted);
+            font-size: 0.98rem;
+            overflow-wrap: anywhere;
+        }
+
+        .code-block {
+            background: #0b0f1c;
+            border-radius: 16px;
+            border: 1px solid rgba(104, 216, 255, 0.2);
+            padding: 20px;
+            font-family: "Source Code Pro", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono",
+                "Courier New", monospace;
+            color: #c1e4ff;
+            font-size: 0.9rem;
+            overflow-x: auto;
+        }
+
+        .code-block span {
+            color: #8fc8ff;
+        }
+        
+        .code-block .nowrap {
+            white-space: nowrap;
+        }
+
+        .gallery {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 16px;
+        }
+
+        .gallery img {
+            width: 100%;
+            border-radius: 18px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: rgba(15, 25, 43, 0.7);
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .gallery img:hover {
+            transform: translateY(-6px) scale(1.01);
+            box-shadow: 0 18px 35px rgba(104, 216, 255, 0.18);
+        }
+
+        footer {
+            padding: 40px 7vw 60px;
+            border-top: 1px solid rgba(104, 216, 255, 0.12);
+            color: var(--muted);
+            display: flex;
+            flex-wrap: wrap;
+            gap: 20px;
+            justify-content: space-between;
+        }
+
+        .glow-layer {
+            position: fixed;
+            inset: 0;
+            pointer-events: none;
+            background: radial-gradient(circle at var(--cursor-x, 50%) var(--cursor-y, 50%), rgba(104, 216, 255, 0.18), transparent 45%);
+            mix-blend-mode: screen;
+            opacity: 0;
+            transition: opacity 0.3s ease;
+            z-index: 0;
+        }
+
+        body.is-interactive .glow-layer {
+            opacity: 1;
+        }
+
+        .footer-links {
+            display: flex;
+            gap: 16px;
+            flex-wrap: wrap;
+        }
+
+        .btn,
+        .nav-links a {
+            position: relative;
+            overflow: hidden;
+        }
+
+        .btn::after,
+        .nav-links a::after {
+            content: "";
+            position: absolute;
+            inset: 0;
+            background: radial-gradient(circle at var(--btn-x, 50%) var(--btn-y, 50%), rgba(255, 255, 255, 0.18), transparent 60%);
+            opacity: 0;
+            transition: opacity 0.2s ease;
+        }
+
+        .btn:hover::after,
+        .nav-links a:hover::after {
+            opacity: 1;
+        }
+
+        .btn:hover,
+        .nav-links a:hover {
+            box-shadow: 0 12px 30px rgba(104, 216, 255, 0.22);
+        }
+
+        .hero-card,
+        .card {
+            transition: transform 0.3s ease, box-shadow 0.3s ease;
+        }
+
+        .hero-card:hover,
+        .card:hover {
+            transform: translateY(-6px);
+            box-shadow: 0 26px 60px rgba(0, 0, 0, 0.45);
+        }
+
+        .floating-orb {
+            position: absolute;
+            width: 140px;
+            height: 140px;
+            border-radius: 50%;
+            background: radial-gradient(circle, rgba(104, 216, 255, 0.7), transparent 70%);
+            filter: blur(2px);
+            opacity: 0.25;
+            animation: float 10s ease-in-out infinite;
+            right: 12%;
+            bottom: 6%;
+            pointer-events: none;
+        }
+
+        @keyframes float {
+
+            0%,
+            100% {
+                transform: translateY(0);
+            }
+
+            50% {
+                transform: translateY(-16px);
+            }
+        }
+
+        @media (max-width: 700px) {
+            .nav {
+                flex-direction: column;
+                gap: 14px;
+            }
+
+            .nav-links {
+                flex-wrap: wrap;
+                justify-content: center;
+            }
+
+            .section-title {
+                flex-direction: column;
+                align-items: flex-start;
+                gap: 12px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    <div class="glow-layer" aria-hidden="true"></div>
+    <header>
+        <nav class="nav">
+            <div class="logo">PyAFV</div>
+            <div class="nav-links">
+                <a href="https://github.com/wwang721/pyafv">Repository</a>
+                <a href="https://pyafv.readthedocs.io">Documentation</a>
+                <a href="https://pypi.org/project/pyafv/">PyPI</a>
+            </div>
+        </nav>
+
+        <section class="hero">
+            <div class="hero-content">
+                <div class="pill">Active Finite Voronoi</div>
+                <h1>Build living tissue simulations with the Active-Finite-Voronoi model.</h1>
+                <p>
+                    PyAFV is a simple Python toolkit for generating 2D finite-Voronoi tessellations, modeling
+                    cell
+                    mechanics, and exploring collective motility under active dynamics.
+                </p>
+                <div class="hero-actions">
+                    <a class="btn primary" href="https://github.com/wwang721/pyafv">Explore the Repo</a>
+                    <a class="btn" href="https://pyafv.readthedocs.io">Read the Docs</a>
+                    <a class="btn" href="https://pypi.org/project/pyafv/">Install from PyPI</a>
+                </div>
+            </div>
+            <div class="hero-card">
+                <img src="images/pyafv/model_illustration.png" alt="Active finite Voronoi model illustration" />
+                <h3>Geometric insight, physical fidelity</h3>
+                <p>
+                    Compute areas, perimeters, vertices, edges, and conservative forces while visualizing emergent tissue structure
+                    in
+                    real time.
+                </p>
+            </div>
+            <div class="floating-orb" aria-hidden="true"></div>
+        </section>
+    </header>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>Why PyAFV?</h2>
+            <span class="pill">Core capabilities</span>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h4>Finite-Voronoi geometry</h4>
+                <p>
+                    Generate and analyze finite Voronoi diagrams with rich geometric data: cell areas, perimeters, edges, vertices, and connectivity.
+                </p>
+            </div>
+            <div class="card">
+                <h4>Active tissue dynamics</h4>
+                <p>
+                    Activate motility and explore collective motion driven by self-propulsion, adhesion, and
+                    confinement.
+                </p>
+            </div>
+            <div class="card">
+                <h4>Ready for experiments</h4>
+                <p>
+                    Python ≥ 3.10 support, Cython-accelerated components, and clean APIs for integration into research
+                    workflows.
+                </p>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>Install &amp; simulate</h2>
+            <span class="pill">Quick start</span>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h4>Install</h4>
+                <div class="code-block">
+                    <span>$</span> pip install pyafv
+                </div>
+            </div>
+            <div class="card">
+                <h4>Build a diagram</h4>
+                <div class="code-block">
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> import numpy as np</div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> import pyafv as afv</div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> N = 100</div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> pts = np.random.rand(N, 2) * 10 </div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> params = afv.PhysicalParams(r=1.0) </div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> sim = afv.FiniteVoronoiSimulator(pts, params)</div>
+                    <div class="nowrap"><span>&gt;&gt;&gt;</span> sim.plot_2d(show=True)</div>
+                </div>
+            </div>
+            <div class="card">
+                <h4>Dig deeper</h4>
+                <p>
+                    Access the full geometry and conservative forces via <strong>sim.build( )</strong> and inspect the
+                    returned dictionary for areas, perimeters, edges, and vertices.
+                </p>
+                <div class="hero-actions" style="margin-top: 16px;">
+                    <a class="btn" href="https://pyafv.readthedocs.io/latest/">View docs</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="section">
+        <div class="section-title">
+            <h2>Simulation previews</h2>
+            <span class="pill">Visual gallery</span>
+        </div>
+        <div class="gallery">
+            <img src="images/pyafv/initial_configuration.png" alt="Initial configuration" />
+            <img src="images/pyafv/relaxed_configuration.png" alt="Relaxed configuration" />
+            <img src="images/pyafv/active_FV.png" alt="Active dynamics enabled" />
+            <img src="images/pyafv/pbc.png" alt="Periodic boundary conditions" />
+        </div>
+    </section>
+
+    <!-- Citation section commented out for now
+    <section class="section">
+        <div class="section-title">
+            <h2>How to cite PyAFV</h2>
+            <span class="pill">References</span>
+        </div>
+        <div class="grid">
+            <div class="card">
+                <h4>Recommended citation</h4>
+                <p>
+                    Please cite the Active-Finite-Voronoi (AFV) model and PyAFV using the references below. These
+                    references
+                    describe the theoretical foundations and ongoing developments of the AFV framework.
+                </p>
+            </div>
+            <div class="card">
+                <h4>References</h4>
+                <div class="code-block">
+                    <div>
+                        [1] J. Huang, H. Levine, and D. Bi, <em>Bridging the gap between collective motility and
+                            epithelial-mesenchymal transitions through the active finite Voronoi model</em>,
+                        <a href="https://doi.org/10.1039/D3SM00327B">Soft Matter <strong>19</strong>, 9389 (2023)</a>.
+                    </div>
+                    <br />
+                    <div>
+                        [2] E. Teomy, D. A. Kessler, and H. Levine, <em>Confluent and nonconfluent phases in a model of
+                            cell
+                            tissue</em>, <a href="https://doi.org/10.1103/PhysRevE.98.042418">Phys. Rev. E
+                            <strong>98</strong>, 042418
+                            (2018)</a>.
+                    </div>
+                    <br />
+                    <div>
+                        [3] W. Wang (汪巍) and B. A. Camley, <em>Divergence of detachment forces in the finite-Voronoi
+                            model</em>,
+                        manuscript in preparation (2026).
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <footer>
+        <div>
+            <strong>PyAFV</strong> · Active-Finite-Voronoi Model in 2D
+        </div>
+        <div>
+            Version <span id="pypi-version">loading…</span> · MIT License · © <span id="copyright-year"></span> Wei Wang
+        </div>
+        <div class="footer-links">
+            <a href="https://github.com/wwang721/pyafv">GitHub</a>
+            <a href="https://pyafv.readthedocs.io">Documentation</a>
+            <a href="https://pyafv.readthedocs.io/_/downloads/en/latest/pdf/">PDF Docs</a>
+            <a href="https://pypi.org/project/pyafv/">PyPI</a>
+            <a href="https://doi.org/10.5281/zenodo.18091659">Zenodo</a>
+        </div>
+    </footer>
+
+    <script>
+        const body = document.body;
+        const root = document.documentElement;
+        const interactiveTargets = document.querySelectorAll(".btn, .nav-links a");
+        const updateCursorGlow = (event) => {
+            root.style.setProperty("--cursor-x", `${event.clientX}px`);
+            root.style.setProperty("--cursor-y", `${event.clientY}px`);
+            body.classList.add("is-interactive");
+        };
+
+        const updateButtonGlow = (event) => {
+            const target = event.currentTarget;
+            const rect = target.getBoundingClientRect();
+            const x = event.clientX - rect.left;
+            const y = event.clientY - rect.top;
+            target.style.setProperty("--btn-x", `${x}px`);
+            target.style.setProperty("--btn-y", `${y}px`);
+        };
+
+        window.addEventListener("mousemove", updateCursorGlow);
+        window.addEventListener("scroll", () => {
+            const scrolled = window.scrollY;
+            root.style.setProperty("--scroll-y", `${scrolled}px`);
+        });
+
+        interactiveTargets.forEach((target) => {
+            target.addEventListener("mousemove", updateButtonGlow);
+        });
+
+        const year = new Date().getFullYear();
+        const copyright = document.getElementById("copyright-year");
+        if (copyright) {
+            copyright.textContent = year;
+        }
+
+        const versionTarget = document.getElementById("pypi-version");
+        if (versionTarget) {
+            fetch("https://pypi.org/pypi/pyafv/json")
+                .then((response) => response.json())
+                .then((data) => {
+                    const version = data.info && data.info.version ? data.info.version : "unknown";
+                    versionTarget.textContent = version;
+                });
+        }
+    </script>
+</body>
+
+</html>
