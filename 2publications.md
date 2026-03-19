@@ -45,7 +45,14 @@ div.arxivfeed {
 <hr style="margin:40px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: March 14, 2025</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: March 19, 2026</font>
+
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/dk15-hwzg" style="float:right"></div>
+- **Controlling tissue size by active fracture**\
+**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"} and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[Phys. Rev. E **113**, 034405 (2026)](https://doi.org/10.1103/dk15-hwzg){:target="_blank"}
+&ensp;
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/PRXLife.3.013012" style="float:right"></div>
