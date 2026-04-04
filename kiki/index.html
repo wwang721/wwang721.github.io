@@ -1,0 +1,753 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>致我最爱的吴越</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com"/>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin/>
+  <link href="https://fonts.googleapis.com/css2?family=Liu+Jian+Mao+Cao&family=Zhi+Mang+Xing&family=Noto+Serif+SC:wght@300;400;600&family=ZCOOL+XiaoWei&family=Cormorant+Garamond:ital,wght@0,300;1,300;1,400&family=Long+Cang&display=swap" rel="stylesheet"/>
+  <style>
+    :root {
+      --midnight:    #06030e;
+      --crimson:     #8b0a2a;
+      --red-thread:  #c23050;
+      --gold:        #c8962a;
+      --gold-bright: #f0d070;
+      --gold-pale:   #ede0b0;
+      --paper:       #f5ead0;
+      --ink:         #1e0e06;
+      --ink-soft:    #3a1e10;
+    }
+
+    *, *::before, *::after { margin: 0; padding: 0; box-sizing: border-box; }
+    html { scroll-behavior: smooth; }
+
+    body {
+      min-height: 100vh;
+      background: var(--midnight);
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      overflow-x: hidden;
+      font-family: 'Noto Serif SC', serif;
+      color: #eee;
+    }
+
+    /* ═══════════════════════════════════════
+       CANVAS — stars + bokeh fireflies
+    ═══════════════════════════════════════ */
+    #sky {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+    }
+
+    /* Atmospheric aurora gradients */
+    .atmo {
+      position: fixed; inset: 0; z-index: 0; pointer-events: none;
+      background:
+        radial-gradient(ellipse 90% 55% at 25% 8%,  rgba(120,8,35,0.22) 0%, transparent 60%),
+        radial-gradient(ellipse 55% 40% at 78% 18%, rgba(200,150,42,0.09) 0%, transparent 50%),
+        radial-gradient(ellipse 80% 65% at 50% 95%, rgba(80,5,25,0.25) 0%, transparent 60%);
+      animation: atmoBreathe 14s ease-in-out infinite alternate;
+    }
+    @keyframes atmoBreathe {
+      0%   { opacity: 0.55; }
+      100% { opacity: 1; }
+    }
+
+    /* ═══════════════════════════════════════
+       HERO — Ghibli bg + title + gif
+    ═══════════════════════════════════════ */
+    .hero {
+      position: relative;
+      z-index: 2;
+      width: 100%;
+      min-height: 100vh;
+      min-height: 100svh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: 60px 20px 80px;
+      overflow: hidden;
+    }
+
+    /* Ghibli illustration as atmospheric background */
+    .hero-bg {
+      position: absolute; inset: 0;
+      z-index: 0;
+      background: var(--midnight); /* placeholder color before image loads */
+    }
+    .hero-bg img {
+      width: 100%; height: 100%;
+      object-fit: cover;
+      object-position: center 30%;
+      filter: blur(6px) saturate(0.75) brightness(0.45);
+      opacity: 0;
+      transition: opacity 1.8s ease;
+    }
+    .hero-bg img.loaded { opacity: 1; }
+    /* Gradient vignette over the background image */
+    .hero-bg::after {
+      content: '';
+      position: absolute; inset: 0;
+      background:
+        radial-gradient(ellipse 80% 70% at 50% 40%, transparent 40%, var(--midnight) 100%),
+        linear-gradient(to bottom, transparent 70%, var(--midnight) 100%);
+      z-index: 1;
+    }
+
+    /* Title text */
+    .hero-text {
+      position: relative; z-index: 3;
+      text-align: center;
+      margin-bottom: 52px;
+      animation: fadeSlideDown 1.6s cubic-bezier(.16,1,.3,1) both;
+    }
+    @keyframes fadeSlideDown {
+      from { opacity: 0; transform: translateY(-30px); }
+      to   { opacity: 1; transform: translateY(0); }
+    }
+    .hero-eyebrow {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic; font-weight: 300;
+      font-size: clamp(0.72rem, 2.5vw, 0.92rem);
+      color: rgba(200,150,42,0.5);
+      letter-spacing: 0.6em;
+      text-transform: uppercase;
+      margin-bottom: 16px;
+    }
+    .hero-title {
+      font-family: 'ZCOOL XiaoWei', serif;
+      font-weight: 400;
+      font-size: clamp(2.6rem, 9vw, 5rem);
+      color: var(--gold-bright);
+      letter-spacing: 0.12em;
+      text-shadow:
+        0 0 30px rgba(240,208,112,0.5),
+        0 0 80px rgba(200,150,42,0.25),
+        0 3px 6px rgba(0,0,0,0.7);
+      line-height: 1.15;
+    }
+    .hero-ornament {
+      display: flex; align-items: center; justify-content: center;
+      gap: 14px; margin: 20px auto 0; opacity: 0.45;
+    }
+    .hero-ornament::before,
+    .hero-ornament::after {
+      content: '';
+      flex: 1; max-width: 100px; height: 1px;
+      background: linear-gradient(to right, transparent, var(--gold), transparent);
+    }
+    .hero-ornament span {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 0.7rem; color: var(--gold); letter-spacing: 0.3em;
+    }
+    .hero-sub {
+      font-family: 'Long Cang', cursive;
+      font-size: clamp(0.85rem, 2.8vw, 1rem);
+      color: rgba(237,224,176,0.35);
+      letter-spacing: 0.6em;
+      margin-top: 14px;
+    }
+
+    /* GIF with spinning ring */
+    .gif-wrap {
+      position: relative; z-index: 3;
+      animation: fadeSlideUp 1.3s cubic-bezier(.16,1,.3,1) 0.35s both;
+    }
+    @keyframes fadeSlideUp {
+      from { opacity: 0; transform: translateY(36px) scale(0.94); }
+      to   { opacity: 1; transform: translateY(0) scale(1); }
+    }
+    .gif-frame {
+      position: relative;
+      width: clamp(180px, 48vw, 230px);
+      height: clamp(180px, 48vw, 230px);
+    }
+    .gif-frame::before {
+      content: '';
+      position: absolute; inset: -16px;
+      border-radius: 50%;
+      background: conic-gradient(
+        transparent 0deg, rgba(200,150,42,0.85) 50deg, rgba(240,208,112,1) 90deg,
+        transparent 150deg, rgba(200,150,42,0.55) 230deg, rgba(240,208,112,0.75) 280deg,
+        transparent 330deg, rgba(200,150,42,0.65) 355deg, transparent 360deg
+      );
+      animation: spinRing 8s linear infinite;
+      z-index: 1;
+    }
+    .gif-frame::after {
+      content: '';
+      position: absolute; inset: -12px;
+      border-radius: 50%;
+      background: var(--midnight);
+      z-index: 2;
+    }
+    @keyframes spinRing { to { transform: rotate(360deg); } }
+    .gif-inner-ring {
+      position: absolute; inset: -5px;
+      border-radius: 50%; z-index: 3;
+      background: conic-gradient(
+        transparent 0deg, rgba(240,208,112,0.5) 35deg, transparent 100deg,
+        rgba(200,150,42,0.35) 180deg, transparent 220deg,
+        rgba(240,208,112,0.45) 300deg, transparent 360deg
+      );
+      animation: spinRing 5.5s linear infinite reverse;
+    }
+    .gif-img-wrap {
+      position: relative; z-index: 4;
+      width: 100%; height: 100%;
+      border-radius: 50%;
+      overflow: hidden;
+      background: linear-gradient(135deg, #1a0a15, #0a0510); /* placeholder */
+      box-shadow:
+        0 0 0 2px var(--gold),
+        0 0 35px rgba(200,150,42,0.4),
+        0 0 80px rgba(139,10,42,0.3),
+        0 10px 40px rgba(0,0,0,0.8);
+    }
+    .gif-img-wrap img {
+      width: 100%; height: 100%;
+      object-fit: cover; display: block;
+      opacity: 0;
+      transition: opacity 1s ease;
+    }
+    .gif-img-wrap img.loaded { opacity: 1; }
+
+    /* Orbiting sparkles — canvas-drawn, see JS */
+    #gif-orbits {
+      position: absolute; inset: -50px;
+      z-index: 5; pointer-events: none;
+    }
+
+    /* Red thread leading down from hero */
+    .red-thread {
+      position: relative; z-index: 2;
+      width: 2px; height: 80px;
+      margin: 0 auto;
+      background: linear-gradient(to bottom, var(--red-thread), transparent);
+      opacity: 0.5;
+      animation: fadeSlideUp 1s ease 1s both;
+    }
+    .red-thread::before {
+      content: '♥';
+      position: absolute; top: -10px; left: 50%;
+      transform: translateX(-50%);
+      font-size: 0.7rem; color: var(--red-thread);
+    }
+
+    /* ═══════════════════════════════════════
+       LETTER SECTION
+    ═══════════════════════════════════════ */
+    .letter-section {
+      position: relative; z-index: 2;
+      width: 100%;
+      max-width: 720px;
+      padding: 0 16px 100px;
+      animation: fadeSlideUp 1.4s cubic-bezier(.16,1,.3,1) 0.9s both;
+    }
+
+    /* Triple gold frame */
+    .frame-a {
+      padding: 3px;
+      background: linear-gradient(135deg, #7a5010, #d4a843, #f5e080, #c89030, #f5e080, #d4a843, #7a5010);
+      border-radius: 4px;
+      box-shadow:
+        0 0 50px rgba(200,150,42,0.15),
+        0 0 120px rgba(139,10,42,0.18),
+        0 30px 90px rgba(0,0,0,0.75);
+    }
+    .frame-b { padding: 3px; background: var(--midnight); border-radius: 3px; }
+    .frame-c {
+      padding: 2px;
+      background: linear-gradient(135deg, #6a4808, #b08028, #e8d060, #b08028, #6a4808);
+    }
+
+    /* Letter paper */
+    .letter {
+      background: var(--paper);
+      background-image:
+        url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='300' height='300'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.7' numOctaves='4' stitchTiles='stitch'/%3E%3CfeColorMatrix type='saturate' values='0'/%3E%3C/filter%3E%3Crect width='300' height='300' filter='url(%23n)' opacity='0.03'/%3E%3C/svg%3E"),
+        repeating-linear-gradient(transparent, transparent 38px, rgba(170,140,90,0.18) 38px, rgba(170,140,90,0.18) 39px);
+      padding: clamp(52px, 10vw, 76px) clamp(26px, 8vw, 72px) clamp(44px, 9vw, 64px);
+      position: relative;
+      color: var(--ink);
+      line-height: 2.1;
+      border-radius: 1px;
+    }
+
+    /* Wax seal */
+    .wax-seal {
+      position: absolute;
+      top: -28px; left: 50%;
+      transform: translateX(-50%);
+      width: 58px; height: 58px;
+      background: radial-gradient(circle at 35% 28%, #f06070, #c02040 38%, #7a0820 72%, #400010);
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'ZCOOL XiaoWei', serif;
+      font-size: 1.25rem;
+      color: rgba(255,215,195,0.88);
+      text-shadow: 0 1px 3px rgba(0,0,0,0.5);
+      box-shadow:
+        0 3px 14px rgba(100,0,20,0.75),
+        0 8px 30px rgba(139,10,42,0.4),
+        inset 0 -3px 7px rgba(0,0,0,0.35),
+        inset 0 2px 5px rgba(255,140,140,0.15);
+      z-index: 6;
+      animation: sealGlow 3.5s ease-in-out infinite;
+    }
+    @keyframes sealGlow {
+      0%,100% { box-shadow: 0 3px 14px rgba(100,0,20,0.75), 0 8px 30px rgba(139,10,42,0.4), inset 0 -3px 7px rgba(0,0,0,0.35); }
+      50%     { box-shadow: 0 5px 18px rgba(180,20,50,0.9), 0 10px 45px rgba(200,40,70,0.45), 0 0 60px rgba(200,40,70,0.18), inset 0 -3px 7px rgba(0,0,0,0.35); }
+    }
+
+    /* Filigree corners */
+    .fg {
+      position: absolute;
+      width: clamp(50px, 12vw, 78px);
+      height: clamp(50px, 12vw, 78px);
+      opacity: 0.35;
+      pointer-events: none;
+    }
+    .fg svg { width: 100%; height: 100%; }
+    .fg-tl { top: 6px; left: 6px; }
+    .fg-tr { top: 6px; right: 6px; transform: scaleX(-1); }
+    .fg-bl { bottom: 6px; left: 6px; transform: scaleY(-1); }
+    .fg-br { bottom: 6px; right: 6px; transform: scale(-1); }
+
+    /* Divider */
+    .ldiv {
+      text-align: center;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      color: #9a7030;
+      font-size: clamp(0.68rem, 1.8vw, 0.8rem);
+      letter-spacing: 0.5em;
+      margin: 20px 0;
+      opacity: 0.6;
+    }
+
+    /* To line */
+    .to-line {
+      text-align: center;
+      margin-bottom: 26px;
+    }
+    .to-latin {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic; font-weight: 300;
+      font-size: clamp(1.15rem, 4vw, 1.6rem);
+      color: #5c2a0a;
+      letter-spacing: 0.08em;
+    }
+    .to-zh {
+      font-family: 'ZCOOL XiaoWei', serif;
+      font-size: clamp(1.45rem, 5vw, 1.9rem);
+      color: var(--crimson);
+      display: block; margin-top: 4px;
+      text-shadow: 0 1px 0 rgba(255,255,255,0.35);
+    }
+
+    /* Salutation */
+    .salutation {
+      font-family: 'Long Cang', cursive;
+      font-size: clamp(1.1rem, 3.5vw, 1.3rem);
+      color: #4a1e06;
+      margin-bottom: 22px;
+    }
+
+    /* Body — handwriting font */
+    .body p {
+      font-family: 'Long Cang', cursive;
+      font-weight: 400;
+      font-size: clamp(1rem, 3.2vw, 1.18rem);
+      margin-bottom: 18px;
+      text-indent: 2em;
+      color: var(--ink-soft);
+      /* scroll reveal */
+      opacity: 0;
+      transform: translateY(14px);
+      transition: opacity 0.75s ease, transform 0.75s ease;
+    }
+    .body p.vis { opacity: 1; transform: translateY(0); }
+    .hl {
+      font-family: 'Zhi Mang Xing', cursive;
+      color: var(--crimson);
+      font-size: clamp(1.15rem, 3.5vw, 1.32rem);
+    }
+
+    /* ── Embedded photo inside the letter ── */
+    .letter-photo {
+      display: flex;
+      justify-content: center;
+      margin: 28px 0 30px;
+      opacity: 0;
+      transform: translateY(14px) rotate(0deg);
+      transition: opacity 0.8s ease, transform 0.8s ease;
+    }
+    .letter-photo.vis {
+      opacity: 1;
+      transform: translateY(0) rotate(-1.5deg);
+    }
+    .photo-card {
+      position: relative;
+      width: clamp(180px, 50vw, 280px);
+      background: #fffef6;
+      padding: 10px 10px 40px;
+      box-shadow:
+        0 3px 16px rgba(0,0,0,0.18),
+        0 1px 3px rgba(0,0,0,0.12),
+        inset 0 0 0 1px rgba(0,0,0,0.04);
+    }
+    .photo-card img {
+      width: 100%;
+      aspect-ratio: 4 / 5;
+      object-fit: cover;
+      display: block;
+      background: #e8dcc8; /* placeholder */
+      opacity: 0;
+      transition: opacity 0.8s ease;
+    }
+    .photo-card img.loaded { opacity: 1; }
+    /* Washi tape strips */
+    .tape {
+      position: absolute;
+      width: 60px; height: 20px;
+      background: rgba(200,180,140,0.55);
+      border: 1px solid rgba(180,160,120,0.3);
+      z-index: 2;
+    }
+    .tape-tl { top: -6px; left: 14px; transform: rotate(-8deg); }
+    .tape-tr { top: -4px; right: 12px; transform: rotate(5deg); }
+    .photo-caption {
+      position: absolute;
+      bottom: 0; left: 0; right: 0; height: 40px;
+      display: flex; align-items: center; justify-content: center;
+      font-family: 'Long Cang', cursive;
+      font-size: clamp(0.82rem, 2.6vw, 0.95rem);
+      color: #5a3820;
+      letter-spacing: 0.25em;
+    }
+
+    /* Closing */
+    .closing {
+      margin-top: 34px;
+      text-align: right;
+      font-family: 'Long Cang', cursive;
+      font-size: clamp(1rem, 3.2vw, 1.15rem);
+      color: #4a1e06;
+      line-height: 2.3;
+      opacity: 0; transform: translateY(14px);
+      transition: opacity 0.8s ease 0.3s, transform 0.8s ease 0.3s;
+    }
+    .closing.vis { opacity: 1; transform: translateY(0); }
+    .sig {
+      font-family: 'Zhi Mang Xing', cursive;
+      font-size: clamp(1.5rem, 5.5vw, 1.9rem);
+      color: var(--crimson);
+    }
+    .heart-pulse {
+      display: inline-block;
+      animation: heartP 1.25s ease-in-out infinite;
+      color: #b01030;
+      font-size: clamp(1.5rem, 5.5vw, 1.9rem);
+      filter: drop-shadow(0 0 6px rgba(180,16,48,0.65));
+    }
+    @keyframes heartP {
+      0%,100% { transform: scale(1); }
+      14% { transform: scale(1.4); }
+      28% { transform: scale(1); }
+      42% { transform: scale(1.2); }
+      56% { transform: scale(1); }
+    }
+    .date-line {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: clamp(0.76rem, 2.2vw, 0.88rem);
+      color: #9a7040;
+      text-align: right;
+      margin-top: 10px;
+    }
+
+    /* Footer */
+    .page-end {
+      position: relative; z-index: 2;
+      text-align: center;
+      padding-bottom: 40px;
+      opacity: 0.3;
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 0.75rem;
+      color: var(--gold-pale);
+      letter-spacing: 0.4em;
+    }
+
+    /* ═══ RESPONSIVE ═══ */
+    @media (max-width: 480px) {
+      .hero { min-height: 90vh; min-height: 90svh; padding: 48px 16px 60px; }
+      .fg { opacity: 0.25; }
+      .tape { width: 48px; height: 16px; }
+    }
+  </style>
+</head>
+<body>
+
+<canvas id="sky"></canvas>
+<div class="atmo"></div>
+
+<!-- ═══════════════════════ HERO ═══════════════════════ -->
+<section class="hero">
+  <!-- Ghibli illustration as atmospheric background -->
+  <div class="hero-bg">
+    <img src="1.jpeg" alt="" aria-hidden="true" onload="this.classList.add('loaded')"/>
+  </div>
+
+  <div class="hero-text">
+    <div class="hero-eyebrow">A Love Letter</div>
+    <h1 class="hero-title">致吴越</h1>
+    <div class="hero-ornament"><span>❧ &nbsp; 情书 &nbsp; ❧</span></div>
+    <div class="hero-sub">一 封 迟 来 的 情 书</div>
+  </div>
+
+  <div class="gif-wrap">
+    <div class="gif-frame">
+      <div class="gif-inner-ring"></div>
+      <div class="gif-img-wrap">
+        <img src="kiki.gif" alt="Kiki" onload="this.classList.add('loaded')"/>
+      </div>
+    </div>
+    <canvas id="gif-orbits"></canvas>
+  </div>
+</section>
+
+<!-- Red thread connecting hero to letter -->
+<div class="red-thread"></div>
+
+<!-- ═══════════════════════ LETTER ═══════════════════════ -->
+<div class="letter-section">
+  <div class="frame-a">
+    <div class="frame-b">
+      <div class="frame-c">
+        <div class="letter">
+          <div class="wax-seal">巍</div>
+
+          <!-- Filigree corners (shared SVG) -->
+          <div class="fg fg-tl"><svg viewBox="0 0 80 80" fill="none"><path d="M4 4C4 28 28 28 28 52C28 28 28 28 52 28C28 28 4 28 4 4Z" stroke="#8a5a20" stroke-width="1.1"/><path d="M4 4Q4 44 44 44" stroke="#c89030" stroke-width="0.7"/><path d="M4 4Q44 4 44 44" stroke="#c89030" stroke-width="0.7"/><circle cx="4" cy="4" r="2.5" fill="#c89030" opacity=".65"/><circle cx="44" cy="44" r="1.6" fill="#c89030" opacity=".45"/><path d="M12 4Q12 12 4 12" stroke="#a07020" stroke-width=".65"/><path d="M22 4Q22 22 4 22" stroke="#a07020" stroke-width=".5" opacity=".5"/></svg></div>
+          <div class="fg fg-tr"><svg viewBox="0 0 80 80" fill="none"><path d="M4 4C4 28 28 28 28 52C28 28 28 28 52 28C28 28 4 28 4 4Z" stroke="#8a5a20" stroke-width="1.1"/><path d="M4 4Q4 44 44 44" stroke="#c89030" stroke-width="0.7"/><path d="M4 4Q44 4 44 44" stroke="#c89030" stroke-width="0.7"/><circle cx="4" cy="4" r="2.5" fill="#c89030" opacity=".65"/><circle cx="44" cy="44" r="1.6" fill="#c89030" opacity=".45"/><path d="M12 4Q12 12 4 12" stroke="#a07020" stroke-width=".65"/><path d="M22 4Q22 22 4 22" stroke="#a07020" stroke-width=".5" opacity=".5"/></svg></div>
+          <div class="fg fg-bl"><svg viewBox="0 0 80 80" fill="none"><path d="M4 4C4 28 28 28 28 52C28 28 28 28 52 28C28 28 4 28 4 4Z" stroke="#8a5a20" stroke-width="1.1"/><path d="M4 4Q4 44 44 44" stroke="#c89030" stroke-width="0.7"/><path d="M4 4Q44 4 44 44" stroke="#c89030" stroke-width="0.7"/><circle cx="4" cy="4" r="2.5" fill="#c89030" opacity=".65"/><circle cx="44" cy="44" r="1.6" fill="#c89030" opacity=".45"/><path d="M12 4Q12 12 4 12" stroke="#a07020" stroke-width=".65"/><path d="M22 4Q22 22 4 22" stroke="#a07020" stroke-width=".5" opacity=".5"/></svg></div>
+          <div class="fg fg-br"><svg viewBox="0 0 80 80" fill="none"><path d="M4 4C4 28 28 28 28 52C28 28 28 28 52 28C28 28 4 28 4 4Z" stroke="#8a5a20" stroke-width="1.1"/><path d="M4 4Q4 44 44 44" stroke="#c89030" stroke-width="0.7"/><path d="M4 4Q44 4 44 44" stroke="#c89030" stroke-width="0.7"/><circle cx="4" cy="4" r="2.5" fill="#c89030" opacity=".65"/><circle cx="44" cy="44" r="1.6" fill="#c89030" opacity=".45"/><path d="M12 4Q12 12 4 12" stroke="#a07020" stroke-width=".65"/><path d="M22 4Q22 22 4 22" stroke="#a07020" stroke-width=".5" opacity=".5"/></svg></div>
+
+          <div class="ldiv">✦ &nbsp; 爱 &nbsp; 的 &nbsp; 信 &nbsp; ✦</div>
+
+          <div class="to-line">
+            <span class="to-latin">To Kiki,</span>
+            <span class="to-zh">吴 &nbsp; 越</span>
+          </div>
+
+          <div class="salutation">欢欢，我最爱的人：</div>
+
+          <div class="body" id="lBody">
+            <p>写这封信的时候，我想了很久，不知道从哪里开始。后来我发现，<span class="hl">关于你的故事，每一个字都是起点。</span></p>
+            <p>第一次见到你，我就知道这个人和别人不一样。你的眼睛里有光，笑起来的时候，整个世界好像都跟着亮了。我不敢多看，怕你发现我心跳加速的秘密。</p>
+            <p>后来我们慢慢相识，我才明白，原来喜欢一个人，可以是那么细小的事：你说话时微微侧头的样子，你认真时轻咬嘴唇的习惯，你生气时眼尾微微上扬的弧度——<span class="hl">那些细节，我每一个都记得，比记自己的事还清楚。</span></p>
+
+            <!-- Real photo embedded mid-letter -->
+            <div class="letter-photo" id="lPhoto">
+              <div class="photo-card">
+                <div class="tape tape-tl"></div>
+                <div class="tape tape-tr"></div>
+                <img src="2.jpeg" alt="我们" onload="this.classList.add('loaded')"/>
+                <div class="photo-caption">我 &nbsp; 们</div>
+              </div>
+            </div>
+
+            <p>欢欢，我想陪你看很多很多个日落，想在每一个普通的早晨替你泡一杯热茶，想在你最累最难的时候，是你第一个想到的人。</p>
+            <p>我没办法给你全世界，但我可以给你我全部的心。<span class="hl">这颗心里，装的只有你。</span></p>
+            <p>愿你往后的每一天，都被温柔以待。而那个温柔，我想亲自来给。</p>
+          </div>
+
+          <div class="closing" id="lClose">
+            <div>永远爱你，</div>
+            <div class="sig">汪 &nbsp; 巍 &emsp; <span class="heart-pulse">♥</span></div>
+          </div>
+          <div class="date-line">二〇二六年四月 &nbsp;·&nbsp; 愿岁月长好</div>
+
+          <div class="ldiv" style="margin-top:24px">✦ &nbsp;— &nbsp;✦ &nbsp;— &nbsp;✦</div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<footer class="page-end">❧ &nbsp; 汪巍 &amp; 吴越 &nbsp; ❧</footer>
+
+<script>
+/* ═══════════════════════════════════════════
+   CANVAS — STARS + BOKEH FIREFLIES
+   Two layers drawn on a single canvas:
+   1. Static-ish twinkling stars
+   2. Drifting, pulsing bokeh circles (replace emoji particles)
+═══════════════════════════════════════════ */
+const sky = document.getElementById('sky');
+const sCtx = sky.getContext('2d');
+let sW, sH, stars = [], bokeh = [];
+
+function sResize() {
+  sW = sky.width  = window.innerWidth;
+  sH = sky.height = window.innerHeight;
+  buildSky();
+}
+
+function buildSky() {
+  stars = [];
+  for (let i = 0; i < 200; i++) {
+    stars.push({
+      x: Math.random()*sW, y: Math.random()*sH,
+      r: Math.random()*1.5 + 0.15,
+      phase: Math.random()*Math.PI*2,
+      speed: Math.random()*0.005 + 0.002,
+      warm: Math.random() > 0.45,
+    });
+  }
+  bokeh = [];
+  for (let i = 0; i < 35; i++) {
+    bokeh.push({
+      x: Math.random()*sW, y: Math.random()*sH,
+      r: 2 + Math.random()*6,
+      vx: (Math.random()-0.5)*0.15,
+      vy: -0.08 - Math.random()*0.12,
+      phase: Math.random()*Math.PI*2,
+      hue: Math.random() > 0.5 ? 35 : 350,
+      sat: 40 + Math.random()*30,
+      light: 50 + Math.random()*20,
+    });
+  }
+}
+
+function drawSky(t) {
+  sCtx.clearRect(0, 0, sW, sH);
+
+  // Stars
+  for (const s of stars) {
+    const a = 0.2 + 0.8*(0.5 + 0.5*Math.sin(s.phase + t*s.speed*60));
+    sCtx.beginPath();
+    sCtx.arc(s.x, s.y, s.r, 0, Math.PI*2);
+    sCtx.fillStyle = s.warm
+      ? `rgba(255,225,170,${a})`
+      : `rgba(195,210,255,${a*0.75})`;
+    sCtx.fill();
+    // Cross sparkle on bright large stars
+    if (s.r > 1.2 && a > 0.7) {
+      sCtx.strokeStyle = s.warm
+        ? `rgba(255,205,110,${a*0.35})`
+        : `rgba(175,195,255,${a*0.25})`;
+      sCtx.lineWidth = 0.4;
+      sCtx.beginPath();
+      const len = s.r*3.5;
+      sCtx.moveTo(s.x-len, s.y); sCtx.lineTo(s.x+len, s.y);
+      sCtx.moveTo(s.x, s.y-len); sCtx.lineTo(s.x, s.y+len);
+      sCtx.stroke();
+    }
+  }
+
+  // Bokeh fireflies
+  for (const b of bokeh) {
+    b.x += b.vx;
+    b.y += b.vy;
+    // Wrap around
+    if (b.y < -20) { b.y = sH + 20; b.x = Math.random()*sW; }
+    if (b.x < -20) b.x = sW + 20;
+    if (b.x > sW + 20) b.x = -20;
+
+    const pulse = 0.12 + 0.18*Math.sin(b.phase + t*0.002);
+    const g = sCtx.createRadialGradient(b.x, b.y, 0, b.x, b.y, b.r*2.5);
+    g.addColorStop(0, `hsla(${b.hue},${b.sat}%,${b.light}%,${pulse})`);
+    g.addColorStop(0.4, `hsla(${b.hue},${b.sat}%,${b.light}%,${pulse*0.5})`);
+    g.addColorStop(1, 'transparent');
+    sCtx.beginPath();
+    sCtx.arc(b.x, b.y, b.r*2.5, 0, Math.PI*2);
+    sCtx.fillStyle = g;
+    sCtx.fill();
+  }
+
+  requestAnimationFrame(drawSky);
+}
+sResize();
+window.addEventListener('resize', sResize);
+requestAnimationFrame(drawSky);
+
+/* ═══════════════════════════════════════════
+   ORBITING SPARKLES AROUND GIF (canvas)
+═══════════════════════════════════════════ */
+const orbCanvas = document.getElementById('gif-orbits');
+const oCtx = orbCanvas.getContext('2d');
+const sparkles = [];
+function initOrbitCanvas() {
+  const rect = orbCanvas.parentElement.getBoundingClientRect();
+  const s = Math.max(rect.width, rect.height) + 100;
+  orbCanvas.width = s;
+  orbCanvas.height = s;
+  orbCanvas.style.width = s + 'px';
+  orbCanvas.style.height = s + 'px';
+  orbCanvas.style.left = (rect.width - s)/2 + 'px';
+  orbCanvas.style.top = (rect.height - s)/2 + 'px';
+}
+for (let i = 0; i < 10; i++) {
+  sparkles.push({
+    angle: i * 36 * Math.PI/180,
+    radius: 95 + (i%3)*12,
+    speed: 0.3 + i*0.04,
+    size: 1.5 + Math.random()*2,
+    hue: i%2 === 0 ? 42 : 350,
+  });
+}
+function drawOrbits(t) {
+  if (!orbCanvas.width) return;
+  oCtx.clearRect(0, 0, orbCanvas.width, orbCanvas.height);
+  const cx = orbCanvas.width/2, cy = orbCanvas.height/2;
+  for (const sp of sparkles) {
+    const a = sp.angle + t*0.001*sp.speed;
+    const x = cx + Math.cos(a)*sp.radius;
+    const y = cy + Math.sin(a)*sp.radius;
+    const pulse = 0.5 + 0.5*Math.sin(t*0.003 + sp.angle);
+    const g = oCtx.createRadialGradient(x, y, 0, x, y, sp.size*3);
+    g.addColorStop(0, `hsla(${sp.hue},70%,75%,${0.6*pulse})`);
+    g.addColorStop(0.5, `hsla(${sp.hue},60%,60%,${0.2*pulse})`);
+    g.addColorStop(1, 'transparent');
+    oCtx.beginPath();
+    oCtx.arc(x, y, sp.size*3, 0, Math.PI*2);
+    oCtx.fillStyle = g;
+    oCtx.fill();
+    // Core dot
+    oCtx.beginPath();
+    oCtx.arc(x, y, sp.size*0.5, 0, Math.PI*2);
+    oCtx.fillStyle = `hsla(${sp.hue},80%,90%,${0.8*pulse})`;
+    oCtx.fill();
+  }
+  requestAnimationFrame(drawOrbits);
+}
+setTimeout(() => { initOrbitCanvas(); requestAnimationFrame(drawOrbits); }, 100);
+window.addEventListener('resize', () => setTimeout(initOrbitCanvas, 50));
+
+/* ═══════════════════════════════════════════
+   SCROLL REVEAL
+═══════════════════════════════════════════ */
+const obs = new IntersectionObserver(entries => {
+  entries.forEach(e => { if (e.isIntersecting) e.target.classList.add('vis'); });
+}, { threshold: 0.12 });
+
+document.querySelectorAll('#lBody p, #lBody .letter-photo, #lClose').forEach((el, i) => {
+  el.style.transitionDelay = `${i * 0.1}s`;
+  obs.observe(el);
+});
+
+// Trigger for above-fold content
+setTimeout(() => {
+  document.querySelectorAll('#lBody p, #lBody .letter-photo, #lClose').forEach(el => {
+    if (el.getBoundingClientRect().top < window.innerHeight) el.classList.add('vis');
+  });
+}, 500);
+</script>
+</body>
+</html>
