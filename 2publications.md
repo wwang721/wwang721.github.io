@@ -45,7 +45,16 @@ div.arxivfeed {
 <hr style="margin:40px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: March 19, 2026</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: April 17, 2026</font>
+
+
+<p style="margin:25px 0px -2px 38px"><svg xmlns="http://www.w3.org/2000/svg" width="173" height="22"> <rect width="173" height="22" rx="2" fill="#808080"/> <text x="86.5" y="11" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="central">Editors&#8217; Suggestion</text> </svg></p>
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/z9xd-xbw5" style="float:right"></div>
+- **Perfect adaptation in eukaryotic gradient sensing using cooperative allosteric binding**\
+Vishnu Srinivasan[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0009-0002-0225-7590){:target="_blank"},[^1] **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[Phys. Rev. E **113**, 044414 (2026)](https://doi.org/10.1103/z9xd-xbw5){:target="_blank"}
+&ensp;
 
 
 <div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-doi="10.1103/dk15-hwzg" style="float:right"></div>
@@ -82,3 +91,7 @@ Aparajita Kashyap, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="
 Tao Liu, **Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"}, and Jianwei Zhang\
 [Phys. Rev. B **99**, 214407 (2019)](https://journals.aps.org/prb/abstract/10.1103/PhysRevB.99.214407){:target="_blank"}
 &ensp;
+
+&ensp;
+
+[^1]: JHU undergraduate trainee.
