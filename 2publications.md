@@ -45,7 +45,14 @@ div.arxivfeed {
 <hr style="margin:40px 0px -10px 0px"/>
 ### &ensp;&thinsp;&thinsp;Published papers
 
-&emsp;&ensp;<font color="#b31b11">Last updated: April 17, 2026</font>
+&emsp;&ensp;<font color="#b31b11">Last updated: April 19, 2026</font>
+
+
+<div class="altmetric-embed altmetric-badge-popover-left" data-badge-type="donut" data-arxiv-id="2604.15481" style="float:right"></div>
+- **Divergence of detachment forces in the finite Voronoi model**\
+**Wei Wang**[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0053-1069){:target="_blank"} and Brian A. Camley[<img src='/images/orcid.logo.icon.svg' onerror="this.style.display='none'" alt="" width="13px" style="padding:0 0.1px 0 2px"/>](https://orcid.org/0000-0002-0765-6956){:target="_blank"}\
+[arXiv:2604.15481 [cond-mat.soft] (2026)](https://doi.org/10.48550/arXiv.2604.15481){:target="_blank"}
+&ensp;
 
 
 <p style="margin:25px 0px -2px 38px"><svg xmlns="http://www.w3.org/2000/svg" width="173" height="22"> <rect width="173" height="22" rx="2" fill="#808080"/> <text x="86.5" y="11" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="700" fill="white" text-anchor="middle" dominant-baseline="central">Editors&#8217; Suggestion</text> </svg></p>
