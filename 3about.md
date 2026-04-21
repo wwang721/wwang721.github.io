@@ -68,9 +68,11 @@ viewBox="0 0 32 32"
 </svg>
 <a href="https://www.researchgate.net/profile/Wei-Wang-436" target="_blank"> <font color="gray" size="3"><u>ResearchGate</u></font></a>
 </p>
+<!--
 <p style="margin: 18px 0px 36px 25px">
 <a href="/docs/CV_WWang.pdf" target="_blank"><font color="gray" size="3"><u><b>Curriculum Vitae</b></u></font></a>
 </p>
+-->
 </div>
 <p style="margin:0px 0px 100px 0px; border: 0px solid yellow;">&ensp;</p>
 <div id="intro" style='float:left; border: 0px solid red; min-width:355px'>
