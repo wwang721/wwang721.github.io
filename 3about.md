@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-tagline: I am a Ph.D. student in physics at Hopkins now.
+tagline: Studying physics at Hopkins.
 permalink: /about.html
 image: /images/2023usgp.png
 ---
@@ -78,13 +78,13 @@ viewBox="0 0 32 32"
 <div id="intro" style='float:left; border: 0px solid red; min-width:355px'>
 <h1> <font color="#71797E"><b>Wei Wang<font face="KaiTi, myKaiti, STKaiti, 'Kaiti SC', 'Heiti SC', serif" size="6">（汪巍）</font></b></font></h1>
 
-<p><i><b>2020.9 - present:</b></i></p>
+<p><i><b>2020.9 - 2026.6:</b></i></p>
 
 <p style="margin: -10px 0px 0px 40px"><a href="https://physics-astronomy.jhu.edu" target="_blank">Department of Physics & Astronomy</a></p>
 
 <p style="margin: 0px 0px 0px 40px"><a href="https://www.jhu.edu/"><font color="#71797E">Johns Hopkins University</font></a></p>
 
-<p style="margin: 15px 0px 0px 20px">&cir;&ensp;<b>Ph.D. candidate</b></p>
+<p style="margin: 15px 0px 0px 20px">&cir;&ensp;<b>Ph.D., Physics</b></p>
 
 <p style="margin: 10px 0px 0px 20px">&cir;&ensp;<b>Advisor: &ensp;</b><a href="https://bcamley.github.io" target="_blank">Brian A. Camley</a></p>
 
@@ -184,9 +184,9 @@ $("#intro").width(0.8*(w0-w1));
 
 <div style="width:100%; border: 0px solid red">
 <div id="r1" class="row" style="border: 0px solid green; overflow:hidden; margin:0px 0px 0px 40px">
-    <div id="c1" style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D. candidate, Physics</div>
+    <div id="c1" style="float:left; border: 0px solid black;">&#x25cf;&ensp;Ph.D., Physics</div>
     <div id="c2" style="float:left; border: 0px solid red; overflow:hidden; min-width:15px"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0 0 15px"/></div>
-    <div id="c3" class="column" style="float:right; border:0px solid black;"><b>2023-present</b></div>
+    <div id="c3" class="column" style="float:right; border:0px solid black;"><b>2023-2026</b></div>
 </div>
 <script>
 var r1_w = $("#r1").width();
@@ -242,7 +242,7 @@ $("#c222").width(0.98*(r1_w-c1_w-c3_w));
 <div id="r1111" class="row" style="border: 0px solid green; overflow:hidden; margin:-5px 0px 10px 50px">
     <div id="c1111" style="float:left; border: 0px solid black;">&cir;&ensp;Graduate research assistant (RA) supported by Brian A. Camley</div>
     <div id="c2222" style="float:left; border: 0px solid red; overflow:hidden; min-width:15px"><hr style="border-bottom: dotted 3px #000; background-color: #fff; margin: 10px 0px 0 15px"/></div>
-    <div id="c3333" class="column" style="float:right; border:0px solid black;"><b>2021-present</b></div>
+    <div id="c3333" class="column" style="float:right; border:0px solid black;"><b>2021-2026</b></div>
 </div>
 <script>
 var r1_w = $("#r1111").width();
